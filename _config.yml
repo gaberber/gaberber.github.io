@@ -3,7 +3,7 @@ title: Gaberber
 email: guanzh.wang@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   My personal blog site for random thoughts and mumbling.
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://gaberber.github.io" # the base hostname & protocol for your site
 twitter_username: cnhajzwgz
 github_username:  gaberber
