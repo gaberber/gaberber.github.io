@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "古代世界的各大帝国——<i>A Little History of the World by Gombrich</i> 读书笔记"
+title:  "古代世界的各大帝国——<i>A Little History of the World</i> by Gombrich 读书笔记"
 date:   2014-09-05 18:15:06
 ---
 
