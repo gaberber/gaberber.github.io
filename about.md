@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I am a senior undergraduate at Tsinghua University, Beijing, China studying microelctronics. I write in Chinese, mostly.
+本科在清華大學電子工程系/微納電子系，嘗試過編程但最終放棄，現在在 TU Delft 應用物理系讀碩士。
 
-I am currently applying for graduate schools in the US and aiming at a PhD career in applied physics. I wanted to put my CV here to give this site a pro-ish look and make myself sound real fancy but it is totally irrelevant to what I intend to write about, so let's just save the trouble. 
+Finished my bachelor's degree in microelectronics at Tsinghua University in Beijing. Now a MS student studying applied physics at TU Delft in the Netherlands. Probably will be looking for a PhD position in the United States starting Fall 2017.
+
+「未經審視的生活是不值得過的」/「過度審視的生活是過不下去的（credit: [@chuhan](https://twitter.com/chuhan)）」
