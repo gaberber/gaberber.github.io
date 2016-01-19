@@ -69,19 +69,19 @@ $$\frac{Kq}{k_B T_c}=1$$
 
 Above $T_c$, there is only one solution $m=0$. Below $T_c$, there are three solutions but $m=0$ is unstable (a local maximum, as we will see later in the Landau theory). The positive and negative values are the two symmetrical values $m$ can assume with no preference over any one.
 
-![](../_images/B=0.svg)
+![](/_images/B=0.svg)
 
 As shown in the plot, at the critical point, there is a clear "sudden change" ($\partial m/\partial h$ is discontinuous), i.e. phase transition. $m$ itself is a derivative of the free energy $F$, so this is a second-order phase transition. If we gradually lower the temperature from above $T_c$ to below $T_c$, since there are two equally favored states, the system will spontaneously enter one of them. This is a __spontaneous symmetry breaking__. It is often associated with __degenerate ground states__ ($m=\pm1$ are perfectly symmetric when $T=0$).
 
 If $h\ne 0$, there is no phase transition. Although in some cases there are three roots of the self-consistency equation, the middel one is still unstable and the one that has an opposite sign of $h$ is _metastable_. In Landau theory, it's a local minimum but higher than the other global minumum. It wants to flip its sign and assume the true stable value if opportunity arises. (But note that if this flip occurs, e.g. when we raise temperature so that the metastable root is no longer there and we only have one stable root, this is a 1st order phase transition because $m$ itself is discontinuous.) We plot $m$ under different values of $|h|$ and see that indeed their is no "sudden change". (The upper curve is the stable value for $h>0$ and the lower curve for $h<0$.)
 
-![](../_images/B=1e-3.svg)
-![](../_images/B=1e-1.svg)
-![](../_images/B=10.svg)
+![](/_images/B=1e-3.svg)
+![](/_images/B=1e-1.svg)
+![](/_images/B=10.svg)
 
 Stable and metastable states under the same $h>0$:
 
-![](../_images/metastable.svg)
+![](/_images/metastable.svg)
 
 ## Critical exponents
 
@@ -132,4 +132,13 @@ Because we used a macroscopic average to replace the interaction between a parti
 
 
 
+
+
+<script type="text/x-mathjax-config">
+if (typeof MathJaxListener !== 'undefined') {
+  MathJax.Hub.Register.StartupHook('End', function () {
+    MathJaxListener.invokeCallbackForKey_('End');
+  });
+}
+</script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
