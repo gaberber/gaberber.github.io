@@ -2,7 +2,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>2016-01-19-Critical-exponents-notes</title>
+<title>2016-01-19-Gaussian-model-notes</title>
 <style type="text/css">
 body {
   font-family: Helvetica, arial, sans-serif;
@@ -304,105 +304,97 @@ sup {
 </style>
 </head>
 <body>
-<table><thead><tr><th>layout</th><th>title</th><th>date</th></tr></thead><tbody><tr><td>post</td><td>Statistical Mechanics Notes: Critial Exponents</td><td>2016-01-19 21:02:00</td></tr></tbody></table>
-<h1 id="toc_0">Critical exponents and renormalization</h1>
+<table><thead><tr><th>layout</th><th>title</th><th>date</th></tr></thead><tbody><tr><td>post</td><td>Statistical Mechanics Notes: The Gaussian Model</td><td>2016-01-19 21:02:00</td></tr></tbody></table>
+<h1 id="toc_0">The Gaussian model</h1>
 
-<p>Reduced temperature:</p>
-
-<p>\[t=\frac{T-T_c}{T_c}\]</p>
-
-<h3 id="toc_1">For the Ising model:</h3>
-
-<p>Specific free energy \(f(h,T)=F(h,T)/N\), \(F(h,T)=-k_B T \ln Z\).</p>
-
-<p>Order parameter: \(m\) (magnetization).</p>
-
-<p>Specific heat: </p>
-
-<p>\[C \propto \frac{\partial^2 f}{\partial T^2}\]</p>
-
-<p>Source magnetic field: \(h\).</p>
-
-<p>Susceptibility: </p>
-
-<p>\[\chi = \frac{\partial m}{\partial h}\]</p>
-
-<p>Correlation length: \(\xi\)</p>
-
-<p>Spatial dimension: \(d\)</p>
-
-<table>
-<thead>
-<tr>
-<th>Greek letter</th>
-<th>Definition</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>\(\alpha\)</td>
-<td>\(C \propto t^{-\alpha}\)</td>
-</tr>
-<tr>
-<td>\(\beta\)</td>
-<td>\(m\propto \|t\|^{\beta}\)</td>
-</tr>
-<tr>
-<td>\(\gamma\)</td>
-<td>\(\chi \propto t^{-\gamma}\)</td>
-</tr>
-<tr>
-<td>\(\delta\)</td>
-<td>\(m\propto h^{-\delta}\)</td>
-</tr>
-<tr>
-<td>\(\nu\)</td>
-<td>\(\xi=t^{-\nu}\)</td>
-</tr>
-<tr>
-<td>\(\eta\)</td>
-<td>\(\langle m(0)m(\mathbf{r})\rangle\propto r^{-d+2-\eta}\)</td>
-</tr>
-</tbody>
-</table>
-
-<h3 id="toc_2">Scaling laws:</h3>
-
-<p>\[ \alpha + 2\beta + \gamma = 2\]</p>
-
-<p>\[ \gamma = \beta (\delta -1)\]</p>
-
-<p>\[\frac{\gamma}{\nu}=2-\eta\]</p>
-
-<p>\[2-\alpha=d\nu\]</p>
-
-<p>Among these 6 critical exponents, only 2 are free (we have 4 constraints).</p>
-
-<h3 id="toc_3">Scaling dimensions</h3>
-
-<p>If we perform a renormalization transform, the parameters in the Hamiltonian change from \(J,K,h,\dots\) to \(J&#39;,K&#39;,h&#39;,\dots\). We can write out this mathematical relation between these two sets of parameters and Taylor expand it around the fixed (critical) point:</p>
+<p>Landau-Ginzburg Hamiltonian (\(d​\) is the dimension of the real-space system, \(r_0​\) is the constant factor parameter and not related to the position vector \(\mathbf{r}​\)):</p>
 
 <p>\[
-\left[\begin{matrix}\Delta J&#39; \\ \Delta K&#39; \\ \Delta h&#39;\end{matrix}\right]=A \left[\begin{matrix}\Delta J \\ \Delta K \\ \Delta h\end{matrix}\right]
+\beta H=\int [(\nabla m(\mathbf{r}))^2+r_0m^2(\mathbf{r})]d^d \mathbf{r}
 \]</p>
 
-<p>and then diagonalize \(A\).</p>
+<p>Switch from a continuous \(\mathbf{r}\) to a discrete lattice subscripted by \(i,j,\dots\)</p>
 
-<p>Among all the eigenvalues and eigenvectors of \(A\), some \(\lambda_i&gt;1\) and thus a little deviation from the fixed point along the direction of this eigenvector will be enlarged after each iteration of renormalization transform. These are called <em>relevant</em> eigenvalues. Some \(\lambda_i &lt;1\) and deviation from the fixed point along this direction will be shrinked back to it. These are called <em>irrelevant</em>. Those \(\lambda_i=1\) are called <em>marginal</em>.</p>
+<p>Let \(m_i\) be a general order parameter on the lattice site denoted by \(i\).</p>
 
-<p>Each RG transformation changes the lattice constant from \(a\) to \(la\), and thus we write each eigenvalue of \(A\) as \(\lambda_i=l^{z_i}\). These \(z_i\)&#39;s are called <strong>scaling dimensions</strong>. A scaling dimension is <strong>relevant</strong> if it is positive, since we always have \(l&gt;1\).</p>
+<p>\(m_i\) can be visualized as the height of the stack of particles at site \(i\). The Landau-Ginzburg Hamiltonian can be translated into its equivalent in the discrete lattice:</p>
 
-<h3 id="toc_4">Homogeneity</h3>
+<p>\[
+\beta H = \frac{J}{2} \sum_{&lt;i,j&gt;}(m_i-m_j)^2+r_0 m_i^2
+\]</p>
 
-<p>How do we obtain the relationship between the scaling dimensions and critical exponents? By arguments of homogeneity, the most important ones of which are the physical observations that</p>
+<p>(Next we can take \(J\) to be zero because of the irrelevance of a global prefactor multiplying both \(J\) and \(r_0\). In this case, it is exactly equivalent to the continuous Hamiltonian.)</p>
 
-<ul>
-<li>after each RG transform, the correlation length \(\xi(J&#39;,K&#39;)=\xi(J,K)/l\) (because if we use coarse grains or decimate intermediate lattice sites, the absolute correlation length remains the same but under the new model with new parameters it should be measured in the new lattice constant \(la\));</li>
-<li>and the unit free energy \(f=F/N\) becomes \(f(J&#39;,K&#39;)=l^d f(J,K)\) (because the partition function remains the same for the old and new models and thus a simple relation between the old and new numbers of sites lead to this conclusion).</li>
-</ul>
+<p>This type of Hamiltonian can be interpreted as: 1) having a penalty for the heights \(m_i​\) that take on different values than 0 (the \(m_i^2​\) terms); and 2) having a penalty for neighboring heights taking on different values (the gradient or difference squared terms). Thus the lowest energy state is when every \(m_i​\) is equal to 0.</p>
 
-<p>Starting from these two relations, we can use some tricks (by starting from a point very close to the fixed point and performing the RG transformations many times so that the component along the irrelevant eigenvector shrinks back to 0 and the relevant component becomes 1) to extract the proportionality between \(\xi, f\) (and thus \(C \propto T \partial^2 f/\partial T^2\)) and the component along the relevant eigenvector. We can identify this component to be proportional to \(t\propto |T-T_c|\), and thus obtain these relations between scaling dimensions and critical exponents and those scaling laws above.</p>
+<p>Next, perform a discrete Fourier transform on \(\{m_i\}\): (\(N\) is the number of sites on the lattice)</p>
+
+<p>\[
+m_i=\frac{1}{\sqrt{N}}\sum_{\mathbf{q}}e^{i\mathbf{q}\cdot \mathbf{r}_i}m_\mathbf{q}
+\]</p>
+
+<p>It is easy to show that \(m_{-\mathbf{q}}=m_{\mathbf{q}}^*\)</p>
+
+<p>Explicitly doing the Fourier transform on each term in the discrete Landau-Ginzburg type Hamiltonian gives us</p>
+
+<p>\[
+\beta H=\frac12 \sum_{\mathbf{q}\in \text{BZ}}(q^2+r_0)m_{\mathbf{q}}m_{\mathbf{-q}}
+\]</p>
+
+<p>where \(q=|\mathbf{q}|\).</p>
+
+<p>The firstr Brillouin Zone is \(q_x,q_y,q_z,\dots \in [-\pi/a,\pi/a]\)</p>
+
+<hr>
+
+<p>The Gaussian model has only 1 relevant parameter: \(r_0\).</p>
+
+<hr>
+
+<p>If \(m_\mathbf{q}\) and \(m_{-\mathbf{q}}\) are truly independent, the partition function is given by (note that \(m_\mathbf{q}\) is complex and thus each integral is over the entire \(\mathbb{C}\) plane)</p>
+
+<p>\[
+Z=\int_{\mathbb{C}^N} \prod_{\mathbf{q}\in \text{BZ}} d^N m_{\mathbf{q}} e^{-\frac12 \sum_{\mathbf{q}}(q^2+r_0)m_\mathbf{q}m_{-\mathbf{q}}}
+\]</p>
+
+<p>and we can then factorize the entire partition function into</p>
+
+<p>\[
+Z=\prod_{\mathbf{q} \in \text{BZ}}\int_{\mathbb{C}} d m_{\mathbf{q}} e^{-\frac12 (q^2+r_0)m_\mathbf{q}m_{-\mathbf{q}}}
+\]</p>
+
+<p>However, \(m_{-\mathbf{q}}=m_\mathbf{q}^*\) and they are not independent. If we choose a value for \(m_\mathbf{q}\), we have already fixed \(m_{-\mathbf{q}}\), too. Thus, we break the Brillouin zone into three parts: \(\text{BZ}=\text{BZ}^+ \cup \text{BZ}^- \cup \{0\}\), and only perform the integration for \(\mathbf{q}\in \text{BZ}^+\) and \(\mathbf{q}=0\). That is,</p>
+
+<p>\[
+Z=\int_{-\infty}^{\infty} dm_0e^{\frac12 r_0 m_0^2} \times \prod_{\mathbf{q} \in \text{BZ}^+}\int_{\mathbb{C}} d m_{\mathbf{q}} e^{- (q^2+r_0)m_\mathbf{q}m_{-\mathbf{q}}}
+\]</p>
+
+<p>note that 1) since \(m_0\) must be real from the conjugate relation, and 2) we no longer integrate over the possibilities of \(m_{-\mathbf{q}}\) but their contribution to \(e^{-\beta H}\) is still there, and thus the \(1/2\) in front of the Hamiltonian in the last expression has disappeared because they are grouped together with \(m_\mathbf{q}\) (the Hamiltonian is invariant under \(\mathbf{q}\rightarrow -\mathbf{q}\)).</p>
+
+<p>Notice that \(m_\mathbf{q}m_{-\mathbf{q}}=|m_\mathbf{q}|^2\), and that \(\int_\mathbb{C} dz=\int_{-\infty}^\infty \int_{-\infty}^\infty  dxdy=\int_0^\infty 2\pi RdR\) for integrands that only depend on \(R=|z|\), where \(z=x+iy=Re^{i\theta}, x,y,R,\theta\in \mathbb{R}\), so each integral can be easily evaluated. They are Gaussian integrals (either on the real axis or on the 2D Gaussian integral on the entire plane using polar coordinates, i.e. the method we use to evaluate the 1D Gaussian integral).</p>
+
+<p>Thus the partition function is calculated to be </p>
+
+<p>\[
+Z=\prod_{\mathbf{q} \in\text{BZ}}\left(\frac{2\pi}{r_0+q^2}\right)^{\frac12}
+\]</p>
+
+<p>and therefore</p>
+
+<p>\[
+\ln Z=\frac12 \int_{\mathbf{q} \in \text{BZ}}\ln \left(\frac{2\pi}{r_0+q^2}\right) d^d\mathbf{q}
+\]
+Again, \(d\) is the dimension of the system.</p>
+
+<hr>
+
+<p>From this, we can show that </p>
+
+<p>\[
+\langle m_\mathbf{q}m_\mathbf{q&#39;}\rangle = \frac{1}{q^2+r_0} \delta(\mathbf{q}+\mathbf{q&#39;})
+\]</p>
+
+<p>from the definition of this quantity</p>
 
 <script type="text/x-mathjax-config">
 if (typeof MathJaxListener !== 'undefined') {
