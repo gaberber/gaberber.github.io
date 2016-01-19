@@ -15,11 +15,11 @@ $$ H=-K\sum_{<ij>}s_i s_j - h\sum_i s_i$$
 
 ## Derivation of Mean Field Hamiltonian
 
-Use a __global macroscopic__ ensemble average \(m=\langle \sum_i s_i \rangle/N\) to approximate the __microscopic__ surrounding environment of each site:
+Use a __global macroscopic__ ensemble average $m=\langle \sum_i s_i \rangle/N$ to approximate the __microscopic__ surrounding environment of each site:
 
 $$H=-K\sum_{<ij>} (m+\delta s_i)(m+\delta s_j) - h\sum_i s_i$$
 
-Abandon the \(\sum \delta s_i \delta s_j\) terms because they are second-order infinitesimals.
+Abandon the $\sum \delta s_i \delta s_j$ terms because they are second-order infinitesimals.
 
 $$H\approx -K\sum_{<ij>} m(\delta s_i+\delta s_j) - K\sum_{<ij>}m^2 - h\sum_i s_i$$
 
@@ -133,5 +133,9 @@ Because we used a macroscopic average to replace the interaction between a parti
 
 
 
-
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
