@@ -1,0 +1,119 @@
+<!DOCTYPE html><html>
+
+<head>
+<meta charset="utf-8">
+<title>2016-01-19-Critical-exponents-notes</title>
+
+</head>
+<body>
+<table><thead><tr><th>layout</th><th>title</th><th>date</th></tr></thead><tbody><tr><td>post</td><td>Statistical Mechanics Notes: Critial Exponents</td><td>2016-01-19 21:02:00</td></tr></tbody></table>
+<h1 id="toc_0">Critical exponents and renormalization</h1>
+
+<p>Reduced temperature:</p>
+
+<p>\[t=\frac{T-T_c}{T_c}\]</p>
+
+<h3 id="toc_1">For the Ising model:</h3>
+
+<p>Specific free energy \(f(h,T)=F(h,T)/N\), \(F(h,T)=-k_B T \ln Z\).</p>
+
+<p>Order parameter: \(m\) (magnetization).</p>
+
+<p>Specific heat: </p>
+
+<p>\[C \propto \frac{\partial^2 f}{\partial T^2}\]</p>
+
+<p>Source magnetic field: \(h\).</p>
+
+<p>Susceptibility: </p>
+
+<p>\[\chi = \frac{\partial m}{\partial h}\]</p>
+
+<p>Correlation length: \(\xi\)</p>
+
+<p>Spatial dimension: \(d\)</p>
+
+<table>
+<thead>
+<tr>
+<th>Greek letter</th>
+<th>Definition</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>\(\alpha\)</td>
+<td>\(C \propto t^{-\alpha}\)</td>
+</tr>
+<tr>
+<td>\(\beta\)</td>
+<td>\(m\propto \|t\|^{\beta}\)</td>
+</tr>
+<tr>
+<td>\(\gamma\)</td>
+<td>\(\chi \propto t^{-\gamma}\)</td>
+</tr>
+<tr>
+<td>\(\delta\)</td>
+<td>\(m\propto h^{-\delta}\)</td>
+</tr>
+<tr>
+<td>\(\nu\)</td>
+<td>\(\xi=t^{-\nu}\)</td>
+</tr>
+<tr>
+<td>\(\eta\)</td>
+<td>\(\langle m(0)m(\mathbf{r})\rangle\propto r^{-d+2-\eta}\)</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="toc_2">Scaling laws:</h3>
+
+<p>\[ \alpha + 2\beta + \gamma = 2\]</p>
+
+<p>\[ \gamma = \beta (\delta -1)\]</p>
+
+<p>\[\frac{\gamma}{\nu}=2-\eta\]</p>
+
+<p>\[2-\alpha=d\nu\]</p>
+
+<p>Among these 6 critical exponents, only 2 are free (we have 4 constraints).</p>
+
+<h3 id="toc_3">Scaling dimensions</h3>
+
+<p>If we perform a renormalization transform, the parameters in the Hamiltonian change from \(J,K,h,\dots\) to \(J&#39;,K&#39;,h&#39;,\dots\). We can write out this mathematical relation between these two sets of parameters and Taylor expand it around the fixed (critical) point:</p>
+
+<p>\[
+\left[\begin{matrix}\Delta J&#39; \\ \Delta K&#39; \\ \Delta h&#39;\end{matrix}\right]=A \left[\begin{matrix}\Delta J \\ \Delta K \\ \Delta h\end{matrix}\right]
+\]</p>
+
+<p>and then diagonalize \(A\).</p>
+
+<p>Among all the eigenvalues and eigenvectors of \(A\), some \(\lambda_i&gt;1\) and thus a little deviation from the fixed point along the direction of this eigenvector will be enlarged after each iteration of renormalization transform. These are called <em>relevant</em> eigenvalues. Some \(\lambda_i &lt;1\) and deviation from the fixed point along this direction will be shrinked back to it. These are called <em>irrelevant</em>. Those \(\lambda_i=1\) are called <em>marginal</em>.</p>
+
+<p>Each RG transformation changes the lattice constant from \(a\) to \(la\), and thus we write each eigenvalue of \(A\) as \(\lambda_i=l^{z_i}\). These \(z_i\)&#39;s are called <strong>scaling dimensions</strong>. A scaling dimension is <strong>relevant</strong> if it is positive, since we always have \(l&gt;1\).</p>
+
+<h3 id="toc_4">Homogeneity</h3>
+
+<p>How do we obtain the relationship between the scaling dimensions and critical exponents? By arguments of homogeneity, the most important ones of which are the physical observations that</p>
+
+<ul>
+<li>after each RG transform, the correlation length \(\xi(J&#39;,K&#39;)=\xi(J,K)/l\) (because if we use coarse grains or decimate intermediate lattice sites, the absolute correlation length remains the same but under the new model with new parameters it should be measured in the new lattice constant \(la\));</li>
+<li>and the unit free energy \(f=F/N\) becomes \(f(J&#39;,K&#39;)=l^d f(J,K)\) (because the partition function remains the same for the old and new models and thus a simple relation between the old and new numbers of sites lead to this conclusion).</li>
+</ul>
+
+<p>Starting from these two relations, we can use some tricks (by starting from a point very close to the fixed point and performing the RG transformations many times so that the component along the irrelevant eigenvector shrinks back to 0 and the relevant component becomes 1) to extract the proportionality between \(\xi, f\) (and thus \(C \propto T \partial^2 f/\partial T^2\)) and the component along the relevant eigenvector. We can identify this component to be proportional to \(t\propto |T-T_c|\), and thus obtain these relations between scaling dimensions and critical exponents and those scaling laws above.</p>
+
+<script type="text/x-mathjax-config">
+if (typeof MathJaxListener !== 'undefined') {
+  MathJax.Hub.Register.StartupHook('End', function () {
+    MathJaxListener.invokeCallbackForKey_('End');
+  });
+}
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>
