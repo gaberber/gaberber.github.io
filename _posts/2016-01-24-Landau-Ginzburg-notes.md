@@ -114,7 +114,7 @@ First we use the _fluctuation–response theorem_ to convert the problem of solv
 
 This can be proved by explicitly writing the L.H.S. according to the usual $\frac{\int me^{-\beta H} Dm}{\int e^{-\beta H}Dm} $, pluggin in $H=H_0+\int h(\mathbf{r})m(\mathbf{r})d^d \mathbf{r}=H_0+hm(0)$ and switching differentiation and integration, as we always do in statistical mechanics.
 
-Now our problem becomes to obtain this $\left<m(\mathbf{r})\right>_h$: a function depending on the perturbation $h$. Then we will have $g(r)=-k_B T \frac{d}{dh} \left<m(\mathbf{r})\right>_{h=0}$.
+Now our problem becomes to obtain this $\left<m(\mathbf{r})\right>\_h$: a function depending on the perturbation $h$. Then we will have $g(r)=-k_B T \frac{d}{dh} \left<m(\mathbf{r})\right>\_{h=0}$.
 
 Next, we try approximate this thing, using the _saddle point approximation_:
 
