@@ -40,7 +40,7 @@ $$q=2\gamma k_B T$$
 
 **Velocity autocorrelation**:
 
-$$\left<v(t)v(t+\tau)\right> = \left<v^2(0)\right> e^{-\frac{\gamma |\tau|}{m}}$$
+$$\left<v(t)v(t+\tau)\right> = \left<v^2(0)\right> e^{-\frac{\gamma \vert \tau\vert }{m}}$$
 
 ---
 
@@ -115,8 +115,8 @@ Using the equipartition theorem we have
 
 $$ \tilde{K}_F(0)=2\gamma k_B T$$
 
-$$\left<v(0)v(t)\right>=\frac{k_B T}{m}e^{-\frac{\gamma |t|}{m}}$$
+$$\left<v(0)v(t)\right>=\frac{k_B T}{m}e^{-\frac{\gamma \vert t\vert }{m}}$$
 
 The power spectrum is then
 
-$$\left<|v(\omega)|^2\right> = \frac{2k_B T}{\gamma}\frac{1}{1+\left(\frac{\omega m}{\gamma}\right)^2}$$
+$$\left<\vert v(\omega)\vert ^2\right> = \frac{2k_B T}{\gamma}\frac{1}{1+\left(\frac{\omega m}{\gamma}\right)^2}$$

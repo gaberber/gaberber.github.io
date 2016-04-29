@@ -97,7 +97,7 @@ We already have the mean field $F$. Use that to differentiate twice w.r.t $T$ an
 
 ### $\beta$: $m$ and temperature
 
-$m\propto |t|^{\beta}$ near $T_c$ (but below it).
+$m\propto \vert t\vert^{\beta}$ near $T_c$ (but below it).
 
 Use the self-consistenty relation and Taylor expand $\tanh x \approx x-x^3/3$ because $m \rightarrow 0$. Then 
 $$m=\beta Kqm-\frac{(\beta Kqm)^3}{3}$$
@@ -114,7 +114,7 @@ These are _critical exponents_, we only care about temperatures near criticality
 
 ### $\gamma$: $\partial m/\partial h$ and $t$
 
-Susceptibility $\xi \propto \frac{\partial m}{\partial h} |_{h=0}\propto t^{-\gamma}$.
+Susceptibility $\xi \propto \frac{\partial m}{\partial h} \big\vert_{h=0}\propto t^{-\gamma}$.
 
 Again let $T\rightarrow T_c$ and $h\rightarrow 0$ both from above. Take the derivative over $h$ in the original self-consistency relation. Note that $m=0$ for $T>T_c$. We can show that $\xi \propto t^{-1}$, so $\nu=1$.
 

@@ -84,7 +84,7 @@ The average notations here mean the ensemble averages at each position, not aver
 
 From the Ising model's translational and rotational symmetry (when viewed on a macroscopic-average level), we know
 
-$$g(\mathbf{r_i},\mathbf{r_j})=g(|\mathbf{r_i}-\mathbf{r_j}|)=g(r)=\langle m(0)m(r)\rangle - \langle m(0)\rangle\langle m(r)\rangle$$
+$$g(\mathbf{r_i},\mathbf{r_j})=g(\vert \mathbf{r_i}-\mathbf{r_j}\vert )=g(r)=\langle m(0)m(r)\rangle - \langle m(0)\rangle\langle m(r)\rangle$$
 
 The shape of the correlation function is nearly always exponential: 
 
@@ -110,7 +110,7 @@ First we use the _fluctuation–response theorem_ to convert the problem of solv
 
 >   Let the magnetic field be a perturbation at origin $h(\mathbf{r})=h \delta(\mathbf{r})$, then
 >   
->   $$ \frac{d}{dh} \langle m(\mathbf{r})\rangle|_{h=0}=-\beta g(r)$$
+>   $$ \frac{d}{dh} \langle m(\mathbf{r})\rangle\big\vert_{h=0}=-\beta g(r)$$
 
 This can be proved by explicitly writing the L.H.S. according to the usual $\frac{\int me^{-\beta H} Dm}{\int e^{-\beta H}Dm} $, pluggin in $H=H_0+\int h(\mathbf{r})m(\mathbf{r})d^d \mathbf{r}=H_0+hm(0)$ and switching differentiation and integration, as we always do in statistical mechanics.
 
@@ -118,7 +118,7 @@ Now our problem becomes to obtain this $\left<m(\mathbf{r})\right>_h$: a functio
 
 Next, we try approximate this thing, using the _saddle point approximation_:
 
->   $$\int e^{-\beta H} Dm \approx e^{-\beta H}\large|_{m(\mathbf{r})=m_\text{saddle}(\mathbf{r})}$$
+>   $$\int e^{-\beta H} Dm \approx e^{-\beta H}\big\vert_{m(\mathbf{r})=m_\text{saddle}(\mathbf{r})}$$
 >   
 >   where $m_\text{saddle}(\mathbf{r})$ is the function that maximizes $H$ among all possible $m(\mathbf{r})$.
 

@@ -50,7 +50,7 @@ $$
 \beta H=\frac12 \sum_{\mathbf{q}\in \text{BZ}}(q^2+r_0)m_{\mathbf{q}}m_{\mathbf{-q}}
 $$
 
-where $q=|\mathbf{q}|$.
+where $q=\vert \mathbf{q}\vert $.
 
 The first Brillouin Zone is $q_x,q_y,q_z,\dots \in [-\pi/a,\pi/a]$
 
@@ -81,7 +81,7 @@ $$
 
 note that 1) since $m_0$ must be real from the conjugate relation, and 2) we no longer integrate over the possibilities of $m_{-\mathbf{q}}$ but their contribution to $e^{-\beta H}$ is still there, and thus the $1/2$ in front of the Hamiltonian in the last expression has disappeared because they are grouped together with $m_\mathbf{q}$ (the Hamiltonian is invariant under $\mathbf{q}\rightarrow -\mathbf{q}$).
 
-Notice that $m_\mathbf{q}m_{-\mathbf{q}}=|m_\mathbf{q}|^2$, and that $\int_\mathbb{C} dz=\int_{-\infty}^\infty \int_{-\infty}^\infty  dxdy=\int_0^\infty 2\pi RdR$ for integrands that only depend on $R=|z|$, where $z=x+iy=Re^{i\theta}, x,y,R,\theta\in \mathbb{R}$, so each integral can be easily evaluated. They are Gaussian integrals (either on the real axis or on the 2D Gaussian integral on the entire plane using polar coordinates, i.e. the method we use to evaluate the 1D Gaussian integral).
+Notice that $m_\mathbf{q}m_{-\mathbf{q}}=\vert m_\mathbf{q}\vert ^2$, and that $\int_\mathbb{C} dz=\int_{-\infty}^\infty \int_{-\infty}^\infty  dxdy=\int_0^\infty 2\pi RdR$ for integrands that only depend on $R=\vert z\vert $, where $z=x+iy=Re^{i\theta}, x,y,R,\theta\in \mathbb{R}$, so each integral can be easily evaluated. They are Gaussian integrals (either on the real axis or on the 2D Gaussian integral on the entire plane using polar coordinates, i.e. the method we use to evaluate the 1D Gaussian integral).
 
 Thus the partition function is calculated to be 
 
