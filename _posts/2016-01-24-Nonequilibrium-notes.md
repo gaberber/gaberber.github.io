@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes for Advanced Statistical Mechanics: non-equilibrium"
+title:  "Non-equilibrium notes"
 date:   2016-01-24 
 ---
 
