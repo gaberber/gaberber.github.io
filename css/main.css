@@ -54,7 +54,7 @@ blockquote {
   border-left: 5px solid #ddd;
   margin: 40px 1em;
   padding-left: 12px;
-  font-family: 'Bitter Normal 400 Italic', 'PingFangSC-Regular', 'Lantinghei SC', serif;
+  /* font-style: italic; */
   color: #666;
 }
 
