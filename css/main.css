@@ -24,7 +24,8 @@ body {
 /* Type */
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Seravek', 'Open Sans','Trebuchet MS', 'PingFangSC-Regular', 'Lantinghei SC', sans-serif;
 }
 
@@ -37,9 +38,16 @@ h1 {
 
 h2 {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 32px;
   margin-bottom: 18px;
   margin-top: 36px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 12px;
+  margin-top: 32px;
 }
 
 blockquote {
