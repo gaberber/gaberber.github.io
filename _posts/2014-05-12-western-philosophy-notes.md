@@ -3,7 +3,7 @@ layout: post
 title:  "罗素《西方哲学史》笔记"
 date:   2014-05-12 12:48:44
 ---
-###Pythagoras:
+### Pythagoras:
 
 > The combination of mathematics and theology, which began with Pythagoras, characterized religious philosophy in Greece, in the Middle Ages, and in modern times down to Kant. Orphism before Pythagoras was analogous to Asiatic mystery religions. But in Plato, Saint Augustine, Thomas Aquinas, Descartes, Spinoza, and Kant there is an intimate blending of religion and reasoning, of moral aspiration with logical admiration of what is timeless, which comes from Pythagoras , and distinguishes the intellectualized theology of Europe from the more straightforward mysticism of Asia. ... The whole conception of an eternal world, revealed to the intellect but not the the senses, is derived from him.
 
