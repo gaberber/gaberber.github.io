@@ -57,6 +57,7 @@ $$m=\tanh \beta(Kqm+h)$$
 Solving this equation (numerically) will tell us the value of $m$.
 
 When $h=0$, it becomes:
+
 $$m=\tanh \beta Kqm$$
 
 This equation has either one or three solutions. The separating point between these two is $\beta Kq=1$, when $y=x$ and $y=\tanh \beta Kqx$ are tangent to each other at the origin. This is the critical point:
@@ -108,6 +109,7 @@ Solve for $m$ and note that $1=\beta_c Kq$. We obtain $m^2\propto (\beta-\beta_c
 
 
 ### $\delta$: $m$ and $h$
+
 $m\propto h^{\delta}$.
 
 These are _critical exponents_, we only care about temperatures near criticality. Since there is no criticality for nonzero $h$, we directly set $T=T_c$ i.e. $\beta Kq=1$ : $m=\tanh (m+\beta h)$. $\therefore \tanh^{-1} m =m+\beta h$. Next Taylor expand $\tanh^{-1}$ and it's easily seen that $m^3\propto h$. So $\delta=1/3$.
