@@ -1,6 +1,6 @@
 # Site settings
 title: 'Gaberber' # Your Title
-tagline: 'Twisted tales to make you shudder' # A brief tagline for your site
+tagline: 'My random thoughts and notes' # A brief tagline for your site
 sidebar_image: /images/cover.jpg
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://gaberber.github.io" # the base hostname & protocol for your site
