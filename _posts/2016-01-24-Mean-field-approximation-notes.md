@@ -47,7 +47,7 @@ $$\therefore m=\frac{\sum_{s_i=\pm 1}s_i e^{\beta (Kqm+h)s_i}}{\sum_{s_i=\pm 1} 
 
 The summation extends only to $s_i$ because everything else factors out and cancels.
 
-The second (easier) way is to start from the original Ising Hamiltonian, and separate it into two parts: terms containing $s_i$ (which we denote by $H_i$ and terms that do not contain $s_i$ (which we denote as $H_{0i}$). Obviously $H_i=-K\sum_{<j>}s_i s_j - h s_i$ where the sum is over the $q$ nearest neighbors of $i$. Next, neglect the fluctuations of the surrounding environment: replace each $s_j$ with a global average $m$. Now $H_i \approx -(Kqm+h)s_i$. We then proceed to write out $Z$ and note that the $e^{-\beta H_{0i}}$ contributions factor out and cancel each other and what's left is easily shown to be the same expression as above.
+The second (easier) way is to start from the original Ising Hamiltonian, and separate it into two parts: terms containing $$s_i$$ (which we denote by $$H_i$$ and terms that do not contain $$s_i$$ (which we denote as $$H_{0i}$$). Obviously $$H_i=-K\sum_{<j>}s_i s_j - h s_i$$ where the sum is over the $$q$$ nearest neighbors of $$i$$. Next, neglect the fluctuations of the surrounding environment: replace each $s_j$ with a global average $m$. Now $$H_i \approx -(Kqm+h)s_i$$. We then proceed to write out $$Z$$ and note that the $$e^{-\beta H_{0i}}$$ contributions factor out and cancel each other and what's left is easily shown to be the same expression as above.
 
 So this is the self-consistency relation:
 
