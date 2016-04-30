@@ -13,7 +13,7 @@ body {
 
 body {
   overflow-x: hidden;
-  font-family: 'Bitter', 'PingFangSC-Light', 'Lantinghei SC', serif;
+  font-family: 'Bitter', 'PingFangSC-Regular', 'Lantinghei SC', serif;
   font-size: 16px;
   line-height: 28px;
   color: #222;
@@ -276,7 +276,7 @@ header ul.meta li span {
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   line-height: 40px;
-  font-family: 'Seravek', 'Open Sans', 'Trebuchet MS', 'PingFangSC-Light', 'Lantinghei SC', sans-serif;
+  font-family: 'Seravek', 'Open Sans', 'Trebuchet MS', 'PingFangSC-Regular', 'Lantinghei SC', sans-serif;
   font-size: 12px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
