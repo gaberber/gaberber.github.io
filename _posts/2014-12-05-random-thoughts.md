@@ -38,8 +38,3 @@ date:   2014-12-05 21:03:15
 
 
 > [@uponsnow](https://twitter.com/uponsnow/status/532792195284094976): China has no history but a long past, because in China's past there was no narrative but only stories.
-
-----
-
-
-最后，为正在绝食的香港学生祝福。黄之峰已经绝食90多个小时。他们面对的敌人邪恶程度超过迄今世界各地的许多 activists 面对过的情况，不知道最后会是什么样。
