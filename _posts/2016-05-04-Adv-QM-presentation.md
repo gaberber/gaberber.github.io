@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Adv QM presentation formulae"
-date:   2015-05-04 19:37:00
+date:   2016-05-04 19:37:00
 ---
 
 $$\newcommand{\ket}[1]{| #1 \rangle}$$
