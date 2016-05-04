@@ -4,6 +4,8 @@ title:  "Adv QM presentation formulae"
 date:   2016-05-04 19:37:00
 ---
 
+Advanced quantum mechanics: a path to path integral
+
 $$\newcommand{\ket}[1]{| #1 \rangle}$$
 
 $$\newcommand{\bra}[1]{\langle #1 |}$$
