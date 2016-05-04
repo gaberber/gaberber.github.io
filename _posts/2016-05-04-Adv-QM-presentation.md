@@ -28,7 +28,7 @@ $$
 &= \lim_{dt\rightarrow 0} \prod_i \left[ \int \frac{d\lambda(t_i) d\lambda^*(t_i)}{\pi} \left( \hat{U}(t_i + dt, t_i)\ket{\Psi_\lambda} \bra{\Psi_\lambda} \right) \right] \\
 &= \lim_{dt\rightarrow 0} \int \prod_i \frac{d\lambda(t_i) d\lambda^*(t_i)}{\pi} \big[ \ket{\Psi_\lambda(t_f)} \cdots \bra{\Psi_{\lambda(t_{i+1}+dt)}} \hat{U}(t_{i+1}+dt, t_{i+1}) \ket{\Psi_{\lambda(t_{i+1})}} \\
 &\quad \bra{\Psi_{\lambda(t_{i}+dt)}} \hat{U}(t_{i}+dt, t_{i}) \ket{\Psi_{\lambda(t_i)}} \cdots \bra{\Psi_{\lambda(t_0)}} \big] \\
-&= \ket{\Psi_{\lambda(t_f)}} \left( \lim_{dt\rightarrow 0} \int \prod_i \frac{d\lambda(t_i) d\lambda^*(t_i)}{\pi} \bra{\Psi_{\lambda(t_i+dt)}} \hat{U}(t_i+dt, t_i) \ket{\Psi_{\lambda(t_i)}} \right) \bra{\Psi_{\lambda(t_0)}}
+&= \lim_{dt\rightarrow 0} \int \prod_i \frac{d\lambda(t_i) d\lambda^*(t_i)}{\pi} \bra{\Psi_{\lambda(t_i+dt)}} \hat{U}(t_i+dt, t_i) \ket{\Psi_{\lambda(t_i)}}  \ket{\Psi_{\lambda(t_f)}} \bra{\Psi_{\lambda(t_0)}}
 \end{aligned}
 $$
 
@@ -53,10 +53,10 @@ $$
 
 $$
 \begin{aligned}
-\hat{U}(t_f, t_0) &= \ket{\Psi_{\lambda(t_f)}} \left( \lim_{dt\rightarrow 0} \int \prod_i \frac{d\lambda(t_i) d\lambda^*(t_i)}{\pi} \bra{\Psi_{\lambda(t_i+dt)}} \hat{U}(t_i+dt, t_i) \ket{\Psi_{\lambda(t_i)}} \right) \bra{\Psi_{\lambda(t_0)}} \\
-&= \ket{\Psi_{\lambda(t_f)}} \left( \lim_{dt\rightarrow 0} \int \prod_i \frac{d\lambda(t_i) d\lambda^*(t_i)}{\pi} e^{-\frac{i}{\hbar} \sum_i dt \mathcal{L}(t_i)} \right) \bra{\Psi_{\lambda(t_0)}} \\
-&= \ket{\Psi_{\lambda(t_f)}} \left( \int \prod_t \frac{d\lambda(t) d\lambda^*(t)}{\pi} e^{-\frac{i}{\hbar} \int_{t_0}^{t_f} dt \mathcal{L}(t)} \right) \bra{\Psi_{\lambda(t_0)}}  \\
-&= \ket{\Psi_{\lambda(t_f)}} \left( \int \mathcal{D}\{\lambda(t)\} e^{-\frac{i}{\hbar} \mathcal{S}(\lambda)} \right) \bra{\Psi_{\lambda(t_0)}} 
+\hat{U}(t_f, t_0) &= \lim_{dt\rightarrow 0} \int \prod_i \frac{d\lambda(t_i) d\lambda^*(t_i)}{\pi} \bra{\Psi_{\lambda(t_i+dt)}} \hat{U}(t_i+dt, t_i) \ket{\Psi_{\lambda(t_i)}} \ket{\Psi_{\lambda(t_f)}}  \bra{\Psi_{\lambda(t_0)}} \\
+&= \lim_{dt\rightarrow 0} \int \prod_i \frac{d\lambda(t_i) d\lambda^*(t_i)}{\pi} e^{-\frac{i}{\hbar} \sum_i dt \mathcal{L}(t_i)} \ket{\Psi_{\lambda(t_f)}} \bra{\Psi_{\lambda(t_0)}} \\
+&= \int \prod_t \frac{d\lambda(t) d\lambda^*(t)}{\pi} e^{-\frac{i}{\hbar} \int_{t_0}^{t_f} dt \mathcal{L}(t)} \ket{\Psi_{\lambda(t_f)}} \bra{\Psi_{\lambda(t_0)}}  \\
+&= \int \mathcal{D}\{\lambda(t)\} e^{-\frac{i}{\hbar} \mathcal{S}(\lambda)} \ket{\Psi_{\lambda(t_f)}} \bra{\Psi_{\lambda(t_0)}} 
 \end{aligned}
 $$
 
