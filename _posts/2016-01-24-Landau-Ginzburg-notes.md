@@ -60,7 +60,7 @@ Also
 
 $$\chi \propto \frac{\partial m}{\partial h}=\left(\frac{\partial h}{\partial m}\right)^{-1} $$
 
-This can be obtained by letting $\partial f /\partial m$ with a nonzero $h$ and then shoing that $\frac{\partial h}{\partial m_0}=2r_0+4um_0^2\propto t+\text{const}$, so $\xi\propto t^{-1}$, and thus $\gamma=1$. This is much simpler than using the original MFA expression directly.
+This can be obtained by letting $\partial f /\partial m$ with a nonzero $h$ and then showing that $\frac{\partial h}{\partial m_0}=2r_0+4um_0^2\propto t+\text{const}$, so $\xi\propto t^{-1}$, and thus $\gamma=1$. This is much simpler than using the original MFA expression directly.
 
 # Landau-Ginzburg theory
 
