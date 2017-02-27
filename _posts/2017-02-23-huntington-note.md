@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "_Clash of Civilization_ notes"
+title:  "Clash of Civilization: notes"
 date:   2017-02-23
 ---
 
