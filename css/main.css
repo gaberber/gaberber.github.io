@@ -358,7 +358,7 @@ ul.posts p {
 
 
 
-
+/* My modifications - Gaberber */
 
 code {
 	font-family:"Menlo", "Consolas", "Courier", monospace;
@@ -370,4 +370,8 @@ code {
 
 img {
 	max-width:100%
+}
+
+em {
+    font-style: italic;
 }
