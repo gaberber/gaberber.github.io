@@ -37,6 +37,7 @@ h1 {
 }
 
 h2 {
+  line-height: 1.2;
   font-weight: 600;
   font-size: 32px;
   margin-bottom: 18px;
@@ -374,4 +375,8 @@ img {
 
 em {
     font-style: italic;
+}
+
+strong {
+    font-style: bold;
 }
