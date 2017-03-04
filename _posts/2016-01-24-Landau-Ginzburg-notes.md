@@ -6,11 +6,11 @@ date:   2016-01-24
 
 MFA $\rightarrow$ (treat $m$ as if it's a real parameter) $\rightarrow$ Landau $\rightarrow$ (let $m$ vary with $\mathbf{r}$) $\rightarrow$ Landau-Ginzburg
 
-# Landau theory
+## Landau theory
 
 Although we said in the MFA notes that the $m$ in the MFA free energy is not a real parameter but a fixed number under given $T$ and $h$, let us now pretend it is a real _free_ variable as if it can assume any value independent of $T,h$ and treat this $m$ more seriously.
 
-## Landau free energy
+### Landau free energy
 
 Once we assume $m$ is a free variable, we can Taylor expand the free energy in $m$, for the moment up until the 4th power:
 
@@ -42,7 +42,7 @@ Then we look at what happens if $h\ne 0$.
 
 Now we know what "metastable" means: the $h>0,m<0$ solution is a local minimum but not a global minimum. It will jump to the global minimum whenever fluctuation gives it enough energy to cross the $m=0$ wall.
 
-## Critical exponents $\beta,\alpha,\gamma$
+### Critical exponents $\beta,\alpha,\gamma$
 
 We stated above $r_0\propto (T-T_c)$, but why? Because below $T_c$, we know from above that $m_0$ approaches 0 as $m_0=\sqrt{-r_0/(2u)}$. $u$ is positive (actually it doesn't vary with $T$ to the first order), so the rate of $m_0$ approaching 0 in the first order is $m_0\propto (-r_0)^{1/2}$. Since $r_0$ is a parameter that's determined by temperature and we have shown in the previous MFA derivation that $m_0 \propto (-t)^{1/2}$ below $T_c$, so we immediately recognize:
 
@@ -62,13 +62,13 @@ $$\chi \propto \frac{\partial m}{\partial h}=\left(\frac{\partial h}{\partial m}
 
 This can be obtained by letting $\partial f /\partial m$ with a nonzero $h$ and then showing that $\frac{\partial h}{\partial m_0}=2r_0+4um_0^2\propto t+\text{const}$, so $\xi\propto t^{-1}$, and thus $\gamma=1$. This is much simpler than using the original MFA expression directly.
 
-# Landau-Ginzburg theory
+## Landau-Ginzburg theory
 
 From Landau to Landau-Ginzburg, we only make one crucial change: $m$ is no longer a global parameter that assumes the same value for the entire lattice, but we now let $m$ vary with $\mathbf{r}$, i.e., _it assumes different values at different places on the lattice_.
 
 Now we have  a quantity $m(\mathbf{r})$, which means the average spin in a region $\Omega$ around the position $\mathbf{r}$. This region $\Omega$ is _"macroscopically small, microscopically large"_, meaning that each region is large enough to contain many spin sites and  have an average value taking any real value between $[-1,1]$, and also small enough for us to use a continuous $\mathbf{r}$ to label their positions.
 
-## Hamiltonian
+### Hamiltonian
 
 $$ H=\int [k(\nabla m)^2 +r_0 m(\mathbf{r})^2 + u m(\mathbf{r})^4+h(\mathbf{r})m(\mathbf{r})]d^d\mathbf{r} $$
 
@@ -76,7 +76,7 @@ The new Hamiltonian, besides being an integral over space, differs from the Land
 
 An immediate use of this new Hamiltonian is to solve the "domain wall" model in 1D. See David Tong's notes for more.
 
-## Correlation function
+### Correlation function
 
 $$g(\mathbf{r_i},\mathbf{r_j})\equiv\langle m(\mathbf{r_i})m(\mathbf{r_j})\rangle -  \langle m(\mathbf{r_i})\rangle \langle m(\mathbf{r_j})\rangle$$
 
@@ -100,7 +100,7 @@ Note that if the correlation function decays with a given exponent $\xi$, a resc
 
 
 
-## Ising correlation function
+### Ising correlation function
 
 Next we will show that the Ising correlation function has exactly these properties and mathematical forms we are describing above.
 
@@ -109,7 +109,7 @@ There are two ways to solve for the correlation function of the Ising model: dir
 First we use the _fluctuation–response theorem_ to convert the problem of solving for the correlation function to a different problem.
 
 >   Let the magnetic field be a perturbation at origin $h(\mathbf{r})=h \delta(\mathbf{r})$, then
->   
+>
 >   $$ \frac{d}{dh} \langle m(\mathbf{r})\rangle\big\vert_{h=0}=-\beta g(r)$$
 
 This can be proved by explicitly writing the L.H.S. according to the usual $\frac{\int me^{-\beta H} Dm}{\int e^{-\beta H}Dm} $, pluggin in $H=H_0+\int h(\mathbf{r})m(\mathbf{r})d^d \mathbf{r}=H_0+hm(0)$ and switching differentiation and integration, as we always do in statistical mechanics.
@@ -119,7 +119,7 @@ Now our problem becomes to obtain this $\left<m(\mathbf{r})\right>\_h$: a functi
 Next, we try approximate this thing, using the _saddle point approximation_:
 
 >   $$\int e^{-\beta H} Dm \approx e^{-\beta H}\big\vert_{m(\mathbf{r})=m_\text{saddle}(\mathbf{r})}$$
->   
+>
 >   where $m_\text{saddle}(\mathbf{r})$ is the function that maximizes $H$ among all possible $m(\mathbf{r})$.
 
 This means $\left<m(\mathbf{r})\right>\approx m_\text{saddle}(\mathbf{r})$.
@@ -140,7 +140,7 @@ $$g(r) \propto \phi (r)\propto\frac{e^{-\frac{r}{\xi}}}{r^{d-2}}, \quad \text{fo
 
 where $\xi^2 =k/r_0$ is known from the coefficients of this Helmholtz equation. This is exactly in accordance with the forms of correlation functions above: usually the exponential decay dominates, but at criticality $\xi \propto r_0^{-1/2}$ diverges and $\exp(-r/\xi)=1$ so $g(r)$ is algebraic.
 
-## Critical exponents $\nu,\eta$
+### Critical exponents $\nu,\eta$
 
 $$\xi \propto t^{-\nu}$$
 
@@ -148,7 +148,7 @@ $$g(r) \propto \frac{1}{r^{d-2+\eta}}$$
 
 Since we already have the solution of $g(r)$, the rest is easy. $\xi \propto t^{-1/2}$ so $\nu=1/2$ and at the critical point $g(r) \propto 1/r^{d-2}$ so $\eta=0$.
 
-## Ginzburg criterion
+### Ginzburg criterion
 
 What is the crucial approximation we made in MFA and Landau theory? – We assumed spins don't fluctuate very far from the global average $m_0$, and thus discarded the terms of order $\delta m^2$ compared to $m_0^2$. We need to know if this approximation is valid, i.e. whether we have
 

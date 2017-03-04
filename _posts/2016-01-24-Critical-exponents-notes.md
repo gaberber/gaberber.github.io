@@ -4,13 +4,13 @@ title:  "Renormalization notes"
 date:   2016-01-24 
 ---
 
-# Critical exponents and renormalization
+## Critical exponents and renormalization
 
 Reduced temperature:
 
 $$t=\frac{T-T_c}{T_c}$$
 
-## For the Ising model:
+### For the Ising model:
 
 Specific free energy $f(h,T)=F(h,T)/N$, $F(h,T)=-k_B T \ln Z$.
 
@@ -33,13 +33,13 @@ Spatial dimension: $d$
 | Greek letter | Definition                               |
 | ------------ | ---------------------------------------- |
 | $\alpha$     | $C \propto t^{-\alpha}$                  |
-| $\beta$      | $m\propto (-t)^\beta$                              |
+| $\beta$      | $m\propto (-t)^\beta$                    |
 | $\gamma$     | $\chi \propto t^{-\gamma}$               |
 | $\delta$     | $m\propto h^{-\delta}$                   |
 | $\nu$        | $\xi=t^{-\nu}$                           |
 | $\eta$       | $\langle m(0)m(\mathbf{r})\rangle\propto r^{-d+2-\eta}$ |
 
-## Scaling laws:
+### Scaling laws:
 
 $$ \alpha + 2\beta + \gamma = 2$$
 
@@ -51,7 +51,7 @@ $$2-\alpha=d\nu$$
 
 Among these 6 critical exponents, only 2 are free (we have 4 constraints).
 
-## Scaling dimensions
+### Scaling dimensions
 
 If we perform a renormalization transform, the parameters in the Hamiltonian change from $J,K,h,\dots$ to $J',K',h',\dots$. We can write out this mathematical relation between these two sets of parameters and Taylor expand it around the fixed (critical) point:
 
@@ -69,7 +69,7 @@ On the flow diagram, each normalization takes us farther away from the critical 
 
 ![flow diagram](http://gaberber.github.io/images/flow-diagram.png)
 
-## Homogeneity
+### Homogeneity
 
 How do we obtain the relationship between the scaling dimensions and critical exponents? By arguments of homogeneity, the most important ones of which are the physical observations that
 
@@ -78,7 +78,7 @@ How do we obtain the relationship between the scaling dimensions and critical ex
 
 Furthermore, since we have diagonalized the transformation matrix $A$, the matrix $A^n$ (i.e. applying the renormalization transformation for $n$ times) is still diagonal and has eigenvalues $\lambda_i(l^n)=\lambda_i^n(l)$.
 
-## Use renormalization to obtain ritical exponents
+### Use renormalization to obtain ritical exponents
 
 Starting from these homogeneity relations, we can use some tricks (by starting from a point very close to the fixed point and performing the RG transformations many times so that the component along the irrelevant eigenvector shrinks back to 0 and the relevant component becomes 1) to show that 
 
@@ -96,6 +96,6 @@ Note that $z$ is a characterizing number that can be calculated from the renorma
 
 
 
-## Universality
+### Universality
 
 Because only the relevant scaling dimensions determine the system's critical behavior, adding/removing/changing terms that only involve irrelevant scaling dimensions will not change the critical exponents, etc. at all. Thus a whole class of Hamiltonians having the same relevant terms (but different irrelevant terms) all exhibit the same critical behaviors. This phenomenon is called universality. These Hamiltonians belong to one _universality class_.

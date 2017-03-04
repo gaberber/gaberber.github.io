@@ -4,13 +4,13 @@ title:  "Gaussian Model notes"
 date:   2016-01-24 
 ---
 
-# The Gaussian model
+## The Gaussian model
 
 We have previously obtained the critical exponents in the Landau-Ginzburg model from solving variational equations directly. Now we will see that it is (in some sense) easier to do a Fourier transform on the (simplified) Landau-Ginzburg Hamiltonian and obtain the same results using renormalization. 
 
 We will see that the renormalization procedure in this model is very easy. Another advantage is that by switching to Fourier space, we can turn the function integral $\int D m(\mathbf{r})$ –(continuously) infinitely many integrals – into a sum of integrals, because in Fourier space the $\mathbf{k}$'s are discrete. This is possible because $m(\mathbf{r})$ resides in a function space that's continuous/smooth enough, and doesn't actually have as many degrees of freedom as the number of $\mathbf{r}$'s (uncountable infinite).
 
-## Real-space Hamiltonian
+### Real-space Hamiltonian
 
 Ignoring the fourth-order term, the Landau-Ginzburg Hamiltonian is ($d​$ is the dimension of the real-space system, $r_0​$ is the constant factor parameter and not related to the position vector $\mathbf{r}​$):
 
@@ -34,7 +34,7 @@ $$
 
 This type of Hamiltonian can be interpreted as: 1) having a penalty for the heights $m_i​$ that take on different values than 0 (the $m_i^2​$ terms); and 2) having a penalty for neighboring heights taking on different values (the gradient or difference squared terms). Thus the lowest energy state is when every $m_i​$ is equal to 0.
 
-## Fourier transform
+### Fourier transform
 
 Next, perform a discrete Fourier transform on $\{m_i\}$: ($N$ is the number of sites on the lattice)
 
@@ -59,7 +59,7 @@ The first Brillouin Zone is $q_x,q_y,q_z,\dots \in [-\pi/a,\pi/a]$
 The Gaussian model has only 1 relevant parameter: $r_0$.
 
 
-## Partition function: integrating in $k$ space
+### Partition function: integrating in $k$ space
 
 If $m_\mathbf{q}$ and $m_{-\mathbf{q}}$ are truly independent, the partition function is given by (note that $m_\mathbf{q}$ is complex and thus each integral is over the entire $\mathbb{C}$ plane)
 
@@ -96,7 +96,7 @@ $$
 $$
 Again, $d$ is the dimension of the system.
 
-## Correlation
+### Correlation
 
 From this, we can show that 
 
@@ -112,7 +112,7 @@ $$\langle m(\mathbf{r})m(\mathbf{r'})\rangle \propto  \frac{e^{-r/\xi}}{r^{d-2}}
 
 near criticality and thus know the critical exponent $\eta=0$, and from the expression of $\xi$ in the Landau Hamiltonian parameters we know $\nu=\frac{1}{2}$.
 
-## Renormalization
+### Renormalization
 
 The renormalization of the Gaussian model under $k$ space is very simple – just integrate over all the $k$ values between the strip (see graphs) and then re-map the $k$ inside the small square to the entire big square (first Brillouin zone) again. 
 

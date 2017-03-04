@@ -8,10 +8,10 @@ Ising model Hamiltonian:
 
 $$ H=-K\sum_{<ij>}s_i s_j - h\sum_i s_i$$
 
-# Mean Field Approximation
+## Mean Field Approximation
 
 
-## Derivation of Mean Field Hamiltonian
+### Derivation of Mean Field Hamiltonian
 
 Use a __global macroscopic__ ensemble average $m=\langle \sum_i s_i \rangle/N$ to approximate the __microscopic__ surrounding environment of each site:
 
@@ -27,7 +27,7 @@ $$\therefore H_\text{MFA}=-(Kqm+h)\sum_i s_i +\frac12 NKqm^2$$
 
 This is our mean field Hamiltonian.
 
-## Mean field partition function and free energy
+### Mean field partition function and free energy
 
 $$\begin{aligned}Z_\text{MFA}&=\sum_{\{s_i=\pm1\}} e^{-\beta H_\text{MFA}}=e^{-\frac12 \beta KNqm^2} \prod_i \sum_{s_i=\pm1}e^{\beta (Kqm+h)s_i} \\ &=e^{-\frac12 \beta KNqm^2} 2^N \cosh^N \beta(Kqm+h)\end{aligned}$$
 
@@ -35,7 +35,7 @@ $$\begin{aligned}F_\text{MFA}/N&=-\frac{k_B T}{N}\ln Z_\text{MFA} \\ &=\frac{Kqm
 
 Note that $m$ is not in fact a parameter here. If the _real_ parameters $T, K, h$ are fixed, then _they determine what value $m$ is!_ (Remember the definition of $m$ – it's an ensemble average.)
 
-## Self-consistency relation
+### Self-consistency relation
 
 We haven't figured out the value of $m$ yet. This is done by solving a self-consistency equation, because the expression used to obtain $m$ (the partition function) contains $m$ itself. There are two (similar) ways to obtain the self-consistency relation.
 
@@ -82,13 +82,13 @@ Stable and metastable states under the same $h>0$:
 
 ![](http://gaberber.github.io/images/metastable.svg)
 
-## Critical exponents
+### Critical exponents
 
 There are 6 critical exponents: $\alpha, \beta, \gamma, \delta,\nu, \eta$. We can obtain the first four from the MFA method. 
 
 $t\equiv (T-T_c)/T_c$
 
-### $\alpha$: heat capacity
+#### $\alpha$: heat capacity
 
 $$C\propto \frac{\partial^2 F}{\partial t^2}$$
 
@@ -96,7 +96,7 @@ $C \propto t^{-\alpha}$ near $T_c$.
 
 We already have the mean field $F$. Use that to differentiate twice w.r.t $T$ and we will see that $C \propto$ constant, i.e. $\alpha=0$. This can be done much more easily later using the Landau theory.
 
-### $\beta$: $m$ and temperature
+#### $\beta$: $m$ and temperature
 
 $m\propto \vert t\vert^{\beta}$ near $T_c$ (but below it).
 
@@ -108,25 +108,25 @@ Solve for $m$ and note that $1=\beta_c Kq$. We obtain $m^2\propto (\beta-\beta_c
 
 
 
-### $\delta$: $m$ and $h$
+#### $\delta$: $m$ and $h$
 
 $m\propto h^{\delta}$.
 
 These are _critical exponents_, we only care about temperatures near criticality. Since there is no criticality for nonzero $h$, we directly set $T=T_c$ i.e. $\beta Kq=1$ : $m=\tanh (m+\beta h)$. $\therefore \tanh^{-1} m =m+\beta h$. Next Taylor expand $\tanh^{-1}$ and it's easily seen that $m^3\propto h$. So $\delta=1/3$.
 
-### $\gamma$: $\partial m/\partial h$ and $t$
+#### $\gamma$: $\partial m/\partial h$ and $t$
 
 Susceptibility $\xi \propto \frac{\partial m}{\partial h} \big\vert_{h=0}\propto t^{-\gamma}$.
 
 Again let $T\rightarrow T_c$ and $h\rightarrow 0$ both from above. Take the derivative over $h$ in the original self-consistency relation. Note that $m=0$ for $T>T_c$. We can show that $\xi \propto t^{-1}$, so $\nu=1$.
 
-## Switching to Landau theory
+### Switching to Landau theory
 
 In fact, it's quite hard to obtain $\gamma$ and $\alpha$ from the MFA directly, and downright impossible to get $\eta$ and $\nu$. However in the upcoming Landau theory, we only need to obtain an expression for $\beta$ and show that the parameter there has $r_0 \propto t$, and then $\alpha$ and $\gamma$ can be calculated easily. $\eta$ and $\nu$ takes more work and the Landau-Ginzburg theory must be used for them.
 
 However, Landau theory is equivalent to MFA and they both yield not so good (although indeed the same) results for lower dimensions.
 
-## Why does MFA fail miserably for 1, 2, and 3 dimensions?
+### Why does MFA fail miserably for 1, 2, and 3 dimensions?
 
 Because we used a macroscopic average to replace the interaction between a particular site and its nearest neighbors. In higher dimension, each site has many neighbors and the overall interaction between it and those neighbors will be quite close to the global average value. But in lower dimensions, each site has very few neighbors and the fluctuations can cause the real scenario to deviate from a macroscopic average dramatically.
 

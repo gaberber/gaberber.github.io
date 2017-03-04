@@ -4,7 +4,7 @@ title:  "Non-equilibrium notes"
 date:   2016-01-24 
 ---
 
-# Langevin equation
+## Langevin equation
 
 A Brownian motion can be described by the Langevin equation:
 
@@ -82,7 +82,7 @@ Stationary condition $\partial P/\partial t=0$ will lead to the Maxwell distribu
 
 $$P\propto e^{-\frac{mv^2}{2k_B T}}$$
 
-# Wiener-Kintchine theorem
+## Wiener-Kintchine theorem
 
 $A(t)$ is a time-dependent random variable. $K(s)$ is the **autocorrelation function**, defined as
 
@@ -103,7 +103,6 @@ $$ S(\omega)=\left<\tilde{A}(\omega) \tilde{A}^*(\omega) \right>$$
 **Wiener-Kintchine theorem**: the autocorrelation and spectral density are Fourier transform pairs.
 
 $$ S(\omega)=\int_{-\frac{T}{2}}^\frac{T}{2} K(s)e^{-i\omega s}ds \equiv \tilde{K}(\omega)$$
-
 
 ---
 
