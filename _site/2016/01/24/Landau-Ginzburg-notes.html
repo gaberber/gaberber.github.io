@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Gaberber</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i|Open+Sans+Condensed:300,300i,700' rel='stylesheet' type='text/css'>
+
+  <!-- MathJax -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script>
+  <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+</head>
+<body>
+  <header style="background-image: url(/images/cover.jpg);">
+  <div class="container post-container">
+    <a href="/" class="home_button"></a>
+    <div class="inner-container">
+      <h1>Landau-Ginzburg notes</h1>
+      <ul class="meta">
+        <li>
+          <span>
+            Published
+          </span>
+          24 Jan 2016
+        </li>
+        <li>
+          <span>
+            Category
+          </span>
+          
+        </li>
+      </ul>      
+    </div>
+    <ul class="pagination">
+      
+        <li class="previous">
+          <a href="/2016/01/24/Gaussian-model-notes.html">
+            Previous
+          </a>
+        </li>
+      
+      
+      <li class="next">
+        <a href="/2016/01/24/Mean-field-approximation-notes.html">
+          Next
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</header>
+
+<article>
+  <div class="container">
+    <p>MFA $\rightarrow$ (treat $m$ as if it’s a real parameter) $\rightarrow$ Landau $\rightarrow$ (let $m$ vary with $\mathbf{r}$) $\rightarrow$ Landau-Ginzburg</p>
+
+<h2 id="landau-theory">Landau theory</h2>
+
+<p>Although we said in the MFA notes that the $m$ in the MFA free energy is not a real parameter but a fixed number under given $T$ and $h$, let us now pretend it is a real <em>free</em> variable as if it can assume any value independent of $T,h$ and treat this $m$ more seriously.</p>
+
+<h3 id="landau-free-energy">Landau free energy</h3>
+
+<p>Once we assume $m$ is a free variable, we can Taylor expand the free energy in $m$, for the moment up until the 4th power:</p>
+
+<script type="math/tex; mode=display">f(m)=-hm+r_0 m^2 + um^4</script>
+
+<p>When $h=0$, only even powers survive because of the symmetry of $m$ and $-m$ in the Ising model and its free energy as an even function of $m$.</p>
+
+<p>Currently we don’t need to know the specific form of $r_0$ and $u$. We only need to know they are the Taylor coefficients of whatever function of $m$ the free energy is.</p>
+
+<p>Next see graphs for what this function looks like.</p>
+
+<p><img src="http://gaberber.github.io/images/Landau.png" alt="Landau free energy" /></p>
+
+<p>$u$ is always positive We first look at what happens when $h=0$.</p>
+
+<ul>
+  <li>When $r_0&lt;0​$, $f(m)​$ has two minima and one local maximum.  These are exactly the three roots we got from the self-consistency relation in MFA. The local maximum is an unstable point. The system will only reside around the two minima, $\pm m_0​$. This corresponds to the case of $T&lt;T_c​$.</li>
+  <li>When $r_0&gt;0$, $f(m)$ has only one minimum at $m=0$. This is the only root we got from the $m=\tanh \beta Kqm$ relation. This case corresponds to $T&gt;T_c$.</li>
+  <li>When $r_0=0$, this is $T=T_c$. Although we still have only one minimum, the region around this minimum is very flat (the first three orders of derivatives are all 0). This means the system can travel left and right along the $m$ axis without paying much price in free energy increase. This suggests that the system fluctuates heavily around the average at critical temperature.</li>
+</ul>
+
+<script type="math/tex; mode=display">% <![CDATA[
+m_0=\begin{cases}0, \quad r_0 \propto (T-T_c)\ge 0 \\ \pm \sqrt{-\frac{r_0}{2u}}, \quad r_0 \propto (T-T_c) <0  \end{cases} %]]></script>
+
+<p>Then we look at what happens if $h\ne 0$.</p>
+
+<p><img src="http://gaberber.github.io/images/Landau with B.png" alt="Landau with B" /></p>
+
+<p>Now we know what “metastable” means: the $h&gt;0,m&lt;0$ solution is a local minimum but not a global minimum. It will jump to the global minimum whenever fluctuation gives it enough energy to cross the $m=0$ wall.</p>
+
+<h3 id="critical-exponents-betaalphagamma">Critical exponents $\beta,\alpha,\gamma$</h3>
+
+<p>We stated above $r_0\propto (T-T_c)$, but why? Because below $T_c$, we know from above that $m_0$ approaches 0 as $m_0=\sqrt{-r_0/(2u)}$. $u$ is positive (actually it doesn’t vary with $T$ to the first order), so the rate of $m_0$ approaching 0 in the first order is $m_0\propto (-r_0)^{1/2}$. Since $r_0$ is a parameter that’s determined by temperature and we have shown in the previous MFA derivation that $m_0 \propto (-t)^{1/2}$ below $T_c$, so we immediately recognize:</p>
+
+<script type="math/tex; mode=display">r_0 \propto t=\frac{T-T_c}{T_c}</script>
+
+<p>This is very helpful for us.</p>
+
+<p>We can very conveniently know:</p>
+
+<script type="math/tex; mode=display">C\propto \frac{\partial^2 f}{\partial t^2} \propto \frac{\partial ^2}{\partial t^2}r_0 = \text{constant}</script>
+
+<p>so $\alpha=0$.</p>
+
+<p>Also</p>
+
+<script type="math/tex; mode=display">\chi \propto \frac{\partial m}{\partial h}=\left(\frac{\partial h}{\partial m}\right)^{-1}</script>
+
+<p>This can be obtained by letting $\partial f /\partial m$ with a nonzero $h$ and then showing that $\frac{\partial h}{\partial m_0}=2r_0+4um_0^2\propto t+\text{const}$, so $\xi\propto t^{-1}$, and thus $\gamma=1$. This is much simpler than using the original MFA expression directly.</p>
+
+<h2 id="landau-ginzburg-theory">Landau-Ginzburg theory</h2>
+
+<p>From Landau to Landau-Ginzburg, we only make one crucial change: $m$ is no longer a global parameter that assumes the same value for the entire lattice, but we now let $m$ vary with $\mathbf{r}$, i.e., <em>it assumes different values at different places on the lattice</em>.</p>
+
+<p>Now we have  a quantity $m(\mathbf{r})$, which means the average spin in a region $\Omega$ around the position $\mathbf{r}$. This region $\Omega$ is <em>“macroscopically small, microscopically large”</em>, meaning that each region is large enough to contain many spin sites and  have an average value taking any real value between $[-1,1]$, and also small enough for us to use a continuous $\mathbf{r}$ to label their positions.</p>
+
+<h3 id="hamiltonian">Hamiltonian</h3>
+
+<script type="math/tex; mode=display">H=\int [k(\nabla m)^2 +r_0 m(\mathbf{r})^2 + u m(\mathbf{r})^4+h(\mathbf{r})m(\mathbf{r})]d^d\mathbf{r}</script>
+
+<p>The new Hamiltonian, besides being an integral over space, differs from the Landau Hamiltonian by a term $k(\nabla m)^2$. This term means that we have energy penalty for  making the average spin of two neighboring regions different – if two neighboring regions are “all up + all down”, it should have a greater energy than the case “all up + all up”.</p>
+
+<p>An immediate use of this new Hamiltonian is to solve the “domain wall” model in 1D. See David Tong’s notes for more.</p>
+
+<h3 id="correlation-function">Correlation function</h3>
+
+<script type="math/tex; mode=display">g(\mathbf{r_i},\mathbf{r_j})\equiv\langle m(\mathbf{r_i})m(\mathbf{r_j})\rangle -  \langle m(\mathbf{r_i})\rangle \langle m(\mathbf{r_j})\rangle</script>
+
+<p>The average notations here mean the ensemble averages at each position, not averaging over space. Note that this “average” is no trivial thing. The freely varying variables are no longer $N$ binary variables $s_i$, but a <em>function</em> of space, $m(\mathbf{r})$. We are doing infinitely many integrals – let the $m$ value at each $\mathbf{r}$ point vary from $-1$ to $1$, and then integrate over all $\mathbf{r}$. This is, in fact, a <em>functional integral</em>. Previously we could still write $\prod_i \sum_{s_i}$ (or in the earlier parts of this course we had $\int d^{3N} \mathbf{r} $), but now we must write $\int Dm(\mathbf{r})$ to indicate this is a funcitonal integral.</p>
+
+<p>From the Ising model’s translational and rotational symmetry (when viewed on a macroscopic-average level), we know</p>
+
+<script type="math/tex; mode=display">g(\mathbf{r_i},\mathbf{r_j})=g(\vert \mathbf{r_i}-\mathbf{r_j}\vert )=g(r)=\langle m(0)m(r)\rangle - \langle m(0)\rangle\langle m(r)\rangle</script>
+
+<p>The shape of the correlation function is nearly always exponential:</p>
+
+<script type="math/tex; mode=display">g(r) \sim e^{-\frac{r}{\xi}}</script>
+
+<p>where $\xi$ is a length scale that arises as a parameter in this expression. We call this length the <strong>correlation length</strong>. It’s the characteristic length over which correlation decay. Its physical meaning is that the magnetization value of two sites more than distance $\xi$ apart will be totally independent of each other ($g=0$), while two sites within distance $\xi$ apart will feel the influence of each other ($g&gt;0$) – they want to align with their neighbors.</p>
+
+<p>But scaling laws of critical exponents tell us that $\xi \rightarrow \infty$  at the critical point. At the critical point, the correlation becomes algebraic:</p>
+
+<script type="math/tex; mode=display">g(r) \propto \frac{1}{r^x}</script>
+
+<p>Note that if the correlation function decays with a given exponent $\xi$, a rescaling $\mathbf{r} \rightarrow b\mathbf{r}$ will change the correlation length accordingly. If, however, the correlation function is algebraic, rescaling will not change the proportionality. This behavior is a manifestation of the fact that the system is <em>scale invariant</em> at criticality – a conclusion that will arise in the renormalization theory: the critical point is a fixed point of the rescaling, i.e. “renormalization”, transform. To put it more explicitly, an Ising lattice at the critical point is an example of a <em>fractal</em> structure.</p>
+
+<h3 id="ising-correlation-function">Ising correlation function</h3>
+
+<p>Next we will show that the Ising correlation function has exactly these properties and mathematical forms we are describing above.</p>
+
+<p>There are two ways to solve for the correlation function of the Ising model: directly solving a PDE arising from the variational principle, or using renormalization in Fourier space, which is covered in the notes on Gaussian models. Here we focus on the first method.</p>
+
+<p>First we use the <em>fluctuation–response theorem</em> to convert the problem of solving for the correlation function to a different problem.</p>
+
+<blockquote>
+  <p>Let the magnetic field be a perturbation at origin $h(\mathbf{r})=h \delta(\mathbf{r})$, then</p>
+
+  <script type="math/tex; mode=display">\frac{d}{dh} \langle m(\mathbf{r})\rangle\big\vert_{h=0}=-\beta g(r)</script>
+</blockquote>
+
+<p>This can be proved by explicitly writing the L.H.S. according to the usual $\frac{\int me^{-\beta H} Dm}{\int e^{-\beta H}Dm} $, pluggin in $H=H_0+\int h(\mathbf{r})m(\mathbf{r})d^d \mathbf{r}=H_0+hm(0)$ and switching differentiation and integration, as we always do in statistical mechanics.</p>
+
+<p>Now our problem becomes to obtain this $\left&lt;m(\mathbf{r})\right&gt;_h$: a function depending on the perturbation $h$. Then we will have $g(r)=-k_B T \frac{d}{dh} \left&lt;m(\mathbf{r})\right&gt;_{h=0}$.</p>
+
+<p>Next, we try approximate this thing, using the <em>saddle point approximation</em>:</p>
+
+<blockquote>
+  <script type="math/tex; mode=display">\int e^{-\beta H} Dm \approx e^{-\beta H}\big\vert_{m(\mathbf{r})=m_\text{saddle}(\mathbf{r})}</script>
+
+  <p>where $m_\text{saddle}(\mathbf{r})$ is the function that maximizes $H$ among all possible $m(\mathbf{r})$.</p>
+</blockquote>
+
+<p>This means $\left&lt;m(\mathbf{r})\right&gt;\approx m_\text{saddle}(\mathbf{r})$.</p>
+
+<p>Naturally, we use the variational principle to find the maximum value of the functional $H$: $H(m_\text{saddle}+\delta m)-H(m_\text{saddle})=0$ for any $\delta m(\mathbf{r})$ to the first order.</p>
+
+<p>This variational equation is a PDE of $m(\mathbf{r})$:</p>
+
+<script type="math/tex; mode=display">-2k\nabla^2 m + 2r_0 m+4um^3+h\delta(\mathbf{r})=0</script>
+
+<p>The solution is $m_\text{saddle}$.</p>
+
+<p>When $h=0$, the solution to this PDE is just $m(\mathbf{r})=m_0$, $m_0$ being still the average spin in Landau theory. So we write $m(\mathbf{r})=m_0+h\phi(\mathbf{r})$. This way we separate the average and perturbed fluctuations around that average. Also, we now have $g(r)\propto \phi(r)$.</p>
+
+<p>Plugging this into the PDE, we have two Helmholtz equations of $\phi(\mathbf{r})$ (depending on the sign of $r_0$, i.e. $T-T_c$). Their solutions are known to be</p>
+
+<script type="math/tex; mode=display">g(r) \propto \phi (r)\propto\frac{e^{-\frac{r}{\xi}}}{r^{d-2}}, \quad \text{for } r \ll \xi</script>
+
+<p>where $\xi^2 =k/r_0$ is known from the coefficients of this Helmholtz equation. This is exactly in accordance with the forms of correlation functions above: usually the exponential decay dominates, but at criticality $\xi \propto r_0^{-1/2}$ diverges and $\exp(-r/\xi)=1$ so $g(r)$ is algebraic.</p>
+
+<h3 id="critical-exponents-nueta">Critical exponents $\nu,\eta$</h3>
+
+<script type="math/tex; mode=display">\xi \propto t^{-\nu}</script>
+
+<script type="math/tex; mode=display">g(r) \propto \frac{1}{r^{d-2+\eta}}</script>
+
+<p>Since we already have the solution of $g(r)$, the rest is easy. $\xi \propto t^{-1/2}$ so $\nu=1/2$ and at the critical point $g(r) \propto 1/r^{d-2}$ so $\eta=0$.</p>
+
+<h3 id="ginzburg-criterion">Ginzburg criterion</h3>
+
+<p>What is the crucial approximation we made in MFA and Landau theory? – We assumed spins don’t fluctuate very far from the global average $m_0$, and thus discarded the terms of order $\delta m^2$ compared to $m_0^2$. We need to know if this approximation is valid, i.e. whether we have</p>
+
+<script type="math/tex; mode=display">\frac{ \langle \delta m ^2\rangle} {m_0^2} \ll 1</script>
+
+<p>This is the <strong>Ginzburg criterion</strong>.</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\langle\delta m(\mathbf{r})^2\rangle = \left<m(0)m(r)\right>-\left<m(0)\right>\left<m(r)\right>=g(r) %]]></script>
+
+<p>We know that $g(r) \rightarrow 0$ outside $\xi$, so</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\frac{ \langle \delta m ^2\rangle} {m_0^2} \approx \frac{\int_{r<\xi} d^d \mathbf{r} g(r)}{\int_{r<\xi} d^d \mathbf{r}m_0^2}\propto \frac{\xi^2}{m_0^2\xi^d} %]]></script>
+
+<p>and then</p>
+
+<script type="math/tex; mode=display">\frac{\xi^{2-d}}{m_0^2}\propto \frac{t^{\frac{d-2}{2}}}{t}=t^{\frac{d-4}{2}}</script>
+
+<p>Now we see why MFA/Landau fails for lower than 4 dimensions: only when $d\ge 4$ will the fluctuation across space be negligible as $t\rightarrow 0$.</p>
+
+  </div>
+</article>
+
+</body>
+</html>

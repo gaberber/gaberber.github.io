@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Gaberber</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i|Open+Sans+Condensed:300,300i,700' rel='stylesheet' type='text/css'>
+
+  <!-- MathJax -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script>
+  <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+</head>
+<body>
+  <header style="background-image: url(/images/cover.jpg);">
+  <div class="container post-container">
+    <a href="/" class="home_button"></a>
+    <div class="inner-container">
+      <h1>EBPG CAD</h1>
+      <ul class="meta">
+        <li>
+          <span>
+            Published
+          </span>
+          25 Aug 2016
+        </li>
+        <li>
+          <span>
+            Category
+          </span>
+          
+        </li>
+      </ul>      
+    </div>
+    <ul class="pagination">
+      
+        <li class="previous">
+          <a href="/2016/05/04/Adv-QM-presentation.html">
+            Previous
+          </a>
+        </li>
+      
+      
+      <li class="next">
+        <a href="/2017/01/04/die-zauberflote.html">
+          Next
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</header>
+
+<article>
+  <div class="container">
+    <h2 id="ebpg-cad">EBPG CAD</h2>
+
+<h3 id="transfer-dxf-file-to-tu-delft-server">0. Transfer <code class="highlighter-rouge">.DXF</code> file to TU Delft server</h3>
+
+<p>Protocol: <code class="highlighter-rouge">SFTP</code></p>
+
+<p>Server: <code class="highlighter-rouge">sftp.tudelft.nl</code></p>
+
+<p>Username: <code class="highlighter-rouge">NetID</code></p>
+
+<p>Password: <code class="highlighter-rouge">NetID password</code></p>
+
+<h3 id="transfer-dxf-file-to-pegasus">1. Transfer <code class="highlighter-rouge">.DXF</code> file to Pegasus</h3>
+
+<p>Protocol: <code class="highlighter-rouge">SFTP</code></p>
+
+<p>Server: <code class="highlighter-rouge">pegasus.kavli.tudelft.nl</code></p>
+
+<p>Username: <code class="highlighter-rouge">cad</code></p>
+
+<p>Password: <code class="highlighter-rouge">&amp;KN-lab</code></p>
+
+<h3 id="use-layout-beamer-on-pegasus-to-export-to-gpf-files">2. Use Layout Beamer on Pegasus to export to GPF files</h3>
+
+<p>Protocol: <code class="highlighter-rouge">SSH</code></p>
+
+<p>Server: <code class="highlighter-rouge">pegasus.kavli.tudelft.nl</code></p>
+
+<p>Username: <code class="highlighter-rouge">cad</code></p>
+
+<p>Password: <code class="highlighter-rouge">&amp;KN-lab</code></p>
+
+<p>Command: <code class="highlighter-rouge">LB</code></p>
+
+<p>Import DXF -&gt; Extract (one layer each) -&gt; Heal (resolve overlay in patterns) -&gt; Export</p>
+
+<p><strong>Export</strong>: estimate the <em>beam step size</em> according to the desired <em>beam spot size</em> for each layer as $\text{step size} = \text{spot size}/1.5$ (resolution=beam step size).</p>
+
+<p>Beam spot sizes of each beam can be found by logging onto the EBPG computer and use command <code class="highlighter-rouge">fegmode estimate</code>. E.g. for pads we can use the largest beam spot size. On EBPG5200 this is 132nm so we can set the beam step size to be 88nm (=132nm/1.5). Similarly we can use the 30nm beam for coarse features (and thus 20nm step size) and for the smallest fine features we can set the beam step size to be 2nm and use the 3nm beam.</p>
+
+<p>Then use <code class="highlighter-rouge">putp</code> or <code class="highlighter-rouge">putp5200</code> to transfer the <code class="highlighter-rouge">GPF</code> files to the EBPG computer. Use the wild card to save time in the following way:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>putp5k 20160824\*.gpf
+putp5200 20160824\*.gpf
+</code></pre>
+</div>
+
+<p>This will transfer all <code class="highlighter-rouge">GPF</code> files with names beginning with <code class="highlighter-rouge">20160824</code> to the old EBPG.</p>
+
+<h3 id="use-cjob-on-the-ebpg-computers">3. Use <code class="highlighter-rouge">CJOB</code> on the EBPG computers</h3>
+
+<p>Protocol: <code class="highlighter-rouge">SSH</code></p>
+
+<p>Server: <code class="highlighter-rouge">epic-beta.kavli.tudelft.nl</code> / <code class="highlighter-rouge">epic-alfa.kavli.tudelft.nl</code></p>
+
+<p>Username: <code class="highlighter-rouge">pg</code></p>
+
+<p>Password: <code class="highlighter-rouge">pg5200@Delft</code> / <code class="highlighter-rouge">pg5000@Delft</code></p>
+
+<p>Command: <code class="highlighter-rouge">cjob</code></p>
+
+<p>Open an example <code class="highlighter-rouge">CJOB</code> file and modify the corresponding parts.</p>
+
+<p>For each <em>exposure</em> we specify four markers. For different exposures different markers should be used.</p>
+
+<p>Be sure to select the correct file, beam and dose.</p>
+
+<p>Finally export each exposure as a <code class="highlighter-rouge">.job</code> file.</p>
+
+<h3 id="things-to-check">4. Things to check</h3>
+
+<ul>
+  <li>Specify markers to use for <em>both exposures  and patterns (<code class="highlighter-rouge">gpf</code>’s)</em>. And they must be the same.</li>
+  <li>The exposure marker type is <code class="highlighter-rouge">measure map</code>.</li>
+  <li>Select <code class="highlighter-rouge">Keystones</code> in the pattern marker specification.</li>
+</ul>
+
+  </div>
+</article>
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Gaberber</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i|Open+Sans+Condensed:300,300i,700' rel='stylesheet' type='text/css'>
+
+  <!-- MathJax -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script>
+  <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+</head>
+<body>
+  <header style="background-image: url(/images/cover.jpg);">
+  <div class="container post-container">
+    <a href="/" class="home_button"></a>
+    <div class="inner-container">
+      <h1>Non-equilibrium notes</h1>
+      <ul class="meta">
+        <li>
+          <span>
+            Published
+          </span>
+          24 Jan 2016
+        </li>
+        <li>
+          <span>
+            Category
+          </span>
+          
+        </li>
+      </ul>      
+    </div>
+    <ul class="pagination">
+      
+        <li class="previous">
+          <a href="/2016/01/24/Mean-field-approximation-notes.html">
+            Previous
+          </a>
+        </li>
+      
+      
+      <li class="next">
+        <a href="/2016/05/04/Adv-QM-presentation.html">
+          Next
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</header>
+
+<article>
+  <div class="container">
+    <h2 id="langevin-equation">Langevin equation</h2>
+
+<p>A Brownian motion can be described by the Langevin equation:</p>
+
+<script type="math/tex; mode=display">m\frac{dv}{dt}(t)=-\gamma v(t) + F(t) + R(t)</script>
+
+<p>$\gamma$ is the familiar “damping” rate in the dynamic equation of oscillators. It represents a “dragging” force by the particles near it slowing it down. $R(t)$ is a “random kick” to the particle. It is a Gaussian random variable:</p>
+
+<ul>
+  <li>$\left&lt;R(t)\right&gt;=0$</li>
+  <li>$\left&lt;R(t)R(t+\tau)\right&gt;=q \delta(\tau)$</li>
+  <li>$P(R)=\frac{1}{\sqrt{2\pi\left&lt;R^2\right&gt;}}\exp\left(-\frac{R^2}{2\left&lt;R^2\right&gt;}\right)$</li>
+</ul>
+
+<hr />
+
+<p>When $F=0$, the solution to the Langevin equation is</p>
+
+<script type="math/tex; mode=display">v(t)=v(0)e^{-\frac{\gamma t}{m}} + \frac{1}{m} \int_0^t e^{-\frac{\gamma(t-\tau)}{m}}R(\tau)d\tau</script>
+
+<p>And the average value of the above expression is</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\left<v(t)\right> =v(0)e^{-\frac{\gamma t}{m}} %]]></script>
+
+<p>The expectation value of $v^2(t)$ is</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\left<v^2(t)\right> = v_0^2 e^{-\frac{2\gamma t}{m}}+\frac{q}{2\gamma m}\left(1-e^{-\frac{2\gamma t}{m}}\right) %]]></script>
+
+<p>For large $t$, it reduces to</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\left<v^2(\infty)\right> =\frac{q}{2\gamma m} %]]></script>
+
+<p>From the <strong>equipartition</strong> theorem we also know $\left&lt;v^2\right&gt;=k_B T/m$, so</p>
+
+<script type="math/tex; mode=display">q=2\gamma k_B T</script>
+
+<p><strong>Velocity autocorrelation</strong>:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\left<v(t)v(t+\tau)\right> = \left<v^2(0)\right> e^{-\frac{\gamma \vert \tau\vert }{m}} %]]></script>
+
+<hr />
+
+<p>Position:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\left<x^2(t)\right>=2\left<v^2\right> \frac m\gamma \left[t+\frac m \gamma \left(e^{-\frac{\gamma t}{m}}-1\right)\right] %]]></script>
+
+<p>For large $t$, take the exponential term to be 0. Compare that result with the diffusion behavior $\left&lt;x^2(t)\right&gt;=2Dt$, we get the <strong>Einstein relation</strong>:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+D=\left<v^2\right> \frac m\gamma = \frac{k_B T}{\gamma} %]]></script>
+
+<hr />
+
+<p><strong>Fick’s law</strong>:</p>
+
+<script type="math/tex; mode=display">j_\text{diff} = -D\nabla \rho (\mathbf{r},t)</script>
+
+<p>$j_\text{diff}$ is the flux due to diffusion, and $\rho$ is the particle density. $D$ is the diffusion constant above.</p>
+
+<p>When stationary, $\mathbf{v}=\mathbf{F}/\gamma$, thus the drift flux due to a driving force is</p>
+
+<script type="math/tex; mode=display">j_\text{drift}= \rho(\mathbf{r},t)\mathbf{v}(\mathbf{r},t) =\rho(\mathbf{r},t)\frac{\mathbf{F}(\mathbf{r},t)}{\gamma}</script>
+
+<p><strong>Continuity equation</strong>:</p>
+
+<script type="math/tex; mode=display">\frac{\partial}{\partial t}\rho (\mathbf{r},t) +\nabla \cdot j_\text{total}(\mathbf{r},t)=0</script>
+
+<p>When $F=0$, use the continuity equation and Fick’s law to get the <strong>diffusion equation</strong>:</p>
+
+<script type="math/tex; mode=display">\frac{\partial \rho}{\partial t} =\nabla \cdot (D\nabla \rho)</script>
+
+<hr />
+
+<p>Fokker-Planck equation: $P\propto \rho$</p>
+
+<script type="math/tex; mode=display">\frac{\partial P}{\partial t}=\gamma v\frac{\partial P}{\partial v} + \gamma k_B T \frac{\partial^2 P}{\partial v^2}</script>
+
+<p>Stationary condition $\partial P/\partial t=0$ will lead to the Maxwell distribution:</p>
+
+<script type="math/tex; mode=display">P\propto e^{-\frac{mv^2}{2k_B T}}</script>
+
+<h2 id="wiener-kintchine-theorem">Wiener-Kintchine theorem</h2>
+
+<p>$A(t)$ is a time-dependent random variable. $K(s)$ is the <strong>autocorrelation function</strong>, defined as</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+K(s) \equiv \left<A(t)A(t+s)\right> = \lim_{T\rightarrow \infty} \frac{1}{T} \int_0^T A(t)A(t+s)dt %]]></script>
+
+<p>It has the property $K(s)=K(-s)$.</p>
+
+<p>The Fourier transform of $A(t)$ is</p>
+
+<script type="math/tex; mode=display">\tilde{A} (\omega) = \frac{1}{\sqrt{T}}\int_0^T A(t)e^{i\omega t}dt</script>
+
+<p>(from now on taking the limit $T\rightarrow \infty$ is implicitly assumed.)</p>
+
+<p>The <strong>spectral density</strong> is defined as</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+S(\omega)=\left<\tilde{A}(\omega) \tilde{A}^*(\omega) \right> %]]></script>
+
+<p><strong>Wiener-Kintchine theorem</strong>: the autocorrelation and spectral density are Fourier transform pairs.</p>
+
+<script type="math/tex; mode=display">S(\omega)=\int_{-\frac{T}{2}}^\frac{T}{2} K(s)e^{-i\omega s}ds \equiv \tilde{K}(\omega)</script>
+
+<hr />
+
+<p>Apply it to the Langevin equation. Let $R(t)$ be a non-Gaussian random variable</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\left<R(t_1)R(t_2)\right>=K_F(t_2-t_1) %]]></script>
+
+<p>Using the equipartition theorem we have</p>
+
+<script type="math/tex; mode=display">\tilde{K}_F(0)=2\gamma k_B T</script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\left<v(0)v(t)\right>=\frac{k_B T}{m}e^{-\frac{\gamma \vert t\vert }{m}} %]]></script>
+
+<p>The power spectrum is then</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\left<\vert v(\omega)\vert ^2\right> = \frac{2k_B T}{\gamma}\frac{1}{1+\left(\frac{\omega m}{\gamma}\right)^2} %]]></script>
+
+  </div>
+</article>
+
+</body>
+</html>

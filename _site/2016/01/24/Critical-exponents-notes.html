@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Gaberber</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i|Open+Sans+Condensed:300,300i,700' rel='stylesheet' type='text/css'>
+
+  <!-- MathJax -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+  </script>
+  <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+</head>
+<body>
+  <header style="background-image: url(/images/cover.jpg);">
+  <div class="container post-container">
+    <a href="/" class="home_button"></a>
+    <div class="inner-container">
+      <h1>Renormalization notes</h1>
+      <ul class="meta">
+        <li>
+          <span>
+            Published
+          </span>
+          24 Jan 2016
+        </li>
+        <li>
+          <span>
+            Category
+          </span>
+          
+        </li>
+      </ul>      
+    </div>
+    <ul class="pagination">
+      
+        <li class="previous">
+          <a href="/2015/12/29/vienna.html">
+            Previous
+          </a>
+        </li>
+      
+      
+      <li class="next">
+        <a href="/2016/01/24/Gaussian-model-notes.html">
+          Next
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</header>
+
+<article>
+  <div class="container">
+    <h2 id="critical-exponents-and-renormalization">Critical exponents and renormalization</h2>
+
+<p>Reduced temperature:</p>
+
+<script type="math/tex; mode=display">t=\frac{T-T_c}{T_c}</script>
+
+<h3 id="for-the-ising-model">For the Ising model:</h3>
+
+<p>Specific free energy $f(h,T)=F(h,T)/N$, $F(h,T)=-k_B T \ln Z$.</p>
+
+<p>Order parameter: $m$ (magnetization).</p>
+
+<p>Specific heat:</p>
+
+<script type="math/tex; mode=display">C \propto \frac{\partial^2 f}{\partial T^2}</script>
+
+<p>Source magnetic field: $h$.</p>
+
+<p>Susceptibility:</p>
+
+<script type="math/tex; mode=display">\chi = \frac{\partial m}{\partial h}</script>
+
+<p>Correlation length: $\xi$</p>
+
+<p>Spatial dimension: $d$</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Greek letter</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$\alpha$</td>
+      <td>$C \propto t^{-\alpha}$</td>
+    </tr>
+    <tr>
+      <td>$\beta$</td>
+      <td>$m\propto (-t)^\beta$</td>
+    </tr>
+    <tr>
+      <td>$\gamma$</td>
+      <td>$\chi \propto t^{-\gamma}$</td>
+    </tr>
+    <tr>
+      <td>$\delta$</td>
+      <td>$m\propto h^{-\delta}$</td>
+    </tr>
+    <tr>
+      <td>$\nu$</td>
+      <td>$\xi=t^{-\nu}$</td>
+    </tr>
+    <tr>
+      <td>$\eta$</td>
+      <td>$\langle m(0)m(\mathbf{r})\rangle\propto r^{-d+2-\eta}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="scaling-laws">Scaling laws:</h3>
+
+<script type="math/tex; mode=display">\alpha + 2\beta + \gamma = 2</script>
+
+<script type="math/tex; mode=display">\gamma = \beta (\delta -1)</script>
+
+<script type="math/tex; mode=display">\frac{\gamma}{\nu}=2-\eta</script>
+
+<script type="math/tex; mode=display">2-\alpha=d\nu</script>
+
+<p>Among these 6 critical exponents, only 2 are free (we have 4 constraints).</p>
+
+<h3 id="scaling-dimensions">Scaling dimensions</h3>
+
+<p>If we perform a renormalization transform, the parameters in the Hamiltonian change from $J,K,h,\dots$ to $J’,K’,h’,\dots$. We can write out this mathematical relation between these two sets of parameters and Taylor expand it around the fixed (critical) point:</p>
+
+<script type="math/tex; mode=display">\left[\begin{matrix}\Delta J' \\ \Delta K' \\ \Delta h'\end{matrix}\right]=A \left[\begin{matrix}\Delta J \\ \Delta K \\ \Delta h\end{matrix}\right]</script>
+
+<p>and then diagonalize $A$.</p>
+
+<p>Among all the eigenvalues and eigenvectors of $A$, some $\lambda_i&gt;1$ and thus a little deviation from the fixed point along the direction of this eigenvector will be enlarged after each iteration of renormalization transform. These are called <em>relevant</em> eigenvalues. Some $\lambda_i &lt;1$ and deviation from the fixed point along this direction will be shrinked back to it. These are called <em>irrelevant</em>. Those $\lambda_i=1$ are called <em>marginal</em>.</p>
+
+<p>Each RG transformation changes the lattice constant from $a$ to $la$, and thus we write each eigenvalue of $A$ as $\lambda_i=l^{z_i}$. These $z_i$’s are called <strong>scaling dimensions</strong>. A scaling dimension is <strong>relevant</strong> if it is positive, since we always have $l&gt;1$.</p>
+
+<p>On the flow diagram, each normalization takes us farther away from the critical point along the <em>relevant</em> eigenvector direction (the critical point is a <em>repelling</em> fixed point along this direction) and brings us closer to the critical point along the <em>irrelevant</em> eigenvector direction (the critical point is an <em>attractive</em> fixed point along this direction). As for the <em>marginal</em> case,  the fixed point lies on a line of critical points – a <em>critical line</em>.</p>
+
+<p><img src="http://gaberber.github.io/images/flow-diagram.png" alt="flow diagram" /></p>
+
+<h3 id="homogeneity">Homogeneity</h3>
+
+<p>How do we obtain the relationship between the scaling dimensions and critical exponents? By arguments of homogeneity, the most important ones of which are the physical observations that</p>
+
+<ul>
+  <li>after each RG transform, the correlation length $\xi(J’,K’)=\xi(J,K)/l$ (because if we use coarse grains or decimate intermediate lattice sites, the absolute correlation length remains the same but under the new model with new parameters it should be measured in the new lattice constant $la$);</li>
+  <li>and the unit free energy $f=F/N$ becomes $f(J’,K’)=l^d f(J,K)$ (because the partition function remains the same for the old and new models and thus a simple relation between the old and new numbers of sites lead to this conclusion).</li>
+</ul>
+
+<p>Furthermore, since we have diagonalized the transformation matrix $A$, the matrix $A^n$ (i.e. applying the renormalization transformation for $n$ times) is still diagonal and has eigenvalues $\lambda_i(l^n)=\lambda_i^n(l)$.</p>
+
+<h3 id="use-renormalization-to-obtain-ritical-exponents">Use renormalization to obtain ritical exponents</h3>
+
+<p>Starting from these homogeneity relations, we can use some tricks (by starting from a point very close to the fixed point and performing the RG transformations many times so that the component along the irrelevant eigenvector shrinks back to 0 and the relevant component becomes 1) to show that</p>
+
+<script type="math/tex; mode=display">\xi(l^{ny}s,l^{nz}t)=\frac{\xi(s,t)}{l^n}</script>
+
+<p>and then</p>
+
+<script type="math/tex; mode=display">\xi(s,t)\propto t^{-\frac{1}{z}}\xi(0,1)</script>
+
+<p>$s, t$ are the component of $[\Delta J, \Delta K]$ in the shrinking eigenvector and growing eigenvector directions, respectively. $y, z$ are their respective scaling dimensions. $y$ is irrelevant and $z$ is relevant. From the flow diagram, we recognize this $t$ here to be proportional to our usual $t$, the reduced critical temperature $(T-T_c)/T_c$: $\hat{s}$ is the shrinking eigenvector because the stability line has the critical point as its <em>stable fixed point</em>, i.e. each iteration ends there, while $\hat{t}$ is along the perpendicular direction and magnifies any deviation from the stability line – this is the same as $J,K$ going toward either the higher temperature or lower temperature direction. (See analysis on the flow diagram at the beginning in the notes.) Thus we have $\xi\propto t^{-1/z}$. This means</p>
+
+<script type="math/tex; mode=display">\nu=1/z</script>
+
+<p>Note that $z$ is a characterizing number that can be calculated from the renormalization transform procedure (by diagonalizing $A$). We have thus obtained our first critical exponent. From similar arguments, we can derive $\beta=(d-v)/z$ ($v$ is another relevant scaling dimension that’s related to the magnetic field $h$) and then all the scaling laws above.</p>
+
+<h3 id="universality">Universality</h3>
+
+<p>Because only the relevant scaling dimensions determine the system’s critical behavior, adding/removing/changing terms that only involve irrelevant scaling dimensions will not change the critical exponents, etc. at all. Thus a whole class of Hamiltonians having the same relevant terms (but different irrelevant terms) all exhibit the same critical behaviors. This phenomenon is called universality. These Hamiltonians belong to one <em>universality class</em>.</p>
+
+  </div>
+</article>
+
+</body>
+</html>
