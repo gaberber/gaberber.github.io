@@ -370,7 +370,7 @@ ul.posts p {
 /* My modifications - Gaberber */
 
 code {
-	font-family:"Menlo", "Consolas", "Courier", monospace;
+	font-family:"SF Mono", "Menlo", "Consolas", "Courier", monospace;
 	background-color:#f8f8ff;
 	color:#444;
 	padding:0 .2em;
