@@ -6,3 +6,4 @@ permalink: /about/
 
 「未經審視的生活是不值得過的」/「過度審視的生活是過不下去的（credit: [@chuhan](https://twitter.com/chuhan)）」
 
+Twitter: [@gaberberw](https://twitter.com/gaberberw)
