@@ -2,13 +2,18 @@
 layout: post
 title:  "Adv QM presentation formulae"
 date:   2016-05-04 19:37:00
+published: false
 ---
 
 Advanced quantum mechanics: a path to path integral
 
-$$\newcommand{\ket}[1]{| #1 \rangle}$$
+$$
+\newcommand{\ket}[1]{| #1 \rangle}
+$$
 
-$$\newcommand{\bra}[1]{\langle #1 |}$$
+$$
+\newcommand{\bra}[1]{\langle #1 |}
+$$
 
 $$
 \hat{U}(t_f, t_0) = \lim_{dt\rightarrow 0} \prod_i \hat{U}(t_i + dt, t_i)

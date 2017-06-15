@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>EBPG CAD | Gaberber</title>
+	<meta name="description" content="EBPG commands quick lookup">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://localhost:4000/2016/08/25/EBPG-CAD.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Gaberber" href="http://localhost:4000/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i|Montserrat+Alternates:400,400i" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	
+	<!-- MathJax, added by Gaberber to replace KaTeX used by the theme by default -->
+	<!-- script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script -->
+
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<h1 class="site-title">
+			<a href="/">Gaberber</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+<li>
+	<a href="http://localhost:4000/feed.xml" title="Follow RSS feed">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="http://instagram.com/gaberber" title="Follow on Instagram">
+		<i class="fa fa-fw fa-instagram"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/gaberberw" title="Follow on Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">EBPG CAD</h1>
+    <p class="meta">
+    August 25, 2016
+    
+    </p>
+  </header>
+  <section class="post-content"><h2 id="ebpg-commands-quick-lookup">EBPG commands quick lookup</h2>
+
+<h3 id="0-transfer-dxf-file-to-tu-delft-server">0. Transfer <code class="highlighter-rouge">.DXF</code> file to TU Delft server</h3>
+
+<p>Protocol: <code class="highlighter-rouge">SFTP</code></p>
+
+<p>Server: <code class="highlighter-rouge">sftp.tudelft.nl</code></p>
+
+<p>Username: <code class="highlighter-rouge">NetID</code></p>
+
+<p>Password: <code class="highlighter-rouge">NetID password</code></p>
+
+<h3 id="1-transfer-dxf-file-to-pegasus">1. Transfer <code class="highlighter-rouge">.DXF</code> file to Pegasus</h3>
+
+<p>Protocol: <code class="highlighter-rouge">SFTP</code></p>
+
+<p>Server: <code class="highlighter-rouge">pegasus.kavli.tudelft.nl</code></p>
+
+<p>Username: <code class="highlighter-rouge">cad</code></p>
+
+<p>Password: <code class="highlighter-rouge">&amp;KN-lab</code></p>
+
+<h3 id="2-use-layout-beamer-on-pegasus-to-export-to-gpf-files">2. Use Layout Beamer on Pegasus to export to GPF files</h3>
+
+<p>Protocol: <code class="highlighter-rouge">SSH</code></p>
+
+<p>Server: <code class="highlighter-rouge">pegasus.kavli.tudelft.nl</code></p>
+
+<p>Username: <code class="highlighter-rouge">cad</code></p>
+
+<p>Password: <code class="highlighter-rouge">&amp;KN-lab</code></p>
+
+<p>Command: <code class="highlighter-rouge">LB</code></p>
+
+<p>Import DXF -&gt; Extract (one layer each) -&gt; Heal (resolve overlay in patterns) -&gt; Export</p>
+
+<p><strong>Export</strong>: estimate the <em>beam step size</em> according to the desired <em>beam spot size</em> for each layer as <script type="math/tex">\text{step size} = \text{spot size}/1.5</script> (resolution=beam step size).</p>
+
+<p>Beam spot sizes of each beam can be found by logging onto the EBPG computer and use command <code class="highlighter-rouge">fegmode estimate</code>. E.g. for pads we can use the largest beam spot size. On EBPG5200 this is 132nm so we can set the beam step size to be 88nm (=132nm/1.5). Similarly we can use the 30nm beam for coarse features (and thus 20nm step size) and for the smallest fine features we can set the beam step size to be 2nm and use the 3nm beam.</p>
+
+<p>Then use <code class="highlighter-rouge">putp</code> or <code class="highlighter-rouge">putp5200</code> to transfer the <code class="highlighter-rouge">GPF</code> files to the EBPG computer. Use the wild card to save time in the following way:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>putp5k 20160824\*.gpf
+putp5200 20160824\*.gpf
+</code></pre>
+</div>
+
+<p>This will transfer all <code class="highlighter-rouge">GPF</code> files with names beginning with <code class="highlighter-rouge">20160824</code> to the old EBPG.</p>
+
+<h3 id="3-use-cjob-on-the-ebpg-computers">3. Use <code class="highlighter-rouge">CJOB</code> on the EBPG computers</h3>
+
+<p>Protocol: <code class="highlighter-rouge">SSH</code></p>
+
+<p>Server: <code class="highlighter-rouge">epic-beta.kavli.tudelft.nl</code> / <code class="highlighter-rouge">epic-alfa.kavli.tudelft.nl</code></p>
+
+<p>Username: <code class="highlighter-rouge">pg</code></p>
+
+<p>Password: <code class="highlighter-rouge">pg5200@Delft</code> / <code class="highlighter-rouge">pg5000@Delft</code></p>
+
+<p>Command: <code class="highlighter-rouge">cjob</code></p>
+
+<p>Open an example <code class="highlighter-rouge">CJOB</code> file and modify the corresponding parts.</p>
+
+<p>For each <em>exposure</em> we specify four markers. For different exposures different markers should be used.</p>
+
+<p>Be sure to select the correct file, beam and dose.</p>
+
+<p>Finally export each exposure as a <code class="highlighter-rouge">.job</code> file.</p>
+
+<h3 id="4-things-to-check">4. Things to check</h3>
+
+<ul>
+  <li>Specify markers to use for <em>both exposures  and patterns (<code class="highlighter-rouge">gpf</code>’s)</em>. And they must be the same.</li>
+  <li>The exposure marker type is <code class="highlighter-rouge">measure map</code>.</li>
+  <li>Select <code class="highlighter-rouge">Keystones</code> in the pattern marker specification.</li>
+</ul>
+</section>
+</article>
+
+<!-- Post navigation -->
+
+
+<!-- Disqus -->
+
+
+<!-- Muut -->
+
+    </div>
+    
+<!-- The next line is commented out by Gaberber and replaced with the script below -->
+<!-- script src="/js/katex_init.js"></script -->
+
+<!-- The following two scripts are added by Gaberber as instructed in https://github.com/gettalong/kramdown/issues/292 
+The first line includes jQuery.
+The next script replaces the MathJax commands generated by kramdown with KaTeX rendering results. -->
+<script src="/js/jquery-3.2.1.min.js"></script>
+ <script>
+   $("script[type='math/tex']").replaceWith(function() {
+       var tex = $(this).text();
+       // replace() here is due to CDATA wrapper (#224). KaTeX chokes on the % character,
+       // which is unfortunate (and should probably be reported).
+       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: false});
+   });
+
+   $("script[type='math/tex; mode=display']").replaceWith(function() {
+       var tex = $(this).html();
+       // replace() here is due to CDATA wrapper (#224). KaTeX chokes on the % character,
+       // which is unfortunate (and should probably be reported).
+       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+   });
+ </script>
+
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+</p>
+</footer>
+
+
+
+  </body>
+</html>

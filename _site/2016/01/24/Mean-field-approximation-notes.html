@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Mean Field Approximation notes | Gaberber</title>
+	<meta name="description" content="Ising model Hamiltonian:">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://localhost:4000/2016/01/24/Mean-field-approximation-notes.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Gaberber" href="http://localhost:4000/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i|Montserrat+Alternates:400,400i" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	
+	<!-- MathJax, added by Gaberber to replace KaTeX used by the theme by default -->
+	<!-- script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script -->
+
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<h1 class="site-title">
+			<a href="/">Gaberber</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+<li>
+	<a href="http://localhost:4000/feed.xml" title="Follow RSS feed">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="http://instagram.com/gaberber" title="Follow on Instagram">
+		<i class="fa fa-fw fa-instagram"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/gaberberw" title="Follow on Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Mean Field Approximation notes</h1>
+    <p class="meta">
+    January 24, 2016
+    
+    </p>
+  </header>
+  <section class="post-content"><p>Ising model Hamiltonian:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+H=-K\sum_{<ij>}s_i s_j - h\sum_i s_i %]]></script>
+
+<h2 id="mean-field-approximation">Mean Field Approximation</h2>
+
+<h3 id="derivation-of-mean-field-hamiltonian">Derivation of Mean Field Hamiltonian</h3>
+
+<p>Use a <strong>global macroscopic</strong> ensemble average <script type="math/tex">m=\langle \sum_i s_i \rangle/N</script> to approximate the <strong>microscopic</strong> surrounding environment of each site:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+H=-K\sum_{<ij>} (m+\delta s_i)(m+\delta s_j) - h\sum_i s_i %]]></script>
+
+<p>Abandon the <script type="math/tex">\sum \delta s_i \delta s_j</script> terms because they are second-order infinitesimals.</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+H\approx -K\sum_{<ij>} m(\delta s_i+\delta s_j) - K\sum_{<ij>}m^2 - h\sum_i s_i %]]></script>
+
+<p>Revert to notation <script type="math/tex">\delta s_i \equiv s_i-m</script> again. Let <script type="math/tex">q</script> be the number of nearest neighbors each site has (e.g. <script type="math/tex">q=2^d</script> for square lattices, where <script type="math/tex">d</script> is the dimension). Note that there are <script type="math/tex">qN/2</script> pairs of nearest neighbors in total. Thus <script type="math/tex">% <![CDATA[
+\sum_{<ij>} s_i=\frac{q}{2}\sum_i s_i %]]></script>.</p>
+
+<script type="math/tex; mode=display">\therefore H_\text{MFA}=-(Kqm+h)\sum_i s_i +\frac12 NKqm^2</script>
+
+<p>This is our mean field Hamiltonian.</p>
+
+<h3 id="mean-field-partition-function-and-free-energy">Mean field partition function and free energy</h3>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}Z_\text{MFA}&=\sum_{\{s_i=\pm1\}} e^{-\beta H_\text{MFA}}=e^{-\frac12 \beta KNqm^2} \prod_i \sum_{s_i=\pm1}e^{\beta (Kqm+h)s_i} \\ &=e^{-\frac12 \beta KNqm^2} 2^N \cosh^N \beta(Kqm+h)\end{aligned} %]]></script>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}F_\text{MFA}/N&=-\frac{k_B T}{N}\ln Z_\text{MFA} \\ &=\frac{Kqm^2}{2} -k_B T\ln [2\cosh \beta(Kqm+h)]\end{aligned} %]]></script>
+
+<p>Note that <script type="math/tex">m</script> is not in fact a parameter here. If the <em>real</em> parameters <script type="math/tex">T, K, h</script> are fixed, then <em>they determine what value <script type="math/tex">m</script> is!</em> (Remember the definition of <script type="math/tex">m</script> – it’s an ensemble average.)</p>
+
+<h3 id="self-consistency-relation">Self-consistency relation</h3>
+
+<p>We haven’t figured out the value of <script type="math/tex">m</script> yet. This is done by solving a self-consistency equation, because the expression used to obtain <script type="math/tex">m</script> (the partition function) contains <script type="math/tex">m</script> itself. There are two (similar) ways to obtain the self-consistency relation.</p>
+
+<p>First, we can make use of the MFA Hamiltonian above:</p>
+
+<script type="math/tex; mode=display">m=\frac{1}{N}\langle \sum_i s_i \rangle=\frac{1}{N} \sum_i \langle s_i \rangle = \langle s_i \rangle</script>
+
+<script type="math/tex; mode=display">\therefore m=\frac{\sum_{s_i=\pm 1}s_i e^{\beta (Kqm+h)s_i}}{\sum_{s_i=\pm 1} e^{\beta (Kqm+h)s_i}}=\tanh \beta (Kqm+h)</script>
+
+<p>The summation extends only to <script type="math/tex">s_i</script> because everything else factors out and cancels.</p>
+
+<p>The second (easier) way is to start from the original Ising Hamiltonian, and separate it into two parts: terms containing <script type="math/tex">s_i</script> (which we denote by <script type="math/tex">H_i</script> and terms that do not contain <script type="math/tex">s_i</script> (which we denote as <script type="math/tex">H_{0i}</script>). Obviously <script type="math/tex">% <![CDATA[
+H_i=-K\sum_{<j>}s_i s_j - h s_i %]]></script> where the sum is over the <script type="math/tex">q</script> nearest neighbors of <script type="math/tex">i</script>. Next, neglect the fluctuations of the surrounding environment: replace each <script type="math/tex">s_j</script> with a global average <script type="math/tex">m</script>. Now <script type="math/tex">H_i \approx -(Kqm+h)s_i</script>. We then proceed to write out <script type="math/tex">Z</script> and note that the <script type="math/tex">e^{-\beta H_{0i}}</script> contributions factor out and cancel each other and what’s left is easily shown to be the same expression as above.</p>
+
+<p>So this is the self-consistency relation:</p>
+
+<script type="math/tex; mode=display">m=\tanh \beta(Kqm+h)</script>
+
+<p>Solving this equation (numerically) will tell us the value of <script type="math/tex">m</script>.</p>
+
+<p>When <script type="math/tex">h=0</script>, it becomes:</p>
+
+<script type="math/tex; mode=display">m=\tanh \beta Kqm</script>
+
+<p>This equation has either one or three solutions. The separating point between these two is <script type="math/tex">\beta Kq=1</script>, when <script type="math/tex">y=x</script> and <script type="math/tex">y=\tanh \beta Kqx</script> are tangent to each other at the origin. This is the critical point:</p>
+
+<script type="math/tex; mode=display">\frac{Kq}{k_B T_c}=1</script>
+
+<p>Above <script type="math/tex">T_c</script>, there is only one solution <script type="math/tex">m=0</script>. Below <script type="math/tex">T_c</script>, there are three solutions but <script type="math/tex">m=0</script> is unstable (a local maximum, as we will see later in the Landau theory). The positive and negative values are the two symmetrical values <script type="math/tex">m</script> can assume with no preference over any one.</p>
+
+<p><img src="http://gaberber.github.io/images/B=0.svg" alt="" /></p>
+
+<p>As shown in the plot, at the critical point, there is a clear “sudden change” (<script type="math/tex">\partial m/\partial h</script> is discontinuous), i.e. phase transition. <script type="math/tex">m</script> itself is a derivative of the free energy <script type="math/tex">F</script>, so this is a second-order phase transition. If we gradually lower the temperature from above <script type="math/tex">T_c</script> to below <script type="math/tex">T_c</script>, since there are two equally favored states, the system will spontaneously enter one of them. This is a <strong>spontaneous symmetry breaking</strong>. It is often associated with <strong>degenerate ground states</strong> (<script type="math/tex">m=\pm1</script> are perfectly symmetric when <script type="math/tex">T=0</script>).</p>
+
+<p>If <script type="math/tex">h\ne 0</script>, there is no phase transition. Although in some cases there are three roots of the self-consistency equation, the middel one is still unstable and the one that has an opposite sign of <script type="math/tex">h</script> is <em>metastable</em>. In Landau theory, it’s a local minimum but higher than the other global minumum. It wants to flip its sign and assume the true stable value if opportunity arises. (But note that if this flip occurs, e.g. when we raise temperature so that the metastable root is no longer there and we only have one stable root, this is a 1st order phase transition because <script type="math/tex">m</script> itself is discontinuous.) We plot <script type="math/tex">m</script> under different values of <script type="math/tex">\mid h \mid</script> and see that indeed there is no “sudden change”. (The upper curve is the stable value for <script type="math/tex">h>0</script> and the lower curve for <script type="math/tex">% <![CDATA[
+h<0 %]]></script>.)</p>
+
+<p><img src="http://gaberber.github.io/images/B=1e-3.svg" alt="" />
+<img src="http://gaberber.github.io/images/B=1e-1.svg" alt="" />
+<img src="http://gaberber.github.io/images/B=10.svg" alt="" /></p>
+
+<p>Stable and metastable states under the same <script type="math/tex">h>0</script>:</p>
+
+<p><img src="http://gaberber.github.io/images/metastable.svg" alt="" /></p>
+
+<h3 id="critical-exponents">Critical exponents</h3>
+
+<p>There are 6 critical exponents: <script type="math/tex">\alpha, \beta, \gamma, \delta,\nu, \eta</script>. We can obtain the first four from the MFA method.</p>
+
+<script type="math/tex; mode=display">t\equiv (T-T_c)/T_c</script>
+
+<h4 id="alpha-heat-capacity"><script type="math/tex">\alpha</script>: heat capacity</h4>
+
+<script type="math/tex; mode=display">C\propto \frac{\partial^2 F}{\partial t^2}</script>
+
+<p><script type="math/tex">C \propto t^{-\alpha}</script> near <script type="math/tex">T_c</script>.</p>
+
+<p>We already have the mean field <script type="math/tex">F</script>. Use that to differentiate twice w.r.t <script type="math/tex">T</script> and we will see that <script type="math/tex">C \propto</script> constant, i.e. <script type="math/tex">\alpha=0</script>. This can be done much more easily later using the Landau theory.</p>
+
+<h4 id="beta-m-and-temperature"><script type="math/tex">\beta</script>: <script type="math/tex">m</script> and temperature</h4>
+
+<p><script type="math/tex">m\propto \vert t\vert^{\beta}</script> near <script type="math/tex">T_c</script> (but below it).</p>
+
+<p>Use the self-consistenty relation and Taylor expand <script type="math/tex">\tanh x \approx x-x^3/3</script> because <script type="math/tex">m \rightarrow 0</script>. Then</p>
+
+<script type="math/tex; mode=display">m=\beta Kqm-\frac{(\beta Kqm)^3}{3}</script>
+
+<p>Solve for <script type="math/tex">m</script> and note that <script type="math/tex">1=\beta_c Kq</script>. We obtain <script type="math/tex">m^2\propto (\beta-\beta_c) \propto (T_c-T)</script>. So <script type="math/tex">\beta=1/2</script>.</p>
+
+<h4 id="delta-m-and-h"><script type="math/tex">\delta</script>: <script type="math/tex">m</script> and <script type="math/tex">h</script></h4>
+
+<p><script type="math/tex">m\propto h^{\delta}</script>.</p>
+
+<p>These are <em>critical exponents</em>, we only care about temperatures near criticality. Since there is no criticality for nonzero <script type="math/tex">h</script>, we directly set <script type="math/tex">T=T_c</script> i.e. <script type="math/tex">\beta Kq=1</script> : <script type="math/tex">m=\tanh (m+\beta h)</script>. <script type="math/tex">\therefore \tanh^{-1} m =m+\beta h</script>. Next Taylor expand <script type="math/tex">\tanh^{-1}</script> and it’s easily seen that <script type="math/tex">m^3\propto h</script>. So <script type="math/tex">\delta=1/3</script>.</p>
+
+<h4 id="gamma-partial-mpartial-h-and-t"><script type="math/tex">\gamma</script>: <script type="math/tex">\partial m/\partial h</script> and <script type="math/tex">t</script></h4>
+
+<p>Susceptibility <script type="math/tex">\xi \propto \frac{\partial m}{\partial h} \big\vert_{h=0}\propto t^{-\gamma}</script>.</p>
+
+<p>Again let <script type="math/tex">T\rightarrow T_c</script> and <script type="math/tex">h\rightarrow 0</script> both from above. Take the derivative over <script type="math/tex">h</script> in the original self-consistency relation. Note that <script type="math/tex">m=0</script> for <script type="math/tex">T>T_c</script>. We can show that <script type="math/tex">\xi \propto t^{-1}</script>, so <script type="math/tex">\nu=1</script>.</p>
+
+<h3 id="switching-to-landau-theory">Switching to Landau theory</h3>
+
+<p>In fact, it’s quite hard to obtain <script type="math/tex">\gamma</script> and <script type="math/tex">\alpha</script> from the MFA directly, and downright impossible to get <script type="math/tex">\eta</script> and <script type="math/tex">\nu</script>. However in the upcoming Landau theory, we only need to obtain an expression for <script type="math/tex">\beta</script> and show that the parameter there has <script type="math/tex">r_0 \propto t</script>, and then <script type="math/tex">\alpha</script> and <script type="math/tex">\gamma</script> can be calculated easily. <script type="math/tex">\eta</script> and <script type="math/tex">\nu</script> takes more work and the Landau-Ginzburg theory must be used for them.</p>
+
+<p>However, Landau theory is equivalent to MFA and they both yield not so good (although indeed the same) results for lower dimensions.</p>
+
+<h3 id="why-does-mfa-fail-miserably-for-1-2-and-3-dimensions">Why does MFA fail miserably for 1, 2, and 3 dimensions?</h3>
+
+<p>Because we used a macroscopic average to replace the interaction between a particular site and its nearest neighbors. In higher dimension, each site has many neighbors and the overall interaction between it and those neighbors will be quite close to the global average value. But in lower dimensions, each site has very few neighbors and the fluctuations can cause the real scenario to deviate from a macroscopic average dramatically.</p>
+
+</section>
+</article>
+
+<!-- Post navigation -->
+
+
+<!-- Disqus -->
+
+
+<!-- Muut -->
+
+    </div>
+    
+<!-- The next line is commented out by Gaberber and replaced with the script below -->
+<!-- script src="/js/katex_init.js"></script -->
+
+<!-- The following two scripts are added by Gaberber as instructed in https://github.com/gettalong/kramdown/issues/292 
+The first line includes jQuery.
+The next script replaces the MathJax commands generated by kramdown with KaTeX rendering results. -->
+<script src="/js/jquery-3.2.1.min.js"></script>
+ <script>
+   $("script[type='math/tex']").replaceWith(function() {
+       var tex = $(this).text();
+       // replace() here is due to CDATA wrapper (#224). KaTeX chokes on the % character,
+       // which is unfortunate (and should probably be reported).
+       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: false});
+   });
+
+   $("script[type='math/tex; mode=display']").replaceWith(function() {
+       var tex = $(this).html();
+       // replace() here is due to CDATA wrapper (#224). KaTeX chokes on the % character,
+       // which is unfortunate (and should probably be reported).
+       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+   });
+ </script>
+
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+</p>
+</footer>
+
+
+
+  </body>
+</html>

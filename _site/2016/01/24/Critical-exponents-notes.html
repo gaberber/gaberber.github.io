@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Renormalization notes | Gaberber</title>
+	<meta name="description" content="Critical exponents and renormalization">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://localhost:4000/2016/01/24/Critical-exponents-notes.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Gaberber" href="http://localhost:4000/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i|Montserrat+Alternates:400,400i" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	
+	<!-- MathJax, added by Gaberber to replace KaTeX used by the theme by default -->
+	<!-- script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script -->
+
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<h1 class="site-title">
+			<a href="/">Gaberber</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+<li>
+	<a href="http://localhost:4000/feed.xml" title="Follow RSS feed">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="http://instagram.com/gaberber" title="Follow on Instagram">
+		<i class="fa fa-fw fa-instagram"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/gaberberw" title="Follow on Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Renormalization notes</h1>
+    <p class="meta">
+    January 24, 2016
+    
+    </p>
+  </header>
+  <section class="post-content"><h2 id="critical-exponents-and-renormalization">Critical exponents and renormalization</h2>
+
+<p>Reduced temperature:</p>
+
+<script type="math/tex; mode=display">t=\frac{T-T_c}{T_c}</script>
+
+<h3 id="for-the-ising-model">For the Ising model:</h3>
+
+<p>Specific free energy <script type="math/tex">f(h,T)=F(h,T)/N</script>, <script type="math/tex">F(h,T)=-k_B T \ln Z</script>.</p>
+
+<p>Order parameter: <script type="math/tex">m</script> (magnetization).</p>
+
+<p>Specific heat:</p>
+
+<script type="math/tex; mode=display">C \propto \frac{\partial^2 f}{\partial T^2}</script>
+
+<p>Source magnetic field: <script type="math/tex">h</script>.</p>
+
+<p>Susceptibility:</p>
+
+<script type="math/tex; mode=display">\chi = \frac{\partial m}{\partial h}</script>
+
+<p>Correlation length: <script type="math/tex">\xi</script></p>
+
+<p>Spatial dimension: <script type="math/tex">d</script></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Greek letter</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><script type="math/tex">\alpha</script></td>
+      <td><script type="math/tex">C \propto t^{-\alpha}</script></td>
+    </tr>
+    <tr>
+      <td><script type="math/tex">\beta</script></td>
+      <td><script type="math/tex">m\propto (-t)^\beta</script></td>
+    </tr>
+    <tr>
+      <td><script type="math/tex">\gamma</script></td>
+      <td><script type="math/tex">\chi \propto t^{-\gamma}</script></td>
+    </tr>
+    <tr>
+      <td><script type="math/tex">\delta</script></td>
+      <td><script type="math/tex">m\propto h^{-\delta}</script></td>
+    </tr>
+    <tr>
+      <td><script type="math/tex">\nu</script></td>
+      <td><script type="math/tex">\xi=t^{-\nu}</script></td>
+    </tr>
+    <tr>
+      <td><script type="math/tex">\eta</script></td>
+      <td><script type="math/tex">\langle m(0)m(\mathbf{r})\rangle\propto r^{-d+2-\eta}</script></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="scaling-laws">Scaling laws:</h3>
+
+<script type="math/tex; mode=display">\alpha + 2\beta + \gamma = 2</script>
+
+<script type="math/tex; mode=display">\gamma = \beta (\delta -1)</script>
+
+<script type="math/tex; mode=display">\frac{\gamma}{\nu}=2-\eta</script>
+
+<script type="math/tex; mode=display">2-\alpha=d\nu</script>
+
+<p>Among these 6 critical exponents, only 2 are free (we have 4 constraints).</p>
+
+<h3 id="scaling-dimensions">Scaling dimensions</h3>
+
+<p>If we perform a renormalization transform, the parameters in the Hamiltonian change from <script type="math/tex">J,K,h,\cdots</script> to <script type="math/tex">J',K',h',\cdots</script>. We can write out this mathematical relation between these two sets of parameters and Taylor expand it around the fixed (critical) point:</p>
+
+<script type="math/tex; mode=display">\left[\begin{matrix}\Delta J' \\ \Delta K' \\ \Delta h'\end{matrix}\right]=A \left[\begin{matrix}\Delta J \\ \Delta K \\ \Delta h\end{matrix}\right]</script>
+
+<p>and then diagonalize <script type="math/tex">A</script>.</p>
+
+<p>Among all the eigenvalues and eigenvectors of <script type="math/tex">A</script>, some <script type="math/tex">\lambda_i>1</script> and thus a little deviation from the fixed point along the direction of this eigenvector will be enlarged after each iteration of renormalization transform. These are called <em>relevant</em> eigenvalues. Some <script type="math/tex">% <![CDATA[
+\lambda_i <1 %]]></script> and deviation from the fixed point along this direction will be shrinked back to it. These are called <em>irrelevant</em>. Those <script type="math/tex">\lambda_i=1</script> are called <em>marginal</em>.</p>
+
+<p>Each RG transformation changes the lattice constant from <script type="math/tex">a</script> to <script type="math/tex">la</script>, and thus we write each eigenvalue of <script type="math/tex">A</script> as <script type="math/tex">\lambda_i=l^{z_i}</script>. These <script type="math/tex">z_i</script>’s are called <strong>scaling dimensions</strong>. A scaling dimension is <strong>relevant</strong> if it is positive, since we always have <script type="math/tex">l>1</script>.</p>
+
+<p>On the flow diagram, each normalization takes us farther away from the critical point along the <em>relevant</em> eigenvector direction (the critical point is a <em>repelling</em> fixed point along this direction) and brings us closer to the critical point along the <em>irrelevant</em> eigenvector direction (the critical point is an <em>attractive</em> fixed point along this direction). As for the <em>marginal</em> case,  the fixed point lies on a line of critical points – a <em>critical line</em>.</p>
+
+<p><img src="http://gaberber.github.io/images/flow-diagram.png" alt="flow diagram" /></p>
+
+<h3 id="homogeneity">Homogeneity</h3>
+
+<p>How do we obtain the relationship between the scaling dimensions and critical exponents? By arguments of homogeneity, the most important ones of which are the physical observations that</p>
+
+<ul>
+  <li>after each RG transform, the correlation length <script type="math/tex">\xi(J',K')=\xi(J,K)/l</script> (because if we use coarse grains or decimate intermediate lattice sites, the absolute correlation length remains the same but under the new model with new parameters it should be measured in the new lattice constant <script type="math/tex">la</script>);</li>
+  <li>and the unit free energy <script type="math/tex">f=F/N</script> becomes <script type="math/tex">f(J',K')=l^d f(J,K)</script> (because the partition function remains the same for the old and new models and thus a simple relation between the old and new numbers of sites lead to this conclusion).</li>
+</ul>
+
+<p>Furthermore, since we have diagonalized the transformation matrix <script type="math/tex">A</script>, the matrix <script type="math/tex">A^n</script> (i.e. applying the renormalization transformation for <script type="math/tex">n</script> times) is still diagonal and has eigenvalues <script type="math/tex">\lambda_i(l^n)=\lambda_i^n(l)</script>.</p>
+
+<h3 id="use-renormalization-to-obtain-ritical-exponents">Use renormalization to obtain ritical exponents</h3>
+
+<p>Starting from these homogeneity relations, we can use some tricks (by starting from a point very close to the fixed point and performing the RG transformations many times so that the component along the irrelevant eigenvector shrinks back to 0 and the relevant component becomes 1) to show that</p>
+
+<script type="math/tex; mode=display">\xi(l^{ny}s,l^{nz}t)=\frac{\xi(s,t)}{l^n}</script>
+
+<p>and then</p>
+
+<script type="math/tex; mode=display">\xi(s,t)\propto t^{-\frac{1}{z}}\xi(0,1)</script>
+
+<p><script type="math/tex">s, t</script> are the component of <script type="math/tex">[\Delta J, \Delta K]</script> in the shrinking eigenvector and growing eigenvector directions, respectively. <script type="math/tex">y, z</script> are their respective scaling dimensions. <script type="math/tex">y</script> is irrelevant and <script type="math/tex">z</script> is relevant. From the flow diagram, we recognize this <script type="math/tex">t</script> here to be proportional to our usual <script type="math/tex">t</script>, the reduced critical temperature <script type="math/tex">(T-T_c)/T_c</script>: <script type="math/tex">\hat{s}</script> is the shrinking eigenvector because the stability line has the critical point as its <em>stable fixed point</em>, i.e. each iteration ends there, while <script type="math/tex">\hat{t}</script> is along the perpendicular direction and magnifies any deviation from the stability line – this is the same as <script type="math/tex">J,K</script> going toward either the higher temperature or lower temperature direction. (See analysis on the flow diagram at the beginning in the notes.) Thus we have <script type="math/tex">\xi\propto t^{-1/z}</script>. This means</p>
+
+<script type="math/tex; mode=display">\nu=1/z</script>
+
+<p>Note that <script type="math/tex">z</script> is a characterizing number that can be calculated from the renormalization transform procedure (by diagonalizing <script type="math/tex">A</script>). We have thus obtained our first critical exponent. From similar arguments, we can derive <script type="math/tex">\beta=(d-v)/z</script> (<script type="math/tex">v</script> is another relevant scaling dimension that’s related to the magnetic field <script type="math/tex">h</script>) and then all the scaling laws above.</p>
+
+<h3 id="universality">Universality</h3>
+
+<p>Because only the relevant scaling dimensions determine the system’s critical behavior, adding/removing/changing terms that only involve irrelevant scaling dimensions will not change the critical exponents, etc. at all. Thus a whole class of Hamiltonians having the same relevant terms (but different irrelevant terms) all exhibit the same critical behaviors. This phenomenon is called universality. These Hamiltonians belong to one <em>universality class</em>.</p>
+</section>
+</article>
+
+<!-- Post navigation -->
+
+
+<!-- Disqus -->
+
+
+<!-- Muut -->
+
+    </div>
+    
+<!-- The next line is commented out by Gaberber and replaced with the script below -->
+<!-- script src="/js/katex_init.js"></script -->
+
+<!-- The following two scripts are added by Gaberber as instructed in https://github.com/gettalong/kramdown/issues/292 
+The first line includes jQuery.
+The next script replaces the MathJax commands generated by kramdown with KaTeX rendering results. -->
+<script src="/js/jquery-3.2.1.min.js"></script>
+ <script>
+   $("script[type='math/tex']").replaceWith(function() {
+       var tex = $(this).text();
+       // replace() here is due to CDATA wrapper (#224). KaTeX chokes on the % character,
+       // which is unfortunate (and should probably be reported).
+       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: false});
+   });
+
+   $("script[type='math/tex; mode=display']").replaceWith(function() {
+       var tex = $(this).html();
+       // replace() here is due to CDATA wrapper (#224). KaTeX chokes on the % character,
+       // which is unfortunate (and should probably be reported).
+       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+   });
+ </script>
+
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+</p>
+</footer>
+
+
+
+  </body>
+</html>

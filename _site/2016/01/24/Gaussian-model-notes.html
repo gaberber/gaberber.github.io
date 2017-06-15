@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Gaussian Model notes | Gaberber</title>
+	<meta name="description" content="The Gaussian model">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://localhost:4000/2016/01/24/Gaussian-model-notes.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Gaberber" href="http://localhost:4000/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i|Montserrat+Alternates:400,400i" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	
+	<!-- MathJax, added by Gaberber to replace KaTeX used by the theme by default -->
+	<!-- script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script -->
+
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<h1 class="site-title">
+			<a href="/">Gaberber</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+<li>
+	<a href="http://localhost:4000/feed.xml" title="Follow RSS feed">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="http://instagram.com/gaberber" title="Follow on Instagram">
+		<i class="fa fa-fw fa-instagram"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/gaberberw" title="Follow on Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Gaussian Model notes</h1>
+    <p class="meta">
+    January 24, 2016
+    
+    </p>
+  </header>
+  <section class="post-content"><h2 id="the-gaussian-model">The Gaussian model</h2>
+
+<p>We have previously obtained the critical exponents in the Landau-Ginzburg model from solving variational equations directly. Now we will see that it is (in some sense) easier to do a Fourier transform on the (simplified) Landau-Ginzburg Hamiltonian and obtain the same results using renormalization.</p>
+
+<p>We will see that the renormalization procedure in this model is very easy. Another advantage is that by switching to Fourier space, we can turn the function integral <script type="math/tex">\int D m(\mathbf{r})</script> –(continuously) infinitely many integrals – into a sum of integrals, because in Fourier space the <script type="math/tex">\mathbf{k}</script>’s are discrete. This is possible because <script type="math/tex">m(\mathbf{r})</script> resides in a function space that’s continuous/smooth enough, and doesn’t actually have as many degrees of freedom as the number of <script type="math/tex">\mathbf{r}</script>’s (uncountable infinite).</p>
+
+<h3 id="real-space-hamiltonian">Real-space Hamiltonian</h3>
+
+<p>Ignoring the fourth-order term, the Landau-Ginzburg Hamiltonian is (<script type="math/tex">d</script> is the dimension of the real-space system, <script type="math/tex">r_0</script> is the constant factor parameter and not related to the position vector <script type="math/tex">\mathbf{r}</script>):</p>
+
+<script type="math/tex; mode=display">\beta H=\int [(\nabla m(\mathbf{r}))^2+r_0m^2(\mathbf{r})]d^d \mathbf{r}</script>
+
+<p>Switch from a continuous <script type="math/tex">\mathbf{r}</script> to a discrete lattice subscripted by <script type="math/tex">i,j,\cdots</script></p>
+
+<p>Let <script type="math/tex">m_i</script> be a general order parameter on the lattice site denoted by <script type="math/tex">i</script>.</p>
+
+<p><script type="math/tex">m_i</script> can be visualized as the height of the stack of particles at site <script type="math/tex">i</script>. The Landau-Ginzburg Hamiltonian can be translated into its equivalent in the discrete lattice:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\beta H = \frac{J}{2} \sum_{<i,j>}(m_i-m_j)^2+r_0 m_i^2 %]]></script>
+
+<p>(Next we can take <script type="math/tex">J</script> to be 1 because of the irrelevance of a global prefactor multiplying both <script type="math/tex">J</script> and <script type="math/tex">r_0</script>. In this case, it is exactly equivalent to the continuous Hamiltonian.)</p>
+
+<p>This type of Hamiltonian can be interpreted as: 1) having a penalty for the heights <script type="math/tex">m_i</script> that take on different values than 0 (the <script type="math/tex">m_i^2</script> terms); and 2) having a penalty for neighboring heights taking on different values (the gradient or difference squared terms). Thus the lowest energy state is when every <script type="math/tex">m_i</script> is equal to 0.</p>
+
+<h3 id="fourier-transform">Fourier transform</h3>
+
+<p>Next, perform a discrete Fourier transform on <script type="math/tex">\{m_i\}</script>: (<script type="math/tex">N</script> is the number of sites on the lattice)</p>
+
+<script type="math/tex; mode=display">m_i=\frac{1}{\sqrt{N}}\sum_{\mathbf{q}}e^{i\mathbf{q}\cdot \mathbf{r}_i}m_\mathbf{q}</script>
+
+<p>It is easy to show that <script type="math/tex">m_{-\mathbf{q}}=m_{\mathbf{q}}^*</script></p>
+
+<p>Explicitly doing the Fourier transform on each term in the discrete Landau-Ginzburg type Hamiltonian gives us</p>
+
+<script type="math/tex; mode=display">\beta H=\frac12 \sum_{\mathbf{q}\in \text{BZ}}(q^2+r_0)m_{\mathbf{q}}m_{\mathbf{-q}}</script>
+
+<p>where <script type="math/tex">q=\vert \mathbf{q}\vert</script>.</p>
+
+<p>The first Brillouin Zone is <script type="math/tex">q_x,q_y,q_z,\cdots \in [-\pi/a,\pi/a]</script></p>
+
+<hr />
+
+<p>The Gaussian model has only 1 relevant parameter: <script type="math/tex">r_0</script>.</p>
+
+<h3 id="partition-function-integrating-in-k-space">Partition function: integrating in <script type="math/tex">k</script> space</h3>
+
+<p>If <script type="math/tex">m_\mathbf{q}</script> and <script type="math/tex">m_{-\mathbf{q}}</script> are truly independent, the partition function is given by (note that <script type="math/tex">m_\mathbf{q}</script> is complex and thus each integral is over the entire <script type="math/tex">\mathbb{C}</script> plane)</p>
+
+<script type="math/tex; mode=display">Z=\int_{\mathbb{C}^N} \prod_{\mathbf{q}\in \text{BZ}} d^N m_{\mathbf{q}} e^{-\frac12 \sum_{\mathbf{q}}(q^2+r_0)m_\mathbf{q}m_{-\mathbf{q}}}</script>
+
+<p>and we can then factorize the entire partition function into</p>
+
+<script type="math/tex; mode=display">Z=\prod_{\mathbf{q} \in \text{BZ}}\int_{\mathbb{C}} d m_{\mathbf{q}} e^{-\frac12 (q^2+r_0)m_\mathbf{q}m_{-\mathbf{q}}}</script>
+
+<p>However, <script type="math/tex">m_{-\mathbf{q}}=m_\mathbf{q}^*</script> and they are not independent. If we choose a value for <script type="math/tex">m_\mathbf{q}</script>, we have already fixed <script type="math/tex">m_{-\mathbf{q}}</script>, too. Thus, we break the Brillouin zone into three parts: <script type="math/tex">\text{BZ}=\text{BZ}^+ \cup \text{BZ}^- \cup \{0\}</script>, and only perform the integration for <script type="math/tex">\mathbf{q}\in \text{BZ}^+</script> and <script type="math/tex">\mathbf{q}=0</script>. That is,</p>
+
+<script type="math/tex; mode=display">Z=\int_{-\infty}^{\infty} dm_0e^{\frac12 r_0 m_0^2} \times \prod_{\mathbf{q} \in \text{BZ}^+}\int_{\mathbb{C}} d m_{\mathbf{q}} e^{- (q^2+r_0)m_\mathbf{q}m_{-\mathbf{q}}}</script>
+
+<p>note that 1) since <script type="math/tex">m_0</script> must be real from the conjugate relation, and 2) we no longer integrate over the possibilities of <script type="math/tex">m_{-\mathbf{q}}</script> but their contribution to <script type="math/tex">e^{-\beta H}</script> is still there, and thus the <script type="math/tex">1/2</script> in front of the Hamiltonian in the last expression has disappeared because they are grouped together with <script type="math/tex">m_\mathbf{q}</script> (the Hamiltonian is invariant under <script type="math/tex">\mathbf{q}\rightarrow -\mathbf{q}</script>).</p>
+
+<p>Notice that <script type="math/tex">m_\mathbf{q}m_{-\mathbf{q}}=\vert m_\mathbf{q}\vert ^2</script>, and that <script type="math/tex">\int_\mathbb{C} dz=\int_{-\infty}^\infty \int_{-\infty}^\infty  dxdy=\int_0^\infty 2\pi RdR</script> for integrands that only depend on <script type="math/tex">R=\vert z\vert</script>, where <script type="math/tex">z=x+iy=Re^{i\theta}, x,y,R,\theta\in \mathbb{R}</script>, so each integral can be easily evaluated. They are Gaussian integrals (either on the real axis or on the 2D Gaussian integral on the entire plane using polar coordinates, i.e. the method we use to evaluate the 1D Gaussian integral).</p>
+
+<p>Thus the partition function is calculated to be</p>
+
+<script type="math/tex; mode=display">Z=\prod_{\mathbf{q} \in\text{BZ}}\left(\frac{\pi}{r_0+q^2}\right)^{\frac12}</script>
+
+<p>and therefore</p>
+
+<p><script type="math/tex">\ln Z=\frac12 \int_{\mathbf{q} \in \text{BZ}}\ln \left(\frac{\pi}{r_0+q^2}\right) d^d\mathbf{q}</script>
+Again, <script type="math/tex">d</script> is the dimension of the system.</p>
+
+<h3 id="correlation">Correlation</h3>
+
+<p>From this, we can show that</p>
+
+<script type="math/tex; mode=display">\langle m_\mathbf{q}m_\mathbf{q'}\rangle = \frac{1}{q^2+r_0} \delta(\mathbf{q}+\mathbf{q'})</script>
+
+<p>from the definition of this quantity.</p>
+
+<p>Then Fourier transform back into real space and we obtain</p>
+
+<script type="math/tex; mode=display">\langle m(\mathbf{r})m(\mathbf{r'})\rangle \propto  \frac{e^{-r/\xi}}{r^{d-2}}</script>
+
+<p>near criticality and thus know the critical exponent <script type="math/tex">\eta=0</script>, and from the expression of <script type="math/tex">\xi</script> in the Landau Hamiltonian parameters we know <script type="math/tex">\nu=\frac{1}{2}</script>.</p>
+
+<h3 id="renormalization">Renormalization</h3>
+
+<p>The renormalization of the Gaussian model under <script type="math/tex">k</script> space is very simple – just integrate over all the <script type="math/tex">k</script> values between the strip (see graphs) and then re-map the <script type="math/tex">k</script> inside the small square to the entire big square (first Brillouin zone) again.</p>
+
+<p>In real space, because of symmetry we must decimate (integrate over) a site between every two sites or perform a “coarse-grain” transform on every four sites. But here, we only need to integrate over a strip of <script type="math/tex">\mathbf{k}</script>’s because we have already separated the “fast-varying” and the “slow-varying” components in <script type="math/tex">m</script>. This is very similar to the JPEG compression idea: remove the outer high-frequency components in Fourier space.</p>
+
+<p>The renormalization transformation on the only parameter <script type="math/tex">r_0</script> is <script type="math/tex">r_0'=l^2 r_0</script>, and thus <script type="math/tex">\nu=1/z=1/2</script>. Again.</p>
+
+<p>The other critical exponents then follow from the scaling relations.</p>
+</section>
+</article>
+
+<!-- Post navigation -->
+
+
+<!-- Disqus -->
+
+
+<!-- Muut -->
+
+    </div>
+    
+<!-- The next line is commented out by Gaberber and replaced with the script below -->
+<!-- script src="/js/katex_init.js"></script -->
+
+<!-- The following two scripts are added by Gaberber as instructed in https://github.com/gettalong/kramdown/issues/292 
+The first line includes jQuery.
+The next script replaces the MathJax commands generated by kramdown with KaTeX rendering results. -->
+<script src="/js/jquery-3.2.1.min.js"></script>
+ <script>
+   $("script[type='math/tex']").replaceWith(function() {
+       var tex = $(this).text();
+       // replace() here is due to CDATA wrapper (#224). KaTeX chokes on the % character,
+       // which is unfortunate (and should probably be reported).
+       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: false});
+   });
+
+   $("script[type='math/tex; mode=display']").replaceWith(function() {
+       var tex = $(this).html();
+       // replace() here is due to CDATA wrapper (#224). KaTeX chokes on the % character,
+       // which is unfortunate (and should probably be reported).
+       return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+   });
+ </script>
+
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+</p>
+</footer>
+
+
+
+  </body>
+</html>
