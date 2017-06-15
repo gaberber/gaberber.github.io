@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
+feature-img: "images/sample_feature_img_2.png"
 ---
 
 「未經審視的生活是不值得過的」/「過度審視的生活是過不下去的（credit: [@chuhan](https://twitter.com/chuhan)）」
