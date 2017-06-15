@@ -4,7 +4,7 @@ title:  "西方中心論"
 date:   2017-01-15 
 ---
 
-![「西方中心論」](http://gaberber.github.io/images/western-centrism.png)
+![「西方中心論」](http://gaberber.github.io/img/western-centrism.png)
 
 圖片出自 [_Human Accomplishment: The Pursuit of Excellence in the Arts and Sciences, 800 B.C. to 1950_](https://www.goodreads.com/book/show/282085.Human_Accomplishment) 第 252 頁。
 
