@@ -2,7 +2,7 @@
 layout: post
 title:  "Nederland"
 date:   2015-08-29 05:02:48
-feature-img: "amsterdam-house.jpg"
+feature-img: "img/amsterdam-house.jpg"
 ---
 
 荷兰这个地方真的是美得不像话，景观、建筑、人，都是。来走一走，很容易就能明白为什么荷兰画派的风景和风俗画那么出众（其中的代表人物 Vermeer 正是 Delft 人）。
