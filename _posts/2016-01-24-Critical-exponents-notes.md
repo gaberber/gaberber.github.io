@@ -34,12 +34,12 @@ Spatial dimension: $$d$$
 
 | Greek letter | Definition                               |
 | ------------ | ---------------------------------------- |
-| $$\alpha$$     | $$C \propto t^{-\alpha}$$                  |
-| $$\beta$$      | $$m\propto (-t)^\beta$$                    |
-| $$\gamma$$     | $$\chi \propto t^{-\gamma}$$               |
-| $$\delta$$     | $$m\propto h^{-\delta}$$                   |
-| $$\nu$$        | $$\xi=t^{-\nu}$$                           |
-| $$\eta$$       | $$\langle m(0)m(\mathbf{r})\rangle\propto r^{-d+2-\eta}$$ |
+| $$\alpha$$   | $$C \propto t^{-\alpha}$$                |
+| $$\beta$$    | $$m\propto (-t)^\beta$$                  |
+| $$\gamma$$   | $$\chi \propto t^{-\gamma}$$             |
+| $$\delta$$   | $$m\propto h^{-\delta}$$                 |
+| $$\nu$$      | $$\xi=t^{-\nu}$$                         |
+| $$\eta$$     | $$\langle m(0)m(\mathbf{r})\rangle\propto r^{-d+2-\eta}$$ |
 
 ### Scaling laws:
 
@@ -77,7 +77,7 @@ Each RG transformation changes the lattice constant from $$a$$ to $$la$$, and th
 
 On the flow diagram, each normalization takes us farther away from the critical point along the _relevant_ eigenvector direction (the critical point is a _repelling_ fixed point along this direction) and brings us closer to the critical point along the _irrelevant_ eigenvector direction (the critical point is an _attractive_ fixed point along this direction). As for the _marginal_ case,  the fixed point lies on a line of critical points – a _critical line_. 
 
-![flow diagram](http://gaberber.github.io/images/flow-diagram.png)
+![flow diagram](http://gaberber.github.io/img/flow-diagram.png)
 
 ### Homogeneity
 
