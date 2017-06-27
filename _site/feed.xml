@@ -5,7 +5,20 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description></description>
-    <pubDate>Fri, 16 Jun 2017 01:46:35 +0800</pubDate>
+    <pubDate>Tue, 27 Jun 2017 19:59:02 +1000</pubDate>
+    
+      <item>
+        <title>Dostoyevsky on science and religion</title>
+        <link>http://localhost:4000/2017/06/17/dostoyevsky-on-religion.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/17/dostoyevsky-on-religion.html</guid>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;“Remember, young man, unceasingly,” Father Paissy began directly, without any preamble, “that the science of this world, having united itself into a great force, has, especially in the past century, examined everything heavenly that has been bequeathed to us in sacred books, and, after hard analysis, the learned ones of this world have absolutely nothing left of what was once holy. But they have examined parts and missed the whole, and their blindness is even worthy of won-der. Meanwhile the whole stands before their eyes as immovably as ever, and the gates of hell shall not prevail against it.” 6 Did it not live for nineteen centuries, does it not live even now in the movements of individual souls and in the movements of the popular masses? Even in the movements of the souls of those same all-destroying atheists, it lives, as before, immovably! For those who renounce Christianity and rebel against it are in their essence of the same image of the same Christ, and such they remain, for until now neither their wisdom nor the ardor of their hearts has been able to create another, higher image of man and his dignity than the image shown of old by Christ. And whatever their attempts, the results have been only monstrosities. Remember this especially, young man, since you are being assigned to the world by your departing elder. Perhaps, remembering this great day, you will not forget my words either, given as cordial words of parting for you, because you are young and the temptations of the world are heavy and your strength will not endure them. Well, go now, my orphan.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;— &lt;em&gt;Brothers Karamazov&lt;/em&gt;, Book IV, Chapter 2. Translated from the Russian by Richard Pevear and Larissa Volokhonsky.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 17 Jun 2017 23:59:00 +1000</pubDate>
+      </item>
     
       <item>
         <title>Clash of Civilization: notes</title>
@@ -13,13 +26,13 @@
         <guid isPermaLink="true">http://localhost:4000/2017/02/23/huntington-note.html</guid>
         <description>&lt;h2 id=&quot;chapter-7&quot;&gt;Chapter 7&lt;/h2&gt;
 
-&lt;p&gt;Huntington predicted so much of what happened in the Greater West (West + Russian + Islam civilizations) so successfully (9/11, Crimea, Arab Spring, migrant crisis, etc.), but the only region where he was far off track is Hong Kong and Taiwan. They didn’t continue to gravitate towards China along a straight path and have begun to form their own national identity somewhat similar to that of Japan: straddling on the fault line between East and West. Western values and Eastern culture both play significant roles. Or better yet, it’s easier to understand East Asia in the old (19c and 20c) framework, to compare China to imperial Germany and Japan instead of post-Soviet Russia.&lt;/p&gt;
+&lt;p&gt;Huntington predicted so much of what happened in the Greater West (West + Russian + Islam civilizations) so successfully (9/11, Crimea, Arab Spring, migrant crisis, etc.), but the only region where he was far off track is Hong Kong and Taiwan. They didn’t continue to gravitate towards China along a straight path and have begun to form their own national identities somewhat similar to that of Japan: straddling on the fault line between East and West. Western values and Eastern culture both play significant roles. Or better yet, it’s easier to understand East Asia in the old (19c and 20c) framework, to compare China to imperial Germany and Japan instead of post-Soviet Russia.&lt;/p&gt;
 
 &lt;p&gt;Huntington is a Westerner after all. Although he is right that Islam and China are going to challenge the West, they are not in the same stage of history. The former is better understood in his new theory framework after the cold war, a 21c (but also an ancient) one; the latter in many ways is a continuation of what happened in the broader West from 17c to 20c. That part of the history has ended in the Greater West but not yet in the Far East.&lt;/p&gt;
 
 &lt;p&gt;Notes on why “Greater West”. This idea of the major 法统’s of this world – Charlemagne, Byzantine, Caliph, Huang Di and two lesser ones, Shah and Khan – was formulated by 刘大可. It helps to notice that three out of the four major 法统’s in the current world derive from the Roman world order and came to be the three Greater Western civilizations. The Chinese and Japanese civilizations are truly alien to the West compared to the other two.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 23 Feb 2017 00:00:00 +0800</pubDate>
+        <pubDate>Thu, 23 Feb 2017 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -48,7 +61,7 @@
 
 &lt;p&gt;Also, this idea of “social cohesion”, a certain empathy/”tender link”/common interests and values between the ruling elites and the common people, sounds very empty but more than a few people that have lived in Nordic countries say it’s obviously tangible, alive and real. Although some claim that this cohesion has also shown the trend of being slowly eroded over the decades.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 19 Feb 2017 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 19 Feb 2017 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -90,14 +103,14 @@
 &lt;p&gt;This time I really smell decline. Without any doubt and confirmed by so many other observers independently, America is in the late stage of the Roman Republic. The days of Trajan and Hadrian, the “most happy and prosperous age of humanity” are yet to come, but the times of infinite possibilities unimaginable to all but the divine are gone.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 16 Feb 2017 00:00:00 +0800</pubDate>
+        <pubDate>Thu, 16 Feb 2017 00:00:00 +1100</pubDate>
       </item>
     
       <item>
         <title>西方中心論</title>
         <link>http://localhost:4000/2017/01/15/western-centrism.html</link>
         <guid isPermaLink="true">http://localhost:4000/2017/01/15/western-centrism.html</guid>
-        <description>&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/images/western-centrism.png&quot; alt=&quot;「西方中心論」&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/img/western-centrism.png&quot; alt=&quot;「西方中心論」&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;圖片出自 &lt;a href=&quot;https://www.goodreads.com/book/show/282085.Human_Accomplishment&quot;&gt;&lt;em&gt;Human Accomplishment: The Pursuit of Excellence in the Arts and Sciences, 800 B.C. to 1950&lt;/em&gt;&lt;/a&gt; 第 252 頁。&lt;/p&gt;
 
@@ -117,7 +130,7 @@
 
 &lt;p&gt;「西方創造了幾乎所有人類物質文明」是一種非常反直觀的敘述，然而這只不過說明人類需要藉助對數這一工具才能理解指數過程。&lt;/p&gt;
 </description>
-        <pubDate>Sun, 15 Jan 2017 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 15 Jan 2017 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -128,7 +141,7 @@
 
 &lt;p&gt;當時飛機也正穿越（其實是繞過）這片土地的上空，從悶熱潮溼的迪拜起飛沿着波斯灣上空到達幼發拉底、底格里斯河口（那真是個窄窄的海灣，一路上可以從窗口看見海岸），卻沒有繼續進入伊拉克領空而是從伊朗上空繞着邊境飛過，然後穿過土耳其東部來到黑海，進入歐洲。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/images/dxb-to-ams.png&quot; alt=&quot;中東上空航線&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/img/dxb-to-ams.png&quot; alt=&quot;中東上空航線&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;起初飛到兩河沖積平原上空時，平靜的藍色海面變成了平整的黃色土地。後來地上開始出現一排排的褶皺，然後整齊排列的山脈越來越高，直到雪線出現，山頂開始被越來越多的白色覆蓋。進入歐洲不久後，身下便被厚密的雲層覆蓋，沒看到大地。&lt;/p&gt;
 
@@ -140,7 +153,7 @@
 
 &lt;p&gt;歷史遠沒有終結。&lt;/p&gt;
 </description>
-        <pubDate>Thu, 12 Jan 2017 00:00:00 +0800</pubDate>
+        <pubDate>Thu, 12 Jan 2017 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -155,7 +168,7 @@
 
 &lt;p&gt;音乐本身当然也极美，莫扎特是旋律大师，而晚期受了巴赫影响之后真是古典风格的畏人高峰。我一直仅能喜欢晚期的莫扎特，《安魂曲》和《魔笛》中一些段落都极其复调，后者的男童三重唱仿佛圣咏。以及理解了「纯洁的理念」之后，开始明白德国人喜欢搞的 Leitmotif 这套东西到底是为什么。&lt;/p&gt;
 </description>
-        <pubDate>Wed, 04 Jan 2017 00:00:00 +0800</pubDate>
+        <pubDate>Wed, 04 Jan 2017 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -239,7 +252,7 @@ putp5200 20160824\*.gpf
   &lt;li&gt;Select &lt;code class=&quot;highlighter-rouge&quot;&gt;Keystones&lt;/code&gt; in the pattern marker specification.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 25 Aug 2016 07:14:00 +0800</pubDate>
+        <pubDate>Thu, 25 Aug 2016 09:14:00 +1000</pubDate>
       </item>
     
       <item>
@@ -386,7 +399,7 @@ S(\omega)=\left&lt;\tilde{A}(\omega) \tilde{A}^*(\omega) \right&gt; %]]&gt;&lt;/
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \left&lt;\vert v(\omega)\vert ^2\right&gt; = \frac{2k_B T}{\gamma}\frac{1}{1+\left(\frac{\omega m}{\gamma}\right)^2} %]]&gt;&lt;/script&gt;
 </description>
-        <pubDate>Sun, 24 Jan 2016 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -460,20 +473,20 @@ H_i=-K\sum_{&lt;j&gt;}s_i s_j - h s_i %]]&gt;&lt;/script&gt; where the sum is ov
 
 &lt;p&gt;Above &lt;script type=&quot;math/tex&quot;&gt;T_c&lt;/script&gt;, there is only one solution &lt;script type=&quot;math/tex&quot;&gt;m=0&lt;/script&gt;. Below &lt;script type=&quot;math/tex&quot;&gt;T_c&lt;/script&gt;, there are three solutions but &lt;script type=&quot;math/tex&quot;&gt;m=0&lt;/script&gt; is unstable (a local maximum, as we will see later in the Landau theory). The positive and negative values are the two symmetrical values &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; can assume with no preference over any one.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/images/B=0.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/img/B=0.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As shown in the plot, at the critical point, there is a clear “sudden change” (&lt;script type=&quot;math/tex&quot;&gt;\partial m/\partial h&lt;/script&gt; is discontinuous), i.e. phase transition. &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; itself is a derivative of the free energy &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt;, so this is a second-order phase transition. If we gradually lower the temperature from above &lt;script type=&quot;math/tex&quot;&gt;T_c&lt;/script&gt; to below &lt;script type=&quot;math/tex&quot;&gt;T_c&lt;/script&gt;, since there are two equally favored states, the system will spontaneously enter one of them. This is a &lt;strong&gt;spontaneous symmetry breaking&lt;/strong&gt;. It is often associated with &lt;strong&gt;degenerate ground states&lt;/strong&gt; (&lt;script type=&quot;math/tex&quot;&gt;m=\pm1&lt;/script&gt; are perfectly symmetric when &lt;script type=&quot;math/tex&quot;&gt;T=0&lt;/script&gt;).&lt;/p&gt;
 
 &lt;p&gt;If &lt;script type=&quot;math/tex&quot;&gt;h\ne 0&lt;/script&gt;, there is no phase transition. Although in some cases there are three roots of the self-consistency equation, the middel one is still unstable and the one that has an opposite sign of &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt; is &lt;em&gt;metastable&lt;/em&gt;. In Landau theory, it’s a local minimum but higher than the other global minumum. It wants to flip its sign and assume the true stable value if opportunity arises. (But note that if this flip occurs, e.g. when we raise temperature so that the metastable root is no longer there and we only have one stable root, this is a 1st order phase transition because &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; itself is discontinuous.) We plot &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; under different values of &lt;script type=&quot;math/tex&quot;&gt;\mid h \mid&lt;/script&gt; and see that indeed there is no “sudden change”. (The upper curve is the stable value for &lt;script type=&quot;math/tex&quot;&gt;h&gt;0&lt;/script&gt; and the lower curve for &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 h&lt;0 %]]&gt;&lt;/script&gt;.)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/images/B=1e-3.svg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://gaberber.github.io/images/B=1e-1.svg&quot; alt=&quot;&quot; /&gt;
-&lt;img src=&quot;http://gaberber.github.io/images/B=10.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/img/B=1e-3.svg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://gaberber.github.io/img/B=1e-1.svg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://gaberber.github.io/img/B=10.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Stable and metastable states under the same &lt;script type=&quot;math/tex&quot;&gt;h&gt;0&lt;/script&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/images/metastable.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/img/metastable.svg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;critical-exponents&quot;&gt;Critical exponents&lt;/h3&gt;
 
@@ -481,7 +494,7 @@ h&lt;0 %]]&gt;&lt;/script&gt;.)&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;t\equiv (T-T_c)/T_c&lt;/script&gt;
 
-&lt;h4 id=&quot;alpha-heat-capacity&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;: heat capacity&lt;/h4&gt;
+&lt;h4 id=&quot;alpha-heat-capacity&quot;&gt;$\alpha$: heat capacity&lt;/h4&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;C\propto \frac{\partial^2 F}{\partial t^2}&lt;/script&gt;
 
@@ -489,7 +502,7 @@ h&lt;0 %]]&gt;&lt;/script&gt;.)&lt;/p&gt;
 
 &lt;p&gt;We already have the mean field &lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt;. Use that to differentiate twice w.r.t &lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; and we will see that &lt;script type=&quot;math/tex&quot;&gt;C \propto&lt;/script&gt; constant, i.e. &lt;script type=&quot;math/tex&quot;&gt;\alpha=0&lt;/script&gt;. This can be done much more easily later using the Landau theory.&lt;/p&gt;
 
-&lt;h4 id=&quot;beta-m-and-temperature&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt;: &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; and temperature&lt;/h4&gt;
+&lt;h4 id=&quot;beta-m-and-temperature&quot;&gt;$\beta$: $m$ and temperature&lt;/h4&gt;
 
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;m\propto \vert t\vert^{\beta}&lt;/script&gt; near &lt;script type=&quot;math/tex&quot;&gt;T_c&lt;/script&gt; (but below it).&lt;/p&gt;
 
@@ -499,13 +512,13 @@ h&lt;0 %]]&gt;&lt;/script&gt;.)&lt;/p&gt;
 
 &lt;p&gt;Solve for &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; and note that &lt;script type=&quot;math/tex&quot;&gt;1=\beta_c Kq&lt;/script&gt;. We obtain &lt;script type=&quot;math/tex&quot;&gt;m^2\propto (\beta-\beta_c) \propto (T_c-T)&lt;/script&gt;. So &lt;script type=&quot;math/tex&quot;&gt;\beta=1/2&lt;/script&gt;.&lt;/p&gt;
 
-&lt;h4 id=&quot;delta-m-and-h&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\delta&lt;/script&gt;: &lt;script type=&quot;math/tex&quot;&gt;m&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;delta-m-and-h&quot;&gt;$\delta$: $m$ and $h$&lt;/h4&gt;
 
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;m\propto h^{\delta}&lt;/script&gt;.&lt;/p&gt;
 
 &lt;p&gt;These are &lt;em&gt;critical exponents&lt;/em&gt;, we only care about temperatures near criticality. Since there is no criticality for nonzero &lt;script type=&quot;math/tex&quot;&gt;h&lt;/script&gt;, we directly set &lt;script type=&quot;math/tex&quot;&gt;T=T_c&lt;/script&gt; i.e. &lt;script type=&quot;math/tex&quot;&gt;\beta Kq=1&lt;/script&gt; : &lt;script type=&quot;math/tex&quot;&gt;m=\tanh (m+\beta h)&lt;/script&gt;. &lt;script type=&quot;math/tex&quot;&gt;\therefore \tanh^{-1} m =m+\beta h&lt;/script&gt;. Next Taylor expand &lt;script type=&quot;math/tex&quot;&gt;\tanh^{-1}&lt;/script&gt; and it’s easily seen that &lt;script type=&quot;math/tex&quot;&gt;m^3\propto h&lt;/script&gt;. So &lt;script type=&quot;math/tex&quot;&gt;\delta=1/3&lt;/script&gt;.&lt;/p&gt;
 
-&lt;h4 id=&quot;gamma-partial-mpartial-h-and-t&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\gamma&lt;/script&gt;: &lt;script type=&quot;math/tex&quot;&gt;\partial m/\partial h&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;t&lt;/script&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;gamma-partial-mpartial-h-and-t&quot;&gt;$\gamma$: $\partial m/\partial h$ and $t$&lt;/h4&gt;
 
 &lt;p&gt;Susceptibility &lt;script type=&quot;math/tex&quot;&gt;\xi \propto \frac{\partial m}{\partial h} \big\vert_{h=0}\propto t^{-\gamma}&lt;/script&gt;.&lt;/p&gt;
 
@@ -522,7 +535,7 @@ h&lt;0 %]]&gt;&lt;/script&gt;.)&lt;/p&gt;
 &lt;p&gt;Because we used a macroscopic average to replace the interaction between a particular site and its nearest neighbors. In higher dimension, each site has many neighbors and the overall interaction between it and those neighbors will be quite close to the global average value. But in lower dimensions, each site has very few neighbors and the fluctuations can cause the real scenario to deviate from a macroscopic average dramatically.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 24 Jan 2016 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -547,7 +560,7 @@ h&lt;0 %]]&gt;&lt;/script&gt;.)&lt;/p&gt;
 
 &lt;p&gt;Next see graphs for what this function looks like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/images/Landau.png&quot; alt=&quot;Landau free energy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/img/Landau.png&quot; alt=&quot;Landau free energy&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;u&lt;/script&gt; is always positive We first look at what happens when &lt;script type=&quot;math/tex&quot;&gt;h=0&lt;/script&gt;.&lt;/p&gt;
 
@@ -564,12 +577,12 @@ m_0=\begin{cases}0, \quad r_0 \propto (T-T_c)\ge 0 \\ \pm \sqrt{-\frac{r_0}{2u}}
 
 &lt;p&gt;Then we look at what happens if &lt;script type=&quot;math/tex&quot;&gt;h\ne 0&lt;/script&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/images/Landau with B.png&quot; alt=&quot;Landau with B&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/img/Landau with B.png&quot; alt=&quot;Landau with B&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now we know what “metastable” means: the &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 h&gt;0,m&lt;0 %]]&gt;&lt;/script&gt; solution is a local minimum but not a global minimum. It will jump to the global minimum whenever fluctuation gives it enough energy to cross the &lt;script type=&quot;math/tex&quot;&gt;m=0&lt;/script&gt; wall.&lt;/p&gt;
 
-&lt;h3 id=&quot;critical-exponents-betaalphagamma&quot;&gt;Critical exponents &lt;script type=&quot;math/tex&quot;&gt;\beta,\alpha,\gamma&lt;/script&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;critical-exponents-betaalphagamma&quot;&gt;Critical exponents $\beta,\alpha,\gamma$&lt;/h3&gt;
 
 &lt;p&gt;We stated above &lt;script type=&quot;math/tex&quot;&gt;r_0\propto (T-T_c)&lt;/script&gt;, but why? Because below &lt;script type=&quot;math/tex&quot;&gt;T_c&lt;/script&gt;, we know from above that &lt;script type=&quot;math/tex&quot;&gt;m_0&lt;/script&gt; approaches 0 as &lt;script type=&quot;math/tex&quot;&gt;m_0=\sqrt{-r_0/(2u)}&lt;/script&gt;. &lt;script type=&quot;math/tex&quot;&gt;u&lt;/script&gt; is positive (actually it doesn’t vary with &lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; to the first order), so the rate of &lt;script type=&quot;math/tex&quot;&gt;m_0&lt;/script&gt; approaching 0 in the first order is &lt;script type=&quot;math/tex&quot;&gt;m_0\propto (-r_0)^{1/2}&lt;/script&gt;. Since &lt;script type=&quot;math/tex&quot;&gt;r_0&lt;/script&gt; is a parameter that’s determined by temperature and we have shown in the previous MFA derivation that &lt;script type=&quot;math/tex&quot;&gt;m_0 \propto (-t)^{1/2}&lt;/script&gt; below &lt;script type=&quot;math/tex&quot;&gt;T_c&lt;/script&gt;, so we immediately recognize:&lt;/p&gt;
 
@@ -672,7 +685,7 @@ g(r)=-k_B T \frac{d}{dh} \left&lt;m(\mathbf{r})\right&gt;\_{h=0} %]]&gt;&lt;/scr
 
 &lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\xi^2 =k/r_0&lt;/script&gt; is known from the coefficients of this Helmholtz equation. This is exactly in accordance with the forms of correlation functions above: usually the exponential decay dominates, but at criticality &lt;script type=&quot;math/tex&quot;&gt;\xi \propto r_0^{-1/2}&lt;/script&gt; diverges and &lt;script type=&quot;math/tex&quot;&gt;\exp(-r/\xi)=1&lt;/script&gt; so &lt;script type=&quot;math/tex&quot;&gt;g(r)&lt;/script&gt; is algebraic.&lt;/p&gt;
 
-&lt;h3 id=&quot;critical-exponents-nueta&quot;&gt;Critical exponents &lt;script type=&quot;math/tex&quot;&gt;\nu,\eta&lt;/script&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;critical-exponents-nueta&quot;&gt;Critical exponents $\nu,\eta$&lt;/h3&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\xi \propto t^{-\nu}&lt;/script&gt;
 
@@ -702,7 +715,7 @@ g(r)=-k_B T \frac{d}{dh} \left&lt;m(\mathbf{r})\right&gt;\_{h=0} %]]&gt;&lt;/scr
 
 &lt;p&gt;Now we see why MFA/Landau fails for lower than 4 dimensions: only when &lt;script type=&quot;math/tex&quot;&gt;d\ge 4&lt;/script&gt; will the fluctuation across space be negligible as &lt;script type=&quot;math/tex&quot;&gt;t\rightarrow 0&lt;/script&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 24 Jan 2016 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -805,7 +818,7 @@ Again, &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt; is the dimension
 
 &lt;p&gt;The other critical exponents then follow from the scaling relations.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 24 Jan 2016 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -900,7 +913,7 @@ Again, &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt; is the dimension
 
 &lt;p&gt;On the flow diagram, each normalization takes us farther away from the critical point along the &lt;em&gt;relevant&lt;/em&gt; eigenvector direction (the critical point is a &lt;em&gt;repelling&lt;/em&gt; fixed point along this direction) and brings us closer to the critical point along the &lt;em&gt;irrelevant&lt;/em&gt; eigenvector direction (the critical point is an &lt;em&gt;attractive&lt;/em&gt; fixed point along this direction). As for the &lt;em&gt;marginal&lt;/em&gt; case,  the fixed point lies on a line of critical points – a &lt;em&gt;critical line&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/images/flow-diagram.png&quot; alt=&quot;flow diagram&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://gaberber.github.io/img/flow-diagram.png&quot; alt=&quot;flow diagram&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;homogeneity&quot;&gt;Homogeneity&lt;/h3&gt;
 
@@ -933,7 +946,7 @@ Again, &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt; is the dimension
 
 &lt;p&gt;Because only the relevant scaling dimensions determine the system’s critical behavior, adding/removing/changing terms that only involve irrelevant scaling dimensions will not change the critical exponents, etc. at all. Thus a whole class of Hamiltonians having the same relevant terms (but different irrelevant terms) all exhibit the same critical behaviors. This phenomenon is called universality. These Hamiltonians belong to one &lt;em&gt;universality class&lt;/em&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 24 Jan 2016 00:00:00 +0800</pubDate>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -952,7 +965,7 @@ Again, &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt; is the dimension
 
 &lt;p&gt;维也纳的「国家 xxx」之类的建筑都极其大（真的非常非常大）和美，然而除了宫廷和「国家 xxx」以外的城市基建很多都显得年久失修，甚至不如布拉格，更遑论荷兰。如果没有第二个维也纳，今天的奥地利人会不会像面对罗马城的近代意大利人一样失落？&lt;/p&gt;
 </description>
-        <pubDate>Tue, 29 Dec 2015 00:00:00 +0800</pubDate>
+        <pubDate>Tue, 29 Dec 2015 00:00:00 +1100</pubDate>
       </item>
     
       <item>
@@ -981,26 +994,7 @@ Again, &lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt; is the dimension
 
 &lt;p&gt;这趟算是奥匈帝国圣诞/新年游经典路线吧，布拉格—维也纳—布达佩斯。终于出荷兰了，反正和荷兰很不一样，嗯。&lt;/p&gt;
 </description>
-        <pubDate>Fri, 25 Dec 2015 00:00:00 +0800</pubDate>
-      </item>
-    
-      <item>
-        <title>Nederland</title>
-        <link>http://localhost:4000/2015/08/29/nederland.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/08/29/nederland.html</guid>
-        <description>&lt;p&gt;荷兰这个地方真的是美得不像话，景观、建筑、人，都是。来走一走，很容易就能明白为什么荷兰画派的风景和风俗画那么出众（其中的代表人物 Vermeer 正是 Delft 人）。&lt;/p&gt;
-
-&lt;p&gt;对比一下我去过的几个地方，澳洲和欧美一比就是个二流国家，欧美的生活水平相差不大，但荷兰和英语圈的几个移民国家完全不同，在发达国家的行列里跟日本非常像：本国人在本国出生长大工作老去，创造着非常高质量的产品（举一例，如果你对「字体/typography」这件事情眼光比较挑剔、走在街上和观看平面设计产品随时都会注意到字体设计是否合格的话，这里简直就是天堂，美国则是人间，日本是东方的天堂，而中国是妥妥的地狱），过着非常高质量的生活，但外来居民的「融入」这件事情则是基本不可能、他们也完全不在意的。&lt;/p&gt;
-
-&lt;p&gt;荷兰有多美？难以用语言描述，照片和视频也很难传达。这里不像是阿尔卑斯山、洛基山那种壮丽而一眼就能俘获你的美，而是当你走在街上时，浑身的每个细胞、眼睛里的每一个细节全都是舒畅的、通透的、刚刚好的。最惹人注目的美应该是建筑——至少是 TU Delft 的建筑，或许跟这里的建筑系相当优秀有关。在清华时见到文图就跟乡巴佬一样各种觉得高大上，去了犹他发现这荒山野岭上的图书馆也不逊色，而这里的图书馆可以直接把前两者轰成渣，甚至在我的眼中略胜耶鲁的两所图书馆。外形和内部都实在是太美了，每次路过都忍不住从各个角度不停地看。&lt;/p&gt;
-
-&lt;p&gt;欧洲和美国很不一样。理想的路径应该是来欧洲交换、去美国上学，可是我跑偏给搞反了。毕业之后留在这里基本不是一个可行的选项，还是得想办法折腾。&lt;/p&gt;
-
-&lt;p&gt;「多元文化」讲座上提到，荷兰和美国文化整体上都是非常接近的，在世界上千万种文化的族谱里，都是属于「西方/欧美/现代」这旗帜鲜明的一支（比如除了西方以外，其他所有主要文化都是集体主义 collectivistic 的，而西方是个人主义 individualistic 的），然而荷兰文化和美国文化在一个方面上有着非常鲜明的区别：在「男性——女性」这一分野下面，美国文化是非常接近「男性」一极的，而荷兰文化非常接近「女性」一极。比如荷兰人全民爱戴的体育明星，都是谦虚、内向、不张扬、邻家男孩女孩型的，而老师当场问一个美国学生「Are American sports stars like this? What will one do in order to be considered an American national hero?」他回答「Drink, party, spend vast amounts of money on flamboyant and stupid things.」美国人的 macho 是盎格鲁文化圈特质、拓殖新大陆的历史、20世纪的战争史和流行文化/大众传媒共同塑造的，而荷兰没有这些。每个来到荷兰的人最先学的两个词都是 lekker 和 gezellig，分别是「好吃/舒服」和「cozy」的意思，和英语里有类似功能的 great 气质完全不同。美国（以及中国）的「越大越好」「更快更高更强」这些想法对荷兰人来说是十分陌生的。&lt;/p&gt;
-
-&lt;p&gt;世界各国语言里对荷兰王国（Koninkrijk der Nederlanden）这个国家的称呼基本都是「荷兰」这个音（如英语的 Holland），但这其实是不准确的。正确的称呼应该是「尼德兰 Nederland」这个音（如英语的 The Netherlands）。Neder 在英语中盎格鲁化为 nether，意即「下」，Nederland/The Netherlands 直译就是「低地国家」。荷兰语（Dutch）这种语言的历史早于尼德兰这个国家，而在荷兰人逐渐成为海上马车夫、贸易航线延伸至远东和太平洋的年代，今天叫 Nederland 的这片土地还没有成为一个统一的国家，还是像中世纪一样处于四分五裂的状态，周围也没有比利时、德国这些民族国家，彼此之间没有划出明确的边界。虽然不久之后荷兰语民族反抗西班牙统治，一个 The United States of Netherlands 性质的国家成立，但居民的身份认同正如早年邦联时期的美国一样，只知有纽约人、弗吉尼亚人、宾夕法尼亚人，不知有「美利坚合众国人」。因此当世界其他各民族第一次接触到从这片土地上来的船只和商人时，会问他们「你们从哪里来」，而他们会纷纷回答自己的故乡——不是年轻的国名「尼德兰联省共和国」，而是已经延续几百年的各省名。而在尼德兰各省中，80% 的人口集中在西部沿海的北荷兰和南荷兰两个省，阿姆斯特丹、海牙、鹿特丹三大城市（也是主要港口）全在这两省，尤其是绝大多数远洋船只都来自这两个沿海省，因此与外界接触的尼德兰国人几乎全都是荷兰省人，导致大家以为「荷兰」就是「尼德兰」这片土地和国家的称呼。但是 Dutch people（尼德兰人/荷兰国人）中不属于南北荷兰两省的其他省人非常不喜欢被强认成 Holland 荷兰人。&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Aug 2015 13:02:48 +0800</pubDate>
+        <pubDate>Fri, 25 Dec 2015 00:00:00 +1100</pubDate>
       </item>
     
   </channel>
