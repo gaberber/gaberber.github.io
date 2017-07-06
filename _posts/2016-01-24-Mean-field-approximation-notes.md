@@ -106,7 +106,7 @@ There are 6 critical exponents: $$\alpha, \beta, \gamma, \delta,\nu, \eta$$. We 
 
 $$t\equiv (T-T_c)/T_c$$
 
-#### $\alpha$: heat capacity
+#### $$\alpha$$: heat capacity
 
 $$
 C\propto \frac{\partial^2 F}{\partial t^2}
@@ -116,7 +116,7 @@ $$C \propto t^{-\alpha}$$ near $$T_c$$.
 
 We already have the mean field $$F$$. Use that to differentiate twice w.r.t $$T$$ and we will see that $$C \propto$$ constant, i.e. $$\alpha=0$$. This can be done much more easily later using the Landau theory.
 
-#### $\beta$: $m$ and temperature
+#### $$\beta$$: $$m$$ and temperature
 
 $$m\propto \vert t\vert^{\beta}$$ near $$T_c$$ (but below it).
 
@@ -131,13 +131,13 @@ Solve for $$m$$ and note that $$1=\beta_c Kq$$. We obtain $$m^2\propto (\beta-\b
 
 
 
-#### $\delta$: $m$ and $h$
+#### $$\delta$$: $$m$$ and $$h$$
 
 $$m\propto h^{\delta}$$.
 
 These are _critical exponents_, we only care about temperatures near criticality. Since there is no criticality for nonzero $$h$$, we directly set $$T=T_c$$ i.e. $$\beta Kq=1$$ : $$m=\tanh (m+\beta h)$$. $$\therefore \tanh^{-1} m =m+\beta h$$. Next Taylor expand $$\tanh^{-1}$$ and it's easily seen that $$m^3\propto h$$. So $$\delta=1/3$$.
 
-#### $\gamma$: $\partial m/\partial h$ and $t$
+#### $$\gamma$$: $$\partial m/\partial h$$ and $$t$$
 
 Susceptibility $$\xi \propto \frac{\partial m}{\partial h} \big\vert_{h=0}\propto t^{-\gamma}$$.
 

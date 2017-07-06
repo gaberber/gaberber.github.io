@@ -164,7 +164,7 @@ $$
 
 where $$\xi^2 =k/r_0$$ is known from the coefficients of this Helmholtz equation. This is exactly in accordance with the forms of correlation functions above: usually the exponential decay dominates, but at criticality $$\xi \propto r_0^{-1/2}$$ diverges and $$\exp(-r/\xi)=1$$ so $$g(r)$$ is algebraic.
 
-### Critical exponents $\nu,\eta$
+### Critical exponents $$\nu,\eta$$
 
 $$\xi \propto t^{-\nu}$$
 
