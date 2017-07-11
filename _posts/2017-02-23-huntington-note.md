@@ -2,6 +2,7 @@
 layout: post
 title:  "Clash of Civilization: notes"
 date:   2017-02-23
+comments: true
 ---
 
 ## Chapter 7

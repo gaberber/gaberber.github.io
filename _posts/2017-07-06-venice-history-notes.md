@@ -2,6 +2,7 @@
 layout: post
 title:  "<i>City of Fortune</i> notes"
 date:   2017-07-06 23:50:00
+comments: true
 ---
 
 ## The life of city states and nations

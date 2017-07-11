@@ -2,6 +2,7 @@
 layout: post
 title:  "Fractured Lands"
 date:   2017-01-12 
+comments: true
 ---
 
 從家裏回來的飛機上終於看完了紐約時報的長篇報道 [Fractured Lands: How The Arab World Came Apart](http://www.nytimes.com/interactive/2016/08/11/magazine/isis-middle-east-arab-spring-fractured-lands.html?_r=1)。除了渾身冷汗，沒有別的感覺。
