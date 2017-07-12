@@ -1,6 +1,6 @@
 // Typography
-$font-family-main: 'Lato', 'Helvetica Neue', 'PingFang SC', Arial, sans-serif;
-$font-family-headings: 'Ubuntu', 'Helvetica Neue', Arial, sans-serif;
+$font-family-main: 'Nunito', 'Helvetica Neue', 'PingFang SC', Arial, sans-serif;
+$font-family-headings: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
 $font-size: 1.1em;
 
 // Padding
@@ -14,7 +14,7 @@ $background-color: #fff;
 $border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #383838;
+$text-color: #000000; // #383838 when font-weight = 400
 $link-color: #0284D6;
 $selection-color: #D4D4D4; // visible when highlighting text
 
