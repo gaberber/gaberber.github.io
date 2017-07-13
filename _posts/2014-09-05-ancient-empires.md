@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "古代世界的各大帝国——<i>A Little History of the World</i> by Gombrich 读书笔记"
+title:  "古代世界的各大帝国"
 date:   2014-09-05 18:15:06
 ---
 
+### _A Little History of the World_ by Gombrich 读书笔记
 
 （首先树立正确史观，把既有观念里的糟粕清零再去接受：「世界」指「西方世界」，西至欧洲，东最多至印度，多数情况东到伊朗高原，即主要是东地中海周边地区。东亚是另一个小世界，我们说的是主流、大世界，在零阶近似下东亚可以忽略掉。）
 

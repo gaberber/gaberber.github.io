@@ -5,7 +5,7 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description></description>
-    <pubDate>Wed, 12 Jul 2017 23:48:01 +1000</pubDate>
+    <pubDate>Thu, 13 Jul 2017 10:33:46 +1000</pubDate>
     
       <item>
         <title>&lt;i&gt;City of Fortune&lt;/i&gt; notes</title>
@@ -595,7 +595,7 @@ m_0=\begin{cases}0, \quad r_0 \propto (T-T_c)\ge 0 \\ \pm \sqrt{-\frac{r_0}{2u}}
 &lt;p&gt;Now we know what “metastable” means: the &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
 h&gt;0,m&lt;0 %]]&gt;&lt;/script&gt; solution is a local minimum but not a global minimum. It will jump to the global minimum whenever fluctuation gives it enough energy to cross the &lt;script type=&quot;math/tex&quot;&gt;m=0&lt;/script&gt; wall.&lt;/p&gt;
 
-&lt;h3 id=&quot;critical-exponents-betaalphagamma&quot;&gt;Critical exponents $\beta,\alpha,\gamma$&lt;/h3&gt;
+&lt;h3 id=&quot;critical-exponents-betaalphagamma&quot;&gt;Critical exponents &lt;script type=&quot;math/tex&quot;&gt;\beta,\alpha,\gamma&lt;/script&gt;&lt;/h3&gt;
 
 &lt;p&gt;We stated above &lt;script type=&quot;math/tex&quot;&gt;r_0\propto (T-T_c)&lt;/script&gt;, but why? Because below &lt;script type=&quot;math/tex&quot;&gt;T_c&lt;/script&gt;, we know from above that &lt;script type=&quot;math/tex&quot;&gt;m_0&lt;/script&gt; approaches 0 as &lt;script type=&quot;math/tex&quot;&gt;m_0=\sqrt{-r_0/(2u)}&lt;/script&gt;. &lt;script type=&quot;math/tex&quot;&gt;u&lt;/script&gt; is positive (actually it doesn’t vary with &lt;script type=&quot;math/tex&quot;&gt;T&lt;/script&gt; to the first order), so the rate of &lt;script type=&quot;math/tex&quot;&gt;m_0&lt;/script&gt; approaching 0 in the first order is &lt;script type=&quot;math/tex&quot;&gt;m_0\propto (-r_0)^{1/2}&lt;/script&gt;. Since &lt;script type=&quot;math/tex&quot;&gt;r_0&lt;/script&gt; is a parameter that’s determined by temperature and we have shown in the previous MFA derivation that &lt;script type=&quot;math/tex&quot;&gt;m_0 \propto (-t)^{1/2}&lt;/script&gt; below &lt;script type=&quot;math/tex&quot;&gt;T_c&lt;/script&gt;, so we immediately recognize:&lt;/p&gt;
 
@@ -698,7 +698,7 @@ g(r)=-k_B T \frac{d}{dh} \left&lt;m(\mathbf{r})\right&gt;\_{h=0} %]]&gt;&lt;/scr
 
 &lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\xi^2 =k/r_0&lt;/script&gt; is known from the coefficients of this Helmholtz equation. This is exactly in accordance with the forms of correlation functions above: usually the exponential decay dominates, but at criticality &lt;script type=&quot;math/tex&quot;&gt;\xi \propto r_0^{-1/2}&lt;/script&gt; diverges and &lt;script type=&quot;math/tex&quot;&gt;\exp(-r/\xi)=1&lt;/script&gt; so &lt;script type=&quot;math/tex&quot;&gt;g(r)&lt;/script&gt; is algebraic.&lt;/p&gt;
 
-&lt;h3 id=&quot;critical-exponents-nueta&quot;&gt;Critical exponents &lt;script type=&quot;math/tex&quot;&gt;\nu,\eta&lt;/script&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;critical-exponents-nueta&quot;&gt;Critical exponents $\nu,\eta$&lt;/h3&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\xi \propto t^{-\nu}&lt;/script&gt;
 

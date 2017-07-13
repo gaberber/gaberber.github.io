@@ -46,7 +46,7 @@ Then we look at what happens if $$h\ne 0$$.
 
 Now we know what "metastable" means: the $$h>0,m<0$$ solution is a local minimum but not a global minimum. It will jump to the global minimum whenever fluctuation gives it enough energy to cross the $$m=0$$ wall.
 
-### Critical exponents $\beta,\alpha,\gamma$
+### Critical exponents $$\beta,\alpha,\gamma$$
 
 We stated above $$r_0\propto (T-T_c)$$, but why? Because below $$T_c$$, we know from above that $$m_0$$ approaches 0 as $$m_0=\sqrt{-r_0/(2u)}$$. $$u$$ is positive (actually it doesn't vary with $$T$$ to the first order), so the rate of $$m_0$$ approaching 0 in the first order is $$m_0\propto (-r_0)^{1/2}$$. Since $$r_0$$ is a parameter that's determined by temperature and we have shown in the previous MFA derivation that $$m_0 \propto (-t)^{1/2}$$ below $$T_c$$, so we immediately recognize:
 
@@ -164,7 +164,7 @@ $$
 
 where $$\xi^2 =k/r_0$$ is known from the coefficients of this Helmholtz equation. This is exactly in accordance with the forms of correlation functions above: usually the exponential decay dominates, but at criticality $$\xi \propto r_0^{-1/2}$$ diverges and $$\exp(-r/\xi)=1$$ so $$g(r)$$ is algebraic.
 
-### Critical exponents $$\nu,\eta$$
+### Critical exponents $\nu,\eta$
 
 $$\xi \propto t^{-\nu}$$
 
