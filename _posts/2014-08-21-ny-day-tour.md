@@ -2,6 +2,7 @@
 layout: post
 title:  "纽约，纽约"
 date:   2014-08-21
+comments: true
 ---
 
 纽约是万城之城。

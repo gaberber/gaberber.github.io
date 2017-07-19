@@ -2,6 +2,7 @@
 layout: post
 title:  "《道连格雷的画像》书评"
 date:   2015-01-19 23:41:00
+comments: true
 ---
 
 首先总结一下王尔德这部名作的几个特点：

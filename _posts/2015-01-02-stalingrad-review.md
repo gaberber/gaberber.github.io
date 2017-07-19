@@ -2,6 +2,7 @@
 layout: post
 title:  "俄罗斯不是战斗民族，是艺术家民族"
 date:   2015-01-02 00:40:30
+comments: true
 ---
 
 ### 《斯大林格勒》影评

@@ -2,6 +2,7 @@
 layout: post
 title:  "无意义"
 date:   2015-01-08 23:11:00
+comments: true
 ---
 
 「人生有什么意义」只有两种回答的途径，或者叫方法论：
