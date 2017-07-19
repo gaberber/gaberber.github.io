@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "<i>A Little History of the World</i> 书评"
+title:  "A Little History of the World 书评"
 date:   2014-10-23 17:52:55
 ---
 

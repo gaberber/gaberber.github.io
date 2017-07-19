@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Book review: <i>The Man Who Ended History: A Documentary</i> by Ken Liu"
+title:  "Book review: The Man Who Ended History: A Documentary"
 date:   2014-05-18
 ---
+
+[_The Man Who Ended History: A Documentary_ by Ken Liu](https://www.goodreads.com/book/show/13501217-the-man-who-ended-history)
 
 At first glance this story seems a bit jumbled and fragmented, constantly switching views and grounds of statements, making you wonder what the author is actually trying to say, or is it just puzzling pieces piled together to form a Rashomon. Wait till you see the end. Here are just a few thoughts in reaction to the questioned asked by this story.
 

@@ -2,12 +2,13 @@
 layout: post
 title:  "Thoughts on <em>Internet's Own Boy</em>"
 date:   2014-08-31 13:19:16
+comments: true
 ---
 
 Copyright is one of the most heavily debated topics on the whole internet. Establishing a new set of ideas and beliefs on what conduct is just and what is not that suits the modern way of how information flows from place to place is vastly delicate and complex. It is in most cases extremely hard to draw an unambiguous line between right and wrong, minor misconduct and serious violation of basic principles. But we can start with the simple ones first.
 
 1. Stealing is wrong. 
-2.  The trick lies in how you define “stealing”.
+2. The trick lies in how you define “stealing”.
 3. Piracy for profit is stealing.
 4. Authors and creators own their intellectual property and should, by all standards, justly get paid if they desire so. 
 5. Many people say, the world has changed. The whole concept of copyright is outdated. In my opinion, they are certainly right.
