@@ -12,3 +12,11 @@ The three most common readout methods:
 -   __RF dispersive gate sensing__. Literature: [Karl Petersson, charge and spin readout of a double dot](http://pubs.acs.org/doi/abs/10.1021/nl100663w) and 
 
 
+
+
+### Charge sensitivity
+
+$$
+\delta q = \frac{\delta Q}{10^{SNR/20}\sqrt{2B}}
+$$
+
