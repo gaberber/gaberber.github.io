@@ -14,9 +14,11 @@ Starting point: now that we all know "correlation $$\ne$$ causality", can we mak
 
 -   Method 1: observe how things behave under intervention. E.g., if car exhaust is the main cause of bad air quality, we can make air quality worse by increasing the number of cars running. The inverse if not true, i.e. if we deliberately pollute the air by releasing $$\text{SO}_2$$ into it, the number of cars running on the streets will not increase.
 -   Method 2: Reichenbach’s common cause principle. This test will tell if a certain C is the common cause of A and B. The article gives a very good example that I'll recount here. Let $$A\equiv \text{a tsunami occurs in Japan}$$, $$B\equiv \text{a tsunami occurs in Chile}$$, $$C \equiv \text{an earthquake occurs in the Pacific basin}$$. Apparently $$A, B$$ are positively correlated but in this case they have a common cause $$C$$. The test _conditional independence_ reveals such a relation:
+
 $$
 P(AB)\ne P(A)P(B);\quad \text{but} \quad P(AB|C) = P(A|C)P(B|C)
 $$
+
 That is, $$A, B$$ become independent of each other if you condition them both upon $$C$$. 
 
 Everything above has nothing to do with quantum mechanics. However, since probability is a fundamental language used by quantum mechanics, it is not so surprising that people want to translate the ideas above into a quantum form to learn about what can be said about the concept of causality in the quantum world. The area of quantum causality seems to be attracting more attention now among theorists.
