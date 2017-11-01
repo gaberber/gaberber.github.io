@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Landau-Ginzburg notes"
-date:   2016-01-24 
+date:   2016-01-24
 ---
 
 MFA $$\rightarrow$$ (treat $$m$$ as if it's a real parameter) $$\rightarrow$$ Landau $$\rightarrow$$ (let $$m$$ vary with $$\mathbf{r}$$) $$\rightarrow$$ Landau-Ginzburg
@@ -102,7 +102,7 @@ $$
 g(\mathbf{r_i},\mathbf{r_j})=g(\vert \mathbf{r_i}-\mathbf{r_j}\vert )=g(r)=\langle m(0)m(r)\rangle - \langle m(0)\rangle\langle m(r)\rangle
 $$
 
-The shape of the correlation function is nearly always exponential: 
+The shape of the correlation function is nearly always exponential:
 
 $$
 g(r) \sim e^{-\frac{r}{\xi}}
@@ -152,7 +152,7 @@ $$
 -2k\nabla^2 m + 2r_0 m+4um^3+h\delta(\mathbf{r})=0
 $$
 
-The solution is $$m_\text{saddle}$$. 
+The solution is $$m_\text{saddle}$$.
 
 When $$h=0$$, the solution to this PDE is just $$m(\mathbf{r})=m_0$$, $$m_0$$ being still the average spin in Landau theory. So we write $$m(\mathbf{r})=m_0+h\phi(\mathbf{r})$$. This way we separate the average and perturbed fluctuations around that average. Also, we now have $$g(r)\propto \phi(r)$$.
 
@@ -164,11 +164,11 @@ $$
 
 where $$\xi^2 =k/r_0$$ is known from the coefficients of this Helmholtz equation. This is exactly in accordance with the forms of correlation functions above: usually the exponential decay dominates, but at criticality $$\xi \propto r_0^{-1/2}$$ diverges and $$\exp(-r/\xi)=1$$ so $$g(r)$$ is algebraic.
 
-### Critical exponents $\nu,\eta$
+### Critical exponents $$\nu,\eta$$
 
 $$\xi \propto t^{-\nu}$$
 
-$$g(r) \propto \frac{1}{r^{d-2+\eta}}$$ 
+$$g(r) \propto \frac{1}{r^{d-2+\eta}}$$
 
 Since we already have the solution of $$g(r)$$, the rest is easy. $$\xi \propto t^{-1/2}$$ so $$\nu=1/2$$ and at the critical point $$g(r) \propto 1/r^{d-2}$$ so $$\eta=0$$.
 
@@ -180,13 +180,13 @@ $$
 \frac{ \langle \delta m ^2\rangle} {m_0^2} \ll 1
 $$
 
-This is the **Ginzburg criterion**. 
+This is the **Ginzburg criterion**.
 
 $$
 \langle\delta m(\mathbf{r})^2\rangle = \left<m(0)m(r)\right>-\left<m(0)\right>\left<m(r)\right>=g(r)
 $$
 
-We know that $$g(r) \rightarrow 0$$ outside $$\xi$$, so 
+We know that $$g(r) \rightarrow 0$$ outside $$\xi$$, so
 
 $$
 \frac{ \langle \delta m ^2\rangle} {m_0^2} \approx \frac{\int_{r<\xi} d^d \mathbf{r} g(r)}{\int_{r<\xi} d^d \mathbf{r}m_0^2}\propto \frac{\xi^2}{m_0^2\xi^d}
