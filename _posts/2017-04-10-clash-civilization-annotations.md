@@ -40,7 +40,7 @@ April 9, 2017 09:38
 
 But does e.g. 不得刑讯逼供 belong to the thin layer of morality? It's
 hard to achieve without Western separation of powers, which clearly
-belongs to the "culture" according to the author himself.\
+belongs to the "culture" according to the author himself.
 
 > a “thin” minimal morality does derive from the common human condition, and “universal dispositions” are found in all cultures.
 
@@ -190,7 +190,7 @@ April 8, 2017 21:45
 
 
 That's why liberalism is actually the mirror of Marxism. But what's the
-alternative? Cultural relativism?\
+alternative? Cultural relativism?
 
 > Descriptively it holds that peoples in all societies want to adopt Western values, institutions, and practices. If they seem not to have that desire and to be committed to their own traditional cultures, they are victims of a “false consciousness” comparable to that which Marxists found among proletarians who supported capitalism. Normatively the Western universalist belief posits that people throughout the world should embrace Western values, institutions, and culture because they embody the highest, most enlightened, most liberal, most rational, most modern, and most civilized thinking of humankind.
 
@@ -260,7 +260,7 @@ April 4, 2017 01:41
 
 
 
-Identity politics\
+Identity politics
 
 > The multiculturalists also challenged a central element of the American Creed, by substituting for the rights of individuals the rights of groups, defined largely in terms of race, ethnicity, sex, and sexual preference.
 
@@ -271,7 +271,7 @@ April 3, 2017 09:19
 
 
 
-Canada?\
+Canada?
 
 > History shows that no country so constituted can long endure as a coherent society.
 
@@ -462,7 +462,7 @@ March 30, 2017 20:56
 
 
 
-UK and US have made a different choice than Europe. We will see.\
+UK and US have made a different choice than Europe. We will see.
 
 > Can the West renew itself or will sustained internal rot simply accelerate its end and/or subordination to other economically and demographically more dynamic civilizations?
 
@@ -472,7 +472,6 @@ March 30, 2017 20:55
 ------------------------------------------------------------------------
 
 
-**footnote 9**\
 
 > New civilizations in China and India, replacing those destroyed by the West, he says, will then move into their stages of expansion and threaten both Western and Orthodox civilizations
 
@@ -632,7 +631,7 @@ everyone else. Industry and agriculture, if these two are not universal,
 I don't know what is. Technology is almost always universal (but not
 science). The Industrial revolution originated from the west. The
 resulting means of production is universal, but not the Western
-civilization (culture, politics etc) itself.\
+civilization (culture, politics etc) itself.
 
 > The West obviously differs from all other civilizations that have ever existed in that it has had an overwhelming impact on all other civilizations that have existed since 1500. It also inaugurated the processes of modernization and industrialization that have become worldwide, and as a result societies in all other civilizations have been attempting to catch up with the West in wealth and modernity.
 
@@ -793,7 +792,7 @@ March 30, 2017 10:12
 
 
 
-Because American Exceptionalism! America is a nation with an idea.\
+Because American Exceptionalism! America is a nation with an idea.
 
 > Why during and after the war was the United States the only country to break the civilizational mold and become the single non-Muslim country promoting the interests of the Bosnian Muslims and working with Muslim countries on their behalf? What explains this American anomaly?
 
@@ -1188,7 +1187,7 @@ March 28, 2017 08:05
 
 
 
-Is this what will happen to Western Europe soon?\
+Is this what will happen to Western Europe soon?
 
 > All this aroused Serbian nationalism and Slobodan Milosevic saw his opportunity. In 1987 he delivered a major speech at Kosovo appealing to Serbs to claim their own land and history. “Immediately a great number of Serbs—communist, noncommunist and even anticommunist—started to gather around him, determined not only to protect the Serbian minority in Kosovo, but to suppress the Albanians and turn them into second-class citizens. Milosevic was soon acknowledged as a national leader.”
 
@@ -1289,7 +1288,7 @@ March 28, 2017 07:45
 
 
 
-See Nederturks 201703\
+See Nederturks 201703
 
 > Migration has created diasporas in third civilizations. Communications make it easier for the contesting parties to appeal for help and for their kin groups to learn immediately the fate of those parties.
 
@@ -1852,7 +1851,7 @@ March 19, 2017 23:05
 
 
 
-So wrong\
+So wrong
 
 > other East Asian countries, in varying degrees, to do some or all of the following:
 
@@ -1943,7 +1942,7 @@ March 13, 2017 22:36
 
 
 
-He seems mistaken here.\
+He seems mistaken here.
 
 > forget the past, ignore the future, and focus on maximizing immediate gains.
 
@@ -1974,7 +1973,7 @@ March 13, 2017 22:32
 
 
 
-Now it has.\
+Now it has.
 
 > this did not happen.
 
@@ -1997,7 +1996,7 @@ March 13, 2017 22:29
 
 
 
-So now indeed US-Japan is back to intimacy.\
+So now indeed US-Japan is back to intimacy.
 
 > it was clearly against American national interest to allow its relations simultaneously to become more conflictual with both major Asian powers.
 
@@ -2062,7 +2061,7 @@ Vocabulary: __littoral__
 
 
 
-Trump\
+Trump
 
 > With doubt increasing concerning the extent of American commitment in East Asia, countries aim to become militarily self-reliant
 
@@ -2073,7 +2072,7 @@ March 11, 2017 06:23
 
 
 
-Yes. This, finally.\
+Yes. This, finally.
 
 > After centuries of strife, Western Europe is peaceful and war is unthinkable. In East Asia it is not, and, as Aaron Friedberg has suggested, Europe’s past could be Asia’s future.20
 
@@ -2114,7 +2113,7 @@ March 11, 2017 06:18
 
 
 
-This was not the case in early 20c\
+This was not the case in early 20c
 
 > All the countries of Western Europe are stable democracies, have market economies, and are at high levels of economic development.
 
@@ -2125,7 +2124,7 @@ March 11, 2017 06:16
 
 
 
-Yes finally\
+Yes finally
 
 > The result is a highly complex pattern of international relationships, comparable in many ways to those which existed in the eighteenth and nineteenth centuries in Europe,
 
@@ -2704,7 +2703,7 @@ March 3, 2017 20:31
 
 
 
-Culminating in the election of Donald Trump\
+Culminating in the election of Donald Trump
 
 > Given the nature of the American political system, rightist and anti-immigration parties did not gain votes, but anti-immigration publicists and interest groups became more numerous, more active, and more vocal.
 
@@ -2775,7 +2774,7 @@ March 3, 2017 04:21
 
 
 
-But now things are different\
+But now things are different
 
 > in the 1980s and 1990s unemployment was considerably lower in the United States than in Europe, and fear of losing jobs was not a decisive factor shaping attitudes toward immigration.
 
@@ -2987,7 +2986,7 @@ March 2, 2017 22:42
 
 
 
-But German invited Turks and Swiss other German speaking people?\
+But German invited Turks and Swiss other German speaking people?
 
 > Germany and Switzerland, encouraged it to remedy labor shortages.
 
@@ -3149,7 +3148,7 @@ March 2, 2017 20:32
 
 
 Is the democratization in east Asia better attributed to modernity or
-Christianity?\
+Christianity?
 
 > By the 1990s, except for Cuba, democratic transitions had occurred in most of the countries, outside Africa, whose peoples espoused Western Christianity or where major Christian influences existed.
 
@@ -3256,7 +3255,7 @@ February 28, 2017 11:55
 
 Three ways of civilization to guard itself against barbarians:
 prevention of technology dissemination (to keep being Pisaro against
-Inca); assimilation; separation (wall-building).\
+Inca); assimilation; separation (wall-building).
 
 > (3) to protect the cultural, social, and ethnic integrity of Western societies by restricting the number of non-Westerners admitted as immigrants or refugees.
 
@@ -3293,7 +3292,7 @@ military) capabilities orders of magnitude stronger than barbarians. In
 that stage the former will easily conquer and rule the latter. However,
 the dissemination of technology in the long run is inevitable. As soon
 as the technology discrepancy is leveled, the barbarians will again have
-advantage over civilized people.\
+advantage over civilized people.
 
 > particularly weapons of mass destruction and the missiles for delivering them, so as to counter the conventional military superiority of the West.
 
@@ -3414,7 +3413,7 @@ February 27, 2017 05:05
 
 
 
-So accurate.\
+So accurate.
 
 > The dangerous clashes of the future are likely to arise from the interaction of Western arrogance, Islamic intolerance, and Sinic assertiveness.
 
@@ -3633,7 +3632,7 @@ February 25, 2017 10:38
 
 
 
-Wrong prediction. Things changed\
+Wrong prediction. Things changed
 
 > The likelihood of the latter happening, however, became increasingly remote as the principal advocate of independence, the Democratic Progressive Party, found that Taiwanese voters did not want to disrupt existing relations with the mainland and that its electoral prospects would be hurt by pressing the issue.
 
@@ -3709,7 +3708,7 @@ Europe, and China to imperial Germany. Japanese and Koreans also have
 strong economies and all three are in the East Asian (or, roughly,
 Confucian) culture circle, but only Chinese have such extensive presence
 outside their home country. In this sense Japan and Korea can be
-compared to e.g. Britain and Denmark.\
+compared to e.g. Britain and Denmark.
 
 > Chinese were 2-3 percent of the population, but owned roughly 70 percent of the private domestic capital
 
@@ -3831,7 +3830,7 @@ February 22, 2017 10:12
 
 
 So feudal relations? The weak asking the powerful for arbitration and
-protection and thus forming an international system?\
+protection and thus forming an international system?
 
 > Georgia was an independent country until 1801 when its ruler, King George XIII, asked for Russian protection against the Turks
 
@@ -3866,7 +3865,7 @@ Vocabulary: __injunction__
 
 
 
-Not simply because they're super left wing/socialist?\
+Not simply because they're super left wing/socialist?
 
 > Its leaders often seemed to go out of their way to deviate from Western norms and to antagonize Western governments.
 
@@ -4128,7 +4127,7 @@ February 18, 2017 00:44
 
 
 All of today's trends can be traced back to 1990s or even 80s. Erdogan
-didn't arise out of nothing.\
+didn't arise out of nothing.
 
 > In 1993 it was reported “that Islamic-style beards and veiled women have proliferated in Turkey, that mosques are drawing even larger crowds,
 
@@ -4189,7 +4188,7 @@ February 18, 2017 00:31
 
 
 
-Or a Chinese nationalist\
+Or a Chinese nationalist
 
 > A Western democrat could carry on an intellectual debate with a Soviet Marxist. It would be impossible for him to do that with a Russian Orthodox nationalist.
 
@@ -4220,7 +4219,7 @@ February 17, 2017 21:08
 
 
 
-Francis Fukuyama\
+Francis Fukuyama
 
 > The West hoped and believed the result would be the triumph of liberal democracy throughout the former Soviet empire. That, however, was not foreordained
 
@@ -4424,7 +4423,7 @@ February 17, 2017 19:28
 
 
 These predictions came true. Again Huntington is better at understanding
-the West.\
+the West.
 
 > Ukraine is divided between the Uniate nationalist Ukrainian-speaking west and the Orthodox Russian-speaking east.
 
@@ -4450,7 +4449,7 @@ February 16, 2017 19:57
 
 
 
-Looking at you, China\
+Looking at you, China
 
 > The divisive effect of civilizational fault lines has been most notable in those cleft countries held together during the Cold War by authoritarian communist regimes legitimated by Marxist-Leninist ideology
 
@@ -4541,7 +4540,7 @@ February 16, 2017 11:36
 
 
 
-Another instance of the complexity of the West.\
+Another instance of the complexity of the West.
 
 > Historically the West has usually had several core states; it has now two cores, the United States and a Franco-German core in Europe, with Britain an additional center of power adrift between them
 
@@ -4554,7 +4553,7 @@ February 16, 2017 11:35
 
 All the analysis in this section seems less applicable to China, which
 could be better understood if looked at as a new 100-year-later
-Germany.\
+Germany.
 
 > Businessmen make deals with people they can understand and trust; states surrender sovereignty to international associations composed of like-minded states they understand and trust.
 
@@ -4597,7 +4596,7 @@ February 16, 2017 11:31
 
 Could be because advanced means of production has speed from core
 countries/regions in each continent to other places, thus intraregion
-coop is more feasible?\
+coop is more feasible?
 
 > during the 1980s and early 1990s intraregional trade became increasingly more important relative to interregional trade.
 
@@ -4678,7 +4677,7 @@ February 14, 2017 18:36
 
 
 
-Wrong again\
+Wrong again
 
 > Chinese throughout East Asia identify their interests with those of the mainland.
 
@@ -4689,7 +4688,7 @@ February 14, 2017 18:35
 
 
 
-To the contrary of what many assume\
+To the contrary of what many assume
 
 > improvements in transportation and communication have produced more frequent, more intense, more symmetrical, and more inclusive interactions among people of different civilizations. As a result their civilizational identities become increasingly salient.
 
@@ -4762,7 +4761,7 @@ February 14, 2017 10:22
 
 The civilization theory seems more applicable to the greater western
 world (West + Orthodox/Latin America + Islam) than East Asia. The latter
-follows a more familiar storyline to the 20th century.\
+follows a more familiar storyline to the 20th century.
 
 > The two Koreas move hesitatingly but meaningfully toward unification
 
@@ -4775,7 +4774,7 @@ February 14, 2017 10:17
 
 That is one thing he didn't figure out correctly. Hong Kong and Taiwan
 gravitate towards the West, contrary to the sweeping generalizations
-here.\
+here.
 
 > The three lesser Chinas, Taiwan, Hong Kong, and Singapore, and the overseas Chinese communities in Southeast Asia become increasingly oriented toward, involved in, and dependent on the mainland
 
@@ -4918,7 +4917,7 @@ February 14, 2017 04:55
 
 
 
-Exactly predicting ISIS and the migrant crisis.\
+Exactly predicting ISIS and the migrant crisis.
 
 > At that time, the ranks of militants, warriors, and migrants will diminish, and the high levels of conflict within Islam and between Muslims and others (see chapter 10) are likely to decline.
 
@@ -4973,7 +4972,7 @@ February 14, 2017 02:11
 
 
 
-Stark predictions\
+Stark predictions
 
 > As compared to 1990, entrants into the job market will increase by 30 percent in Tunisia, by about 50 percent in Algeria, Egypt, and Morocco, and by over 100 percent in Syria.
 
@@ -4984,7 +4983,7 @@ February 14, 2017 02:10
 
 
 
-And ISIS\
+And ISIS
 
 > These youth provide the recruits for Islamist organizations and political movements.
 
@@ -4995,7 +4994,7 @@ February 14, 2017 02:07
 
 
 
-And particularly in the Arab Spring.\
+And particularly in the Arab Spring.
 
 > The youth of Islam have been making their mark in the Islamic Resurgence
 
@@ -5007,7 +5006,7 @@ February 14, 2017 02:06
 
 
 All this above sounds like an underlying mechanism of the Strauss-Howe
-generational theory.\
+generational theory.
 
 > Four decades later the post-World War II baby boom generation made its mark politically in the demonstrations and protests of the 1960s.
 
@@ -5144,7 +5143,7 @@ February 14, 2017 01:18
 
 Both revert to their respective political traditions (democratic and
 authoritarian), which the people know and cope with well, and feel
-attached to.\
+attached to.
 
 > The Pope was central to ending the communist regime in Poland, the ayatollah to bringing down the Shah’s regime in Iran.
 
@@ -5173,7 +5172,7 @@ February 14, 2017 01:14
 
 
 
-Exactly what happened after 2010\
+Exactly what happened after 2010
 
 > In almost every country in the mid-1990s the most likely successor regime was an Islamist one.
 
@@ -5184,7 +5183,7 @@ February 13, 2017 23:42
 
 
 
-Predicting the Arab Spring\
+Predicting the Arab Spring
 
 > In the modern world, however, the probability that they will change or collapse is high
 
@@ -5249,7 +5248,7 @@ February 13, 2017 23:38
 
 
 
-One more similarity to Marxism.\
+One more similarity to Marxism.
 
 > As with most revolutionary movements, the core element has consisted of students and intellectuals.
 
@@ -5293,7 +5292,7 @@ February 13, 2017 23:32
 
 These strong grassroots organizations underlie the surge of "Islamic
 exceptionalism"/the political ambitions of contemporary Islam to spread
-and dominate. They are to the West a more fearful enemy than China.\
+and dominate. They are to the West a more fearful enemy than China.
 
 > By the early 1980s, the largest, the Muhhammadijah, had 6 million members, constituted a “religious-welfare-state-within-the-secular-state,” and provided “cradle-to-grave” services for the entire country through an elaborate network of schools, clinics, hospitals, and university-level institutions.
 
@@ -5384,7 +5383,7 @@ February 12, 2017 23:47
 
 
 
-Right on point\
+Right on point
 
 > In its political manifestations, the Islamic Resurgence bears some resemblance to Marxism, with scriptural texts, a vision of the perfect society, commitment to fundamental change, rejection of the powers that be and the nation state, and doctrinal diversity ranging from moderate reformist to violent revolutionary. A more useful analogy, however, is the Protestant Reformation.
 
@@ -5395,7 +5394,7 @@ February 12, 2017 23:46
 
 
 
-This paragraph\
+This paragraph
 
 > involving efforts to reinstitute Islamic law in place of Western law,
 
@@ -5581,7 +5580,7 @@ February 12, 2017 11:21
 
 
 That is to say, Japan actually underwent two major tides of
-westernization: Meiji reforms and American reforms after WWII.\
+westernization: Meiji reforms and American reforms after WWII.
 
 > In its place, everything connected with the West and particularly the victorious United States came to be seen as good and desirable.
 
@@ -5616,7 +5615,7 @@ February 12, 2017 11:17
 
 
 
-What accurate predictions.\
+What accurate predictions.
 
 > The economic development of China and other Asian societies provides their governments with both the incentives and the resources to become more demanding in their dealing with other countries. Population growth in Muslim countries, and particularly the expansion of the fifteen- to twenty-four-year-old age cohort, provides recruits for fundamentalism, terrorism, insurgency, and migration.
 
@@ -5627,7 +5626,7 @@ February 12, 2017 11:15
 
 
 
-Egypt and Israel (in ancient times)?\
+Egypt and Israel (in ancient times)?
 
 > Asian assertiveness is rooted in economic growth; Muslim assertiveness stems in considerable measure from social mobilization and population growth.
 
@@ -5708,7 +5707,7 @@ February 12, 2017 00:03
 
 
 
-Wise judgment, regardless of the ethics?\
+Wise judgment, regardless of the ethics?
 
 > government ministers warned evangelists against upsetting the country’s “delicate religious balance,” detained religious workers including officials of Catholic organizations, and harassed in various ways Christian groups and individuals
 
@@ -5735,7 +5734,7 @@ Vocabulary: __aridity__
 
 Christianity is one of the three tenant origins of western civilization,
 one of the factors that gave birth to capitalism and naturally, better
-coordinated with modernity.\
+coordinated with modernity.
 
 > Christianity with its message of personal salvation and individual destiny offered a surer comfort in a time of confusion and change
 
@@ -5748,7 +5747,7 @@ February 11, 2017 23:57
 
 The enormous entity known as the state cannot reach so thoroughly and
 ubiquitously into every corner of the civic life (or else it becomes
-1984).\
+1984).
 
 > Religious groups meet social needs left untended by state bureaucracies. These include the provision of medical and hospital services, kindergartens and schools, care for the elderly, prompt relief after natural and other catastrophes, and welfare and social support during periods of economic deprivation. The breakdown of order and of civil society creates vacuums which are filled by religious, often fundamentalist, groups.
 
@@ -5845,7 +5844,7 @@ February 7, 2017 07:01
 
 Self doubt on the part of the West is more a reaction to world wars —
 calamities inflicted by and upon themselves — than response to the
-decline of power, which hadn't emerged as a clear trend at that point.\
+decline of power, which hadn't emerged as a clear trend at that point.
 
 > Decreases in economic and military power lead to self-doubt, crises of identity, and efforts to find in other cultures the keys to economic, military, and political success.
 
@@ -5992,7 +5991,7 @@ January 30, 2017 22:35
 
 
 
-A good concept\
+A good concept
 
 > paideuma
 
@@ -6017,7 +6016,7 @@ January 30, 2017 22:30
 
 
 
-Exactly what happens in China\
+Exactly what happens in China
 
 > At the societal level, modernization enhances the economic, military, and political power of the society as a whole and encourages the people of that society to have confidence in their culture and to become culturally assertive. At the individual level, modernization generates feelings of alienation and anomie as traditional bonds and social relations are broken and leads to crises of identity to which religion provides an answer.
 
@@ -6090,7 +6089,7 @@ January 30, 2017 21:39
 
 Yes. What's West and what's modern cannot be completely separated
 either. If what's modern can only arise from what's West, modernization
-will indeed mean Westernization.\
+will indeed mean Westernization.
 
 > They are what is Western but not modern about the West. They are also in large part the factors which enabled the West to take the lead in modernizing itself and the world.
 
@@ -6211,7 +6210,7 @@ January 30, 2017 21:28
 
 
 
-But why did Europeans develop this respect for laws anyway?\
+But why did Europeans develop this respect for laws anyway?
 
 > The tradition of the rule of law laid the basis for constitutionalism and the protection of human rights, including property rights, against the exercise of arbitrary power.
 
@@ -6460,7 +6459,7 @@ January 21, 2017 00:05
 
 
 
-Encounters -&gt; Impact (of the West on others) -&gt; Interactions\
+Encounters -&gt; Impact (of the West on others) -&gt; Interactions
 
 > Intercivilizational relations in this third phase are far more frequent and intense than they were in the first phase and far more equal and reciprocal than they were in the second phase.
 
@@ -6505,7 +6504,7 @@ January 21, 2017 00:00
 
 
 
-Variety of power forms at work again?\
+Variety of power forms at work again?
 
 > The universal states of previous civilizations are empires. Since democracy, however, is the political form of Western civilization, the emerging universal state of Western civilization is not an empire but rather a compound of federations, confederations, and international regimes and organizations.
 
@@ -6674,7 +6673,7 @@ special conditions and interests of the West.”
 
 
 
-Why the west rules, in a nutshell\
+Why the west rules, in a nutshell
 
 > The Evolution of Civilizations:
 
