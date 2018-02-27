@@ -3,6 +3,7 @@ layout: post
 title:  "City of Fortune: notes"
 date:   2017-07-06 23:50:00
 comments: true
+feature-img: "img/san-marco-venice.jpg"
 ---
 
 [*City of Fortune: How Venice Won and Lost a Naval Empire*](https://www.goodreads.com/book/show/11006684-city-of-fortune)
