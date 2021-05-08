@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "The second generation"
+date:   2021-05-08
+comments: false
+---
+
+Any equal-rights activist has to grapple with the "second generation" problem. Huge leaps of progress are often made in waves. The generation that experienced that wave usually feels tangible improvements in their lives and are generally satisfied about the positive change. But then there comes the next generation who demands absolute equality with the rest of their peers and any disadvantage inherited from the past makes them feel less respected than they deserve. They want the promise of full equality delivered, here and now. The volume with which they complain about micro-aggression appears disproportional to its severity compared to what their previous generations experienced. They dynamics can be seen especially clearly with 1st vs 2nd generation immigrants. The fresh-off-the-boat usually shrugs off an insult drunk youths hurl at them on the street. They feel a guest to the new country and do not expect "full" equality with the host to begin with. In any case, they _chose_ to come here most of the time. The 2nd gen, however, grow up in this land and feel entitled to the same treatment as the kid next door whose family has been here for 3 or 5 generations. This dynamic is essentially about the decreasing marginal return of status improvement towards equality, the "now what's next" problem.
